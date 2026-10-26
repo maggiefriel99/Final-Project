@@ -17,7 +17,7 @@
   .lede { font-size: 13pt; margin: 8px 0 14px; }
   .meta { color: var(--muted); font-size: 10pt; margin-bottom: 14px; }
   .meta b { color: var(--ink); }
-  .box { background: var(--soft); border-left: 4px solid var(--blue); padding: 10px 14px; margin: 12px 0; font-size: 9.8pt; }
+  .box { background: var(--soft); border-left: 4px solid var(--blue); padding: 8px 12px; margin: 10px 0; font-size: 9.4pt; }
   .box.caution { border-left-color: var(--caution); }
   .box dl { margin: 0; display: grid; grid-template-columns: 1.55in 1fr; gap: 5px 12px; }
   .box dt { font-weight: 700; }
@@ -33,11 +33,12 @@
   figure img { max-height: 3.6in; width: auto; }
   figure.noborder img, figure.noborder svg { border: 0; }
   figcaption { font-size: 9pt; color: var(--muted); margin-top: 5px; text-align: left; }
-  .row { display: flex; gap: 12px; align-items: flex-start; break-inside: avoid; }
+  .row { display: flex; gap: 12px; align-items: flex-start; }
   .row figure { flex: 1; margin-top: 4px; }
-  .row figure img { max-height: 2.5in; }
-  .step { display: grid; grid-template-columns: 2.4in 1fr; gap: 14px; align-items: start; margin: 12px 0 16px; break-inside: avoid; }
-  .step img { max-width: 100%; max-height: 2.15in; border: 1px solid var(--line); border-radius: 6px; }
+  .row figure img { max-height: 2.25in; }
+  .step { display: grid; grid-template-columns: 2.4in 1fr; gap: 14px; align-items: start; margin: 8px 0 10px; }
+  .step img, figure img { break-inside: avoid; }
+  .step img { max-width: 100%; max-height: 1.85in; border: 1px solid var(--line); border-radius: 6px; }
   .step .num { display: inline-block; background: var(--blue); color: #fff; border-radius: 99px; width: 22px; height: 22px; text-align: center; font-weight: 700; font-size: 10pt; line-height: 22px; margin-right: 6px; }
   .quote { font-size: 12pt; border-left: 4px solid var(--caution); padding: 6px 14px; margin: 12px 0; }
   .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0; break-inside: avoid; }
@@ -174,7 +175,7 @@ prices the lasting fix, and checks the result for equity.</p>
 <h2>4. The agents</h2>
 <h3>How the app is laid out</h3>
 <p>CivicEquity is a web app (Python and Streamlit) with a sidebar of five pages in three groups:</p>
-<figure><img src="{{img:home}}" alt="Overview page" style="max-height:3in"><figcaption>The Overview page. The sidebar lists every page;
+<figure><img src="{{img:home}}" alt="Overview page" style="max-height:2.1in"><figcaption>The Overview page. The sidebar lists every page;
 it also shows the data date and today's AI spending against the daily cap.</figcaption></figure>
 <table>
   <tr><th>Page</th><th>What it is for</th></tr>
@@ -251,7 +252,7 @@ resident's words to the official type "Sewer: Sewer Backup", the street "East 15
 it chose: the main problem (backups), not the part the City already serviced (the catch basin). The district came from
 the street's own complaint history, not from the AI.</div></div>
 
-<div class="step"><img src="{{img:r_map}}" alt="Street history"><div><span class="num">4</span><b>The street's record (code).</b>
+<div class="step" style="grid-template-columns:1fr"><div><span class="num">4</span><b>The street's record (code).</b>
 79 Sewer Maintenance complaints on this street in Brooklyn CD 15 in the past year. This history is why a repair has
 become a capital need.</div></div>
 
@@ -273,7 +274,7 @@ longer-term repair") and official advice from the library, with the source link 
 each agent: Triage 7,638 (7,258 of them cached), Life-Safety Screener 1,938, Cost Estimator 3,497, alert 1,513,
 reply 2,561. Total $0.00091.</div></div>
 
-<div class="step"><img src="{{img:alerts_queue}}" alt="Approval queue"><div><span class="num">9</span><b>A person decides.</b>
+<div class="step" style="grid-template-columns:1fr"><div><span class="num">9</span><b>A person decides.</b>
 Both drafts wait on the Agency alerts page. A reviewer edits if needed, types their name, and approves or rejects;
 the decision goes to the audit log. In this class project, approving only records the decision. Nothing is ever sent
 to an agency, a resident, or 911.</div></div>
