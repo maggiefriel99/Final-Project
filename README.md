@@ -15,7 +15,7 @@ one-page memo for the Mayor's Office and OMB that is fact-checked sentence by se
 
 1. **Clone the repo and enter it**
    ```bash
-   git clone <REPO_URL> civicequity
+   git clone https://github.com/maggiefriel99/Final-Project.git civicequity
    cd civicequity
    ```
 2. **Create a virtual environment and install dependencies**
@@ -24,8 +24,10 @@ one-page memo for the Mayor's Office and OMB that is fact-checked sentence by se
    source .venv/bin/activate          # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
-   This installs Streamlit, Plotly, pandas, geopandas, shapely, requests, PyYAML, pydantic-ai, python-dotenv,
-   statsmodels, and scipy. Everything installs from pip with no extra system software.
+   This installs Streamlit, Plotly, pandas, geopandas, requests, PyYAML, pydantic-ai, python-dotenv, cryptography,
+   statsmodels, scipy, and pypdf (versions pinned). Everything installs from pip with no extra system software.
+   Tested from a fresh clone on Oct 26, 2026: clone plus install took under a minute with packages cached, and
+   the app ran end to end with `.env` one folder up.
 3. **Add your API key.** The app looks for a `.env` file in this folder first, then in the folder above it.
    If you already have a `.env` one folder up with `PORTKEY_API_KEY`, skip this step. Otherwise:
    ```bash
