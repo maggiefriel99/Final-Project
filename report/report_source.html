@@ -7,7 +7,7 @@
 <style>
   @page { size: letter; margin: 0.6in 0.65in; }
   :root { --blue:#103FEF; --ink:#000; --muted:#555; --line:#DDD; --soft:#F4F4F4; --caution:#FFB320; --red:#EC131E; }
-  html { font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10.5pt; color: var(--ink); line-height: 1.45; }
+  html { font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 10.3pt; color: var(--ink); line-height: 1.43; }
   body { max-width: 7.3in; margin: 0 auto; padding: 0.4in 0.2in 0.8in; }
   h1 { font-size: 26pt; line-height: 1.1; margin: 0 0 6px; letter-spacing: -0.3px; }
   h2 { font-size: 16pt; margin: 22px 0 8px; padding-top: 8px; border-top: 3px solid var(--ink); }
@@ -30,13 +30,14 @@
   td.n, th.n { text-align: right; white-space: nowrap; }
   figure { margin: 12px 0 16px; break-inside: avoid; text-align: center; }
   figure img, figure svg { max-width: 100%; border: 1px solid var(--line); border-radius: 6px; }
-  figure img { max-height: 3.9in; width: auto; }
+  figure img { max-height: 3.6in; width: auto; }
   figure.noborder img, figure.noborder svg { border: 0; }
   figcaption { font-size: 9pt; color: var(--muted); margin-top: 5px; text-align: left; }
   .row { display: flex; gap: 12px; align-items: flex-start; break-inside: avoid; }
   .row figure { flex: 1; margin-top: 4px; }
+  .row figure img { max-height: 2.5in; }
   .step { display: grid; grid-template-columns: 2.4in 1fr; gap: 14px; align-items: start; margin: 12px 0 16px; break-inside: avoid; }
-  .step img { max-width: 100%; max-height: 2.7in; border: 1px solid var(--line); border-radius: 6px; }
+  .step img { max-width: 100%; max-height: 2.15in; border: 1px solid var(--line); border-radius: 6px; }
   .step .num { display: inline-block; background: var(--blue); color: #fff; border-radius: 99px; width: 22px; height: 22px; text-align: center; font-weight: 700; font-size: 10pt; line-height: 22px; margin-right: 6px; }
   .quote { font-size: 12pt; border-left: 4px solid var(--caution); padding: 6px 14px; margin: 12px 0; }
   .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0; break-inside: avoid; }
@@ -277,6 +278,44 @@ Both drafts wait on the Agency alerts page. A reviewer edits if needed, types th
 the decision goes to the audit log. In this class project, approving only records the decision. Nothing is ever sent
 to an agency, a resident, or 911.</div></div>
 
+<h3>The cost model we built</h3>
+<p>No existing tool gives a cost for a capital need that has no project yet, and at the earliest stage that is the
+hardest number to get. So I built a cost model from the City's own capital plan; even a rough starting point helps
+decide whether an idea is worth pursuing.</p>
+<ul>
+  <li><b>Data.</b> Every project in NYC's May 2026 Capital Projects Dashboard, cleaned: 10 projects under the $50,000
+  capital minimum dropped; 120 projects reclassified because their names contradicted their plan category (for example,
+  storm sewers filed as water mains); citywide programs (street resurfacing, sidewalks and ramps) treated as already
+  funded. That leaves <b>1,138 site-specific projects in 7 scopes</b>: street reconstruction, sewers, water mains, green
+  drainage, parks, street trees, and street lights.</li>
+  <li><b>Model.</b> The log of each budget, predicted from its scope and borough. The "typical" cost is the median of
+  similar projects; the range is the middle half of their budgets.</li>
+  <li><b>Validation</b> (10 rounds of 10-fold cross-validation, every project predicted without seeing itself):
+  out-of-sample R² of 0.29, against 0.00 for a single citywide median (p &lt; 0.001). Borough matters (p = 0.004): the
+  Bronx runs 1.23 times the five-borough average and Manhattan 0.81. The ranges are honest: the 50% range contained
+  49.4% of held-out projects and the 80% range 79.2%.</li>
+</ul>
+<table>
+  <tr><th>What I tried</th><th>What happened</th><th>Decision</th></tr>
+  <tr><td>An older City file of completed projects</td><td>Budgets of $1 and projects from 2006 to 2017</td><td>Rejected; used the
+  current capital plan</td></tr>
+  <tr><td>Hierarchical and Bayesian models (in R)</td><td>No more accurate (paired t-tests p = 0.92 and 0.39) and wider ranges
+  (6.0 times vs. 5.5)</td><td>Kept the simpler model</td></tr>
+  <tr><td>Conformal prediction ranges</td><td>Honest coverage, but the 80% range was far wider (43.5 times vs. 26.9)</td><td>Kept the
+  model's own ranges</td></tr>
+  <tr><td>Every older capital-plan snapshot (May 2023 to Jan 2026), converted to today's dollars with the BLS
+  construction price index</td><td>274 more projects made predictions of current projects worse (R² 0.293 to 0.282,
+  p &lt; 0.001): projects that left the plan were smaller</td><td>Latest plan only</td></tr>
+  <tr><td>Project size</td><td>City data has no size field. Real footprint area would help (R² -0.016 to 0.263 on 201 mapped
+  projects), but the only stand-in for a new need, the length of street with complaints, does not track real size (rank
+  correlation -0.07)</td><td>Typical-size estimates; recommend the City publish project size</td></tr>
+  <tr><td>More predictors (managing agency, size words in project names)</td><td>A little better (R² 0.354)</td><td>Not usable: unknown
+  for a need that has no project yet</td></tr>
+</table>
+<p><b>Where it landed:</b> scope plus borough, trained on the current capital plan, with ranges that are wide (the middle
+half spans about 5 times) but honest about it. The Cost Estimator agent only chooses the scope; every dollar figure
+comes from this model.</p>
+
 <h3>The capital memo (Flow 2)</h3>
 <p>Code computes every fact first: the year's 311 complaints by category, the 4,068 capital candidates priced by the
 cost model, both equity views, the equity dashboard measures, and the administration's stated priorities (each quote
@@ -369,8 +408,6 @@ the measured drafts 9% needed a person: about <b>4.1 full-time staff</b>.</p>
   <li><b>Code does the arithmetic.</b> Counts, costs, and equity measures are computed by code, never by AI, which is both
   cheaper and more reliable. The equity dashboard uses no AI at all.</li>
 </ul>
-<figure><img src="{{img:audit_runlog}}" alt="Run log" style="max-height:2in"><figcaption>Real token counts and costs per run, from the Audit &amp;
-safety page's run log.</figcaption></figure>
 
 <!-- 6. SAFETY -->
 <h2>6. Safety</h2>
@@ -465,9 +502,7 @@ note).</p>
 <h2>8. Limits and next steps</h2>
 <p><b>What does not work yet.</b></p>
 <ul>
-  <li><b>Cost ranges are wide</b> (the middle half of similar budgets spans about 5 times) because City data has no project
-  size field. More complex models (hierarchical and Bayesian, tested in R) were not more accurate. The ranges are honest:
-  on held-out projects, the 50% range contained 49.4%.</li>
+  <li><b>Cost ranges are wide</b> (about 5 times) because City data has no project size (see "The cost model we built").</li>
   <li><b>311 measures reporting, not need.</b> The income-adjusted view helps, but no 311-based measure sees problems nobody
   reports.</li>
   <li><b>Routing is not perfect.</b> On complaints from other cities, the chosen type matched the city's own category about
@@ -487,9 +522,6 @@ native speakers; a database with a tamper-evident audit log; tiered approval; a 
 measuring time saved and routing accuracy against today; and project-size data from agencies to narrow the cost
 ranges.</p>
 
-<p class="small" style="margin-top:22px">Data: NYC Open Data (311 Service Requests, Capital Projects Dashboard, Capital
-Projects Database, community districts, PLUTO, DOT and Parks program data), US Census ACS 2020–2024, NYC Health Heat
-Vulnerability Index, NYC Emergency Management CIMS charts, BLS. Every number in this report comes from the app's data,
-its logs, the analysis scripts in the repo, the user test notes, or the sources linked in the text.</p>
+<p class="small" style="margin-top:14px">Data: NYC Open Data, US Census ACS 2020–2024, NYC Health, NYC Emergency Management (CIMS), BLS. Every number comes from the app's data and logs, the analysis scripts in the repo, the user test notes, or the sources linked above.</p>
 </body>
 </html>
