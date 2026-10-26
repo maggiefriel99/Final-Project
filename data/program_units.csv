@@ -1,0 +1,220 @@
+program,boro_cd,unit,units
+pedestrian_ramps,101,ramps built,12.0
+pedestrian_ramps,102,ramps built,58.0
+pedestrian_ramps,103,ramps built,60.0
+pedestrian_ramps,104,ramps built,89.0
+pedestrian_ramps,105,ramps built,21.0
+pedestrian_ramps,106,ramps built,114.0
+pedestrian_ramps,107,ramps built,152.0
+pedestrian_ramps,108,ramps built,100.0
+pedestrian_ramps,109,ramps built,82.0
+pedestrian_ramps,110,ramps built,105.0
+pedestrian_ramps,111,ramps built,136.0
+pedestrian_ramps,112,ramps built,124.0
+pedestrian_ramps,201,ramps built,225.0
+pedestrian_ramps,202,ramps built,122.0
+pedestrian_ramps,203,ramps built,257.0
+pedestrian_ramps,204,ramps built,294.0
+pedestrian_ramps,205,ramps built,143.0
+pedestrian_ramps,206,ramps built,235.0
+pedestrian_ramps,207,ramps built,173.0
+pedestrian_ramps,208,ramps built,164.0
+pedestrian_ramps,209,ramps built,270.0
+pedestrian_ramps,210,ramps built,351.0
+pedestrian_ramps,211,ramps built,377.0
+pedestrian_ramps,212,ramps built,660.0
+pedestrian_ramps,301,ramps built,929.0
+pedestrian_ramps,302,ramps built,153.0
+pedestrian_ramps,303,ramps built,309.0
+pedestrian_ramps,304,ramps built,262.0
+pedestrian_ramps,305,ramps built,807.0
+pedestrian_ramps,306,ramps built,287.0
+pedestrian_ramps,307,ramps built,278.0
+pedestrian_ramps,308,ramps built,229.0
+pedestrian_ramps,309,ramps built,147.0
+pedestrian_ramps,310,ramps built,451.0
+pedestrian_ramps,311,ramps built,568.0
+pedestrian_ramps,312,ramps built,505.0
+pedestrian_ramps,313,ramps built,203.0
+pedestrian_ramps,314,ramps built,351.0
+pedestrian_ramps,315,ramps built,700.0
+pedestrian_ramps,316,ramps built,187.0
+pedestrian_ramps,317,ramps built,500.0
+pedestrian_ramps,318,ramps built,830.0
+pedestrian_ramps,401,ramps built,614.0
+pedestrian_ramps,402,ramps built,550.0
+pedestrian_ramps,403,ramps built,562.0
+pedestrian_ramps,404,ramps built,373.0
+pedestrian_ramps,405,ramps built,884.0
+pedestrian_ramps,406,ramps built,314.0
+pedestrian_ramps,407,ramps built,1599.0
+pedestrian_ramps,408,ramps built,760.0
+pedestrian_ramps,409,ramps built,488.0
+pedestrian_ramps,410,ramps built,588.0
+pedestrian_ramps,411,ramps built,954.0
+pedestrian_ramps,412,ramps built,1130.0
+pedestrian_ramps,413,ramps built,1566.0
+pedestrian_ramps,414,ramps built,148.0
+pedestrian_ramps,501,ramps built,1176.0
+pedestrian_ramps,502,ramps built,988.0
+pedestrian_ramps,503,ramps built,852.0
+street_resurfacing,101,square yards paved,117172.0
+street_resurfacing,102,square yards paved,272179.0
+street_resurfacing,103,square yards paved,448357.0
+street_resurfacing,104,square yards paved,274204.0
+street_resurfacing,105,square yards paved,346458.0
+street_resurfacing,106,square yards paved,350836.0
+street_resurfacing,107,square yards paved,553699.0
+street_resurfacing,108,square yards paved,340690.0
+street_resurfacing,109,square yards paved,689739.0
+street_resurfacing,110,square yards paved,832250.0
+street_resurfacing,111,square yards paved,709996.0
+street_resurfacing,112,square yards paved,533200.0
+street_resurfacing,201,square yards paved,836362.0
+street_resurfacing,202,square yards paved,255727.0
+street_resurfacing,203,square yards paved,270026.0
+street_resurfacing,204,square yards paved,326601.0
+street_resurfacing,205,square yards paved,186329.0
+street_resurfacing,206,square yards paved,111753.0
+street_resurfacing,207,square yards paved,266841.0
+street_resurfacing,208,square yards paved,400246.0
+street_resurfacing,209,square yards paved,750564.0
+street_resurfacing,210,square yards paved,690877.0
+street_resurfacing,211,square yards paved,589052.0
+street_resurfacing,212,square yards paved,672653.67
+street_resurfacing,301,square yards paved,688116.0
+street_resurfacing,302,square yards paved,443449.0
+street_resurfacing,303,square yards paved,782545.0
+street_resurfacing,304,square yards paved,294604.0
+street_resurfacing,305,square yards paved,1860118.0
+street_resurfacing,306,square yards paved,461528.0
+street_resurfacing,307,square yards paved,640356.0
+street_resurfacing,308,square yards paved,390428.0
+street_resurfacing,309,square yards paved,199193.0
+street_resurfacing,310,square yards paved,524718.0
+street_resurfacing,311,square yards paved,422205.0
+street_resurfacing,312,square yards paved,502471.0
+street_resurfacing,313,square yards paved,439822.0
+street_resurfacing,314,square yards paved,416098.0
+street_resurfacing,315,square yards paved,1094426.0
+street_resurfacing,316,square yards paved,550780.0
+street_resurfacing,317,square yards paved,683966.0
+street_resurfacing,318,square yards paved,1804891.0
+street_resurfacing,401,square yards paved,431494.25
+street_resurfacing,402,square yards paved,546267.02
+street_resurfacing,403,square yards paved,408894.0
+street_resurfacing,404,square yards paved,411881.0
+street_resurfacing,405,square yards paved,833082.67
+street_resurfacing,406,square yards paved,447563.0
+street_resurfacing,407,square yards paved,1076806.0
+street_resurfacing,408,square yards paved,1203569.0
+street_resurfacing,409,square yards paved,568159.0
+street_resurfacing,410,square yards paved,831039.0
+street_resurfacing,411,square yards paved,930297.0
+street_resurfacing,412,square yards paved,921443.0
+street_resurfacing,413,square yards paved,2051253.0
+street_resurfacing,414,square yards paved,482319.0
+street_resurfacing,501,square yards paved,1799873.0
+street_resurfacing,502,square yards paved,1733492.0
+street_resurfacing,503,square yards paved,1852086.47
+street_tree_planting,101,capital work orders,104.0
+street_tree_planting,102,capital work orders,629.0
+street_tree_planting,103,capital work orders,520.0
+street_tree_planting,104,capital work orders,960.0
+street_tree_planting,105,capital work orders,183.0
+street_tree_planting,106,capital work orders,184.0
+street_tree_planting,107,capital work orders,288.0
+street_tree_planting,108,capital work orders,267.0
+street_tree_planting,109,capital work orders,942.0
+street_tree_planting,110,capital work orders,1574.0
+street_tree_planting,111,capital work orders,1169.0
+street_tree_planting,112,capital work orders,1877.0
+street_tree_planting,201,capital work orders,875.0
+street_tree_planting,202,capital work orders,813.0
+street_tree_planting,203,capital work orders,1370.0
+street_tree_planting,204,capital work orders,1330.0
+street_tree_planting,205,capital work orders,625.0
+street_tree_planting,206,capital work orders,932.0
+street_tree_planting,207,capital work orders,1300.0
+street_tree_planting,208,capital work orders,303.0
+street_tree_planting,209,capital work orders,1833.0
+street_tree_planting,210,capital work orders,825.0
+street_tree_planting,211,capital work orders,1237.0
+street_tree_planting,212,capital work orders,1252.0
+street_tree_planting,301,capital work orders,2531.0
+street_tree_planting,302,capital work orders,1053.0
+street_tree_planting,303,capital work orders,1237.0
+street_tree_planting,304,capital work orders,792.0
+street_tree_planting,305,capital work orders,2169.0
+street_tree_planting,306,capital work orders,438.0
+street_tree_planting,307,capital work orders,600.0
+street_tree_planting,308,capital work orders,629.0
+street_tree_planting,309,capital work orders,650.0
+street_tree_planting,310,capital work orders,685.0
+street_tree_planting,311,capital work orders,2803.0
+street_tree_planting,312,capital work orders,957.0
+street_tree_planting,313,capital work orders,463.0
+street_tree_planting,314,capital work orders,860.0
+street_tree_planting,315,capital work orders,664.0
+street_tree_planting,316,capital work orders,736.0
+street_tree_planting,317,capital work orders,1206.0
+street_tree_planting,318,capital work orders,900.0
+street_tree_planting,401,capital work orders,974.0
+street_tree_planting,402,capital work orders,1444.0
+street_tree_planting,403,capital work orders,908.0
+street_tree_planting,404,capital work orders,692.0
+street_tree_planting,405,capital work orders,286.0
+street_tree_planting,406,capital work orders,568.0
+street_tree_planting,407,capital work orders,2786.0
+street_tree_planting,408,capital work orders,675.0
+street_tree_planting,409,capital work orders,2376.0
+street_tree_planting,410,capital work orders,2627.0
+street_tree_planting,411,capital work orders,441.0
+street_tree_planting,412,capital work orders,5278.0
+street_tree_planting,413,capital work orders,3389.0
+street_tree_planting,414,capital work orders,2965.0
+street_tree_planting,501,capital work orders,280.0
+street_tree_planting,502,capital work orders,1270.0
+street_tree_planting,503,capital work orders,1125.0
+tree_sidewalk_repair,108,capital work orders,1.0
+tree_sidewalk_repair,110,capital work orders,6.0
+tree_sidewalk_repair,111,capital work orders,2.0
+tree_sidewalk_repair,112,capital work orders,1.0
+tree_sidewalk_repair,201,capital work orders,1.0
+tree_sidewalk_repair,208,capital work orders,1.0
+tree_sidewalk_repair,209,capital work orders,1.0
+tree_sidewalk_repair,210,capital work orders,4.0
+tree_sidewalk_repair,211,capital work orders,6.0
+tree_sidewalk_repair,212,capital work orders,6.0
+tree_sidewalk_repair,301,capital work orders,2.0
+tree_sidewalk_repair,302,capital work orders,1.0
+tree_sidewalk_repair,303,capital work orders,3.0
+tree_sidewalk_repair,304,capital work orders,2.0
+tree_sidewalk_repair,305,capital work orders,7.0
+tree_sidewalk_repair,306,capital work orders,4.0
+tree_sidewalk_repair,307,capital work orders,2.0
+tree_sidewalk_repair,308,capital work orders,1.0
+tree_sidewalk_repair,310,capital work orders,1.0
+tree_sidewalk_repair,311,capital work orders,1.0
+tree_sidewalk_repair,312,capital work orders,2.0
+tree_sidewalk_repair,313,capital work orders,1.0
+tree_sidewalk_repair,314,capital work orders,1.0
+tree_sidewalk_repair,316,capital work orders,1.0
+tree_sidewalk_repair,317,capital work orders,1.0
+tree_sidewalk_repair,401,capital work orders,2.0
+tree_sidewalk_repair,402,capital work orders,2.0
+tree_sidewalk_repair,403,capital work orders,25.0
+tree_sidewalk_repair,404,capital work orders,10.0
+tree_sidewalk_repair,405,capital work orders,136.0
+tree_sidewalk_repair,406,capital work orders,1.0
+tree_sidewalk_repair,407,capital work orders,9.0
+tree_sidewalk_repair,408,capital work orders,7.0
+tree_sidewalk_repair,409,capital work orders,1.0
+tree_sidewalk_repair,410,capital work orders,1.0
+tree_sidewalk_repair,411,capital work orders,3.0
+tree_sidewalk_repair,412,capital work orders,7.0
+tree_sidewalk_repair,413,capital work orders,8.0
+tree_sidewalk_repair,414,capital work orders,15.0
+tree_sidewalk_repair,501,capital work orders,9.0
+tree_sidewalk_repair,502,capital work orders,5.0
+tree_sidewalk_repair,503,capital work orders,3.0

@@ -1,0 +1,60 @@
+# CivicEquity: NYC administration priorities the memo checks investments against.
+# Each priority is tied to an official source. Edit here; the memo agents read this file.
+# Researched Oct 23, 2026 (Mayor Mamdani took office Jan 1, 2026). Every quote and fact below was checked
+# word for word against the raw text of its source (nyc.gov pages, DOT testimony PDF).
+
+sources:
+  inaugural: {title: "Mayor Mamdani inaugural address (Jan 1, 2026)",
+              url: "https://www.nyc.gov/mayors-office/news/2026/01/mayor-zohran-mamdani-inaugural-address"}
+  hundred_days: {title: "Mayor Mamdani 100-day address (Apr 2026)",
+                 url: "https://www.nyc.gov/mayors-office/news/2026/04/transcript--mayor-mamdani-delivers-100-day-address"}
+  rpa: {title: "Mayor Mamdani remarks at the 2026 RPA Assembly (May 2026)",
+        url: "https://www.nyc.gov/mayors-office/news/2026/05/transcript--mayor-mamdani-delivers-remarks-at-the-2026-rpa-assem"}
+  dot_budget: {title: "NYC DOT testimony, FY27 Executive Budget and FY26-35 Capital Plan (May 2026)",
+               url: "https://www.nyc.gov/html/dot/downloads/pdf/testimony-fy27-executive-budget-fy26-35-capital-plan-may2026.pdf"}
+
+priorities:
+  pothole_politics:
+    name: "Fix the streets New Yorkers drive, bike, and walk on"
+    evidence:
+      - {source: hundred_days, quote: "How can we promise to transform our city if we can't pave your street?"}
+      - {source: hundred_days, fact: "By the end of this fiscal year, the Department of Transportation will repave 1,150 lane miles of our streets."}
+      - {source: dot_budget, fact: "$6.4 billion for street reconstruction and $3.0 billion for resurfacing in DOT's FY26-35 capital plan."}
+    capital_groups: [streets]
+
+  flooding:
+    name: "Stop sewer backups and street flooding"
+    evidence:
+      - {source: hundred_days, fact: "On Day 90 the administration announced more than $100 million to replace and modernize more than 6,700 catch basins."}
+    capital_groups: [sewers_and_flooding]
+
+  street_safety:
+    name: "Make streets safe (Vision Zero)"
+    evidence:
+      - {source: dot_budget, quote: "safety is our top priority when determining design treatments"}
+      - {source: dot_budget, fact: "$1.8 billion for streetlights, signals, and automated enforcement in DOT's FY26-35 capital plan."}
+    capital_groups: [street_lights_and_signals]
+    also_counts: "street candidates with cave-ins or failed repairs (hazards, not just wear)"
+
+  accessibility:
+    name: "An accessible city: sidewalks and pedestrian ramps"
+    evidence:
+      - {source: dot_budget, fact: "$2.9 billion for sidewalk and pedestrian ramp repair and reconstruction in DOT's FY26-35 capital plan."}
+    capital_groups: [sidewalks_and_ramps]
+
+  every_neighborhood:
+    name: "Deliver for every neighborhood, not just the loudest"
+    evidence:
+      - {source: inaugural, quote: "There is no nowhere and there is no no one."}
+      - {source: hundred_days, quote: "if government can't do the small things, how could you ever trust it to do the big ones?"}
+    applies_to: "candidates in districts underfunded on both the raw and the income-adjusted equity views"
+
+# Writing guidance for the memo, from the same speeches: plain and concrete, name real streets and
+# neighborhoods, frame the work as government that delivers for working people. The memo is staff
+# analysis written FOR the Mayor's office; it must not put words in the Mayor's mouth or quote him
+# beyond the quotes listed above.
+voice_notes:
+  - "Concrete before abstract: lead with the street, the neighborhood, the number."
+  - "Government that delivers: frame recommendations as fixing things people see every day."
+  - "Name places the way New Yorkers do (East 15th Street in Sheepshead Bay, not 'CD 315')."
+  - "Short sentences. No jargon without a plain explanation."

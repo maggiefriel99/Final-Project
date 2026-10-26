@@ -1,0 +1,61 @@
+{
+  "projects_with_footprint": 201,
+  "projects_matched": 140,
+  "by_scope": {
+    "Full street reconstruction": 79,
+    "Sewer construction or upgrade": 32,
+    "Water main replacement": 19,
+    "Green and natural drainage": 10
+  },
+  "rank_corr_stretch_vs_project_length": -0.066,
+  "rank_corr_stretch_vs_budget": -0.124,
+  "rank_corr_footprint_area_vs_budget": 0.408,
+  "median_stretch_over_length": 0.76,
+  "typical_width_ft_by_scope": {
+    "Full street reconstruction": 110.0,
+    "Green and natural drainage": 100.0,
+    "Sewer construction or upgrade": 103.0,
+    "Water main replacement": 102.0
+  },
+  "cross_validation": {
+    "no size": {
+      "r2_out_of_sample": -0.048,
+      "width50": 3.44,
+      "width80": 12.6,
+      "coverage50": 0.471,
+      "coverage80": 0.756
+    },
+    "real footprint area": {
+      "r2_out_of_sample": 0.108,
+      "width50": 2.94,
+      "width80": 9.3,
+      "coverage50": 0.468,
+      "coverage80": 0.756
+    },
+    "complaint stretch (the app's proxy)": {
+      "r2_out_of_sample": -0.021,
+      "width50": 3.26,
+      "width80": 12.2,
+      "coverage50": 0.476,
+      "coverage80": 0.764
+    }
+  },
+  "all_footprints": {
+    "projects": 201,
+    "no size": {
+      "r2_out_of_sample": -0.016,
+      "width50": 3.77,
+      "width80": 15.8,
+      "coverage50": 0.478,
+      "coverage80": 0.765
+    },
+    "real footprint area": {
+      "r2_out_of_sample": 0.263,
+      "width50": 3.4,
+      "width80": 10.3,
+      "coverage50": 0.489,
+      "coverage80": 0.78
+    }
+  },
+  "verdict": "too weak: keep typical-size estimates in the app and report the finding"
+}

@@ -1,0 +1,20 @@
+# Colors from the NYC design system (designsystem.nyc.gov/brand/color.html)
+[theme]
+base = "light"
+primaryColor = "#103FEF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F4F4"
+textColor = "#000000"
+borderColor = "#DDDDDD"
+baseRadius = "10px"
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# Start right away: skips Streamlit's first-run email question, which otherwise stops the app from starting
+# until someone answers it in the terminal. Open http://localhost:8501 in a browser.
+headless = true

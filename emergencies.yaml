@@ -1,0 +1,210 @@
+# CivicEquity: what happens when a request reports a possible emergency.
+#
+# SIMULATION ONLY. CivicEquity never contacts 911, FDNY, NYPD, NYC Emergency Management, or any other
+# agency. Emergency "alerts" are drafts written by code into the local queue (logs/alerts.jsonl);
+# approving one only changes its status there.
+#
+# Which agencies get a draft: the Primary Agencies for the incident type in the City's Citywide
+# Incident Management System (CIMS) Primary Agency Matrix, plus supporting agencies CivicEquity chose
+# because the same CIMS document lists the matching Core Competency for them (that choice is ours,
+# not CIMS's), plus NYC Emergency Management as the CIMS Coordinating Agency, plus the agency that
+# handles the request's 311 complaint type. Agency roles below are copied word for word from CIMS.
+
+sources:
+  cims:
+    title: "NYC Emergency Management: Citywide Incident Management System (CIMS) Charts, Annex A (Agency Core Competencies) and Annex B (Primary Agency Matrix), last revised December 9, 2021"
+    url: "https://www.nyc.gov/assets/em/downloads/pdf/Appendix_cims_charts.pdf"
+  call_911:
+    title: "NYC 311: Emergencies and public safety"
+    url: "https://portal.311.nyc.gov/category/?id=311-68"
+
+# Shown to the resident at once, word for word (fixed text written by code, not by AI).
+resident_message:
+  text: "If anyone is in danger right now, call 911. Do not wait for a reply to this report. NYC 311 says: \"Call 911 to report a situation that might cause danger to life or personal property.\""
+  source_quote: "Call 911 to report a situation that might cause danger to life or personal property."
+  source: call_911
+
+# Exact CIMS wording, used as each agency's role.
+coordinating_agency:
+  agency: NYCEM
+  competency: "Interagency Coordination and Support"
+competencies:
+  FDNY_EMS: "Pre-hospital Emergency Medical Care"
+  NYPD_PERIMETER: "Site Management - Perimeter Control"
+  DOB_DAMAGE: "Damage Assessment (Structural and Mechanical Equipment)"
+  DEP_WATER: "Water and Wastewater: Infrastructure Assessment, Repair and Reconstruction"
+
+agency_names:  # agencies that are not in the 311 data under these codes
+  FDNY: "Fire Department of the City of New York (FDNY)"
+  NYCEM: "New York City Emergency Management"
+
+# Incident types the Triage agent may choose. Names and Primary Agencies are from the CIMS Primary
+# Agency Matrix, except "Other danger to life or safety", which is CivicEquity's catch-all for danger
+# that has no CIMS incident type (for example a home with no heat in freezing cold, or carbon monoxide).
+incidents:
+  "Structure Collapse":
+    command: "Single Command"
+    primary: [FDNY]
+    support: [[NYPD, NYPD_PERIMETER], [DOB, DOB_DAMAGE]]
+  "Fire":
+    command: "Single Command"
+    primary: [FDNY]
+    support: [[NYPD, NYPD_PERIMETER]]
+  "Explosion":
+    command: "Unified Command"
+    primary: [NYPD, FDNY]
+    support: [[DOB, DOB_DAMAGE]]
+  "Utility Emergency: Gas":
+    command: "Unified Command"
+    primary: [FDNY, NYPD]
+    advice: [gas_smell]
+  "Utility Emergency: Electric":
+    command: "Unified Command"
+    primary: [FDNY, NYPD]
+  "Utility Emergency: Steam":
+    command: "Unified Command"
+    primary: [FDNY, NYPD]
+  "Utility Emergency: Water/Wastewater":
+    command: "Unified Command"
+    primary: [FDNY, NYPD, DEP]
+  "Flash Flood":
+    command: "Unified Command"
+    primary: [NYCEM, NYPD, FDNY, DEP]
+  "Downed Tree":
+    command: "Single Command"
+    primary: [DPR, FDNY]
+    cims_primary_text: "Parks/FDNY"  # how CIMS writes it
+  "Elevator Incident or Emergency":
+    command: "Single Command"
+    primary: [FDNY]
+    support: [[DOB, DOB_DAMAGE]]
+  "Entrapment/Impalement":
+    command: "Single Command"
+    primary: [FDNY]
+  "Natural Disaster":
+    command: "Unified Command"
+    primary: [NYCEM, NYPD, FDNY, DOT, DSNY, DEP, DOB]
+    cims_match: "Natural Disaster 4 Unified Command NYCEM, NYPD, FDNY, DOT, DSNY, DEP, DOB"  # "4" is a footnote mark
+    note: "CIMS footnote: Natural Disasters include Coastal Storms, Earthquakes and High Wind Events"
+  "Hazardous Materials (CBRN): Chemical":
+    command: "Unified Command"
+    primary: [NYPD, FDNY, DEP]
+  "Auto Extrication":
+    command: "Unified Command"
+    primary: [FDNY, NYPD]
+  "Active Shooter":
+    command: "Single Command"
+    primary: [NYPD]
+    support: [[FDNY, FDNY_EMS]]
+  "Suspicious Package":
+    command: "Single Command"
+    primary: [NYPD]
+  "Water / Ice Rescue":
+    command: "Single Command"
+    primary: [NYPD]
+    support: [[FDNY, FDNY_EMS]]
+  "Other danger to life or safety":
+    command: null  # not a CIMS incident type
+    primary: []
+    support: [[FDNY, FDNY_EMS]]
+
+# Code backstop: if the AI does not flag an emergency but the request uses one of these words, the
+# request is held for a person, who can flag it as an emergency. Phrases under "ignore" are removed
+# first, because they are routine 311 complaints (e.g. a leaking fire hydrant, a broken smoke detector).
+backstop:
+  ignore:
+    - "fire hydrant"
+    - "fire escape"
+    - "firework"
+    - "fire alarm test"
+    - "smoke detector"
+    - "smoke alarm"
+    - "carbon monoxide detector"
+    - "co detector"
+    - "smoking"
+    - "smoke shop"
+    - "gas station"
+    - "sidewalk collapse"
+    - "sidewalk collapsed"
+    - "street collapse"
+    - "smoke weed"
+    - "smoking weed"
+    - "smoke cigarettes"
+    - "smoking cigarettes"
+    - "fire department"
+    - "fire dept"
+    - "fire station"
+    - "on fire previously"
+    - "boca de incendio"
+    - "hidrante"
+    - "detector de humo"
+    - "alarma de humo"
+    - "escalera de incendios"
+    - "fuegos artificiales"
+    - "消防栓"
+    - "烟雾报警器"
+    - "烟雾探测器"
+    - "烟花"
+    - "пожарный гидрант"
+    - "пожарная лестница"
+    - "датчик дыма"
+    - "фейерверк"
+    - "détecteur de fumée"
+    - "feux d'artifice"
+    - "bouche d'incendie"
+    - "escalier de secours"
+    - "연기 감지기"
+    - "소화전"
+    - "불꽃놀이"
+  patterns:
+    - "\\bcollaps(e|ed|es|ing)\\b"
+    - "\\bfire\\b"
+    - "\\bflames?\\b"
+    - "\\bsmoke\\b"
+    - "\\bexplo(sion|ded|de|ding)\\b"
+    - "\\bsmell(s|ing|ed)? (of |like )?gas\\b"
+    - "\\bgas (smell|leak|odor)"
+    - "\\bcarbon monoxide\\b"
+    - "\\btrapped\\b"
+    - "\\bstuck in (the |an |a )?elevator\\b"
+    - "\\b(not breathing|unconscious|unresponsive|bleeding)\\b"
+    - "\\b(shot|shooting|gunman|gunshots?)\\b"
+    - "\\b(hypothermia|frostbite)\\b"
+    - "(^|[\\s(])-\\s?\\d+\\s?(degrees|deg|°)"
+    - "\\bbelow zero\\b"
+    - "\\b(earthquake|tornado|hurricane)s?\\b"
+    - "\\b(downed|fallen|live|sparking) (power )?(wires?|lines?)\\b"
+    - "\\bfell on (a |the |my )?(car|person|someone|house|building|man|woman|child|kid)\\b"
+    # Other languages NYC residents use most (Spanish, Chinese, Russian, Korean, French/Haitian Creole,
+    # Arabic, Bengali, Polish). Written for this project; a person checks every hold.
+    - "\\b(incendio|fuego|humo|llamas)\\b"
+    - "\\b(olor|huele) a gas\\b"
+    - "\\bfuga de gas\\b"
+    - "\\b(derrumb\\w*|se cay[oó] el (edificio|techo))\\b"
+    - "\\batrapad[oa]s?\\b"
+    - "\\bexplosi[oó]n\\b"
+    - "\\b(inconsciente|no respira|sangrando|disparos|balacera)\\b"
+    - "\\bmon[oó]xido de carbono\\b"
+    - "(火灾|着火|起火|失火|冒烟|浓烟)"
+    - "(煤气|燃气|天然气)(味|泄漏|泄露)|漏气"
+    - "(倒塌|坍塌|塌了)"
+    - "(被困|困在电梯)"
+    - "爆炸"
+    - "(昏迷|没有呼吸|不能呼吸|流血|枪击)"
+    - "一氧化碳"
+    - "(пожар|горит|дым|пламя)"
+    - "(запах газа|утечк\\w* газа|пахнет газом)"
+    - "(обрушил\\w*|обрушени\\w*|рухнул\\w*)"
+    - "застрял\\w*"
+    - "взрыв\\w*"
+    - "(без сознания|не дышит|стрельб\\w*)"
+    - "угарн\\w* газ"
+    - "(화재|불이 났|연기가|가스 냄새|가스 누출|붕괴|무너졌|갇혔|폭발|의식이 없|숨을 쉬지)"
+    - "\\b(incendie|feu|fumée|flammes)\\b"
+    - "\\b(odeur|fuite) de gaz\\b"
+    - "\\beffondr\\w*\\b"
+    - "\\bcoincée?s?\\b"
+    - "\\b(dife|lafimen)\\b"
+    - "(حريق|دخان|رائحة غاز|تسرب غاز|انهيار|انفجار)"
+    - "(আগুন|ধোঁয়া|গ্যাসের গন্ধ)"
+    - "\\b(pożar|dym|zapach gazu|wybuch\\w*|zawalił\\w*)\\b"

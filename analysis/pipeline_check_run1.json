@@ -1,0 +1,43 @@
+{
+ "summary": {
+  "requests": 80,
+  "crashes": 0,
+  "routes": {
+   "operating": 55,
+   "not_city": 7,
+   "capital": 7,
+   "human_review": 9,
+   "emergency": 2
+  },
+  "alerts": 62,
+  "alerts_needing_edits": 0,
+  "alert_problems": {},
+  "replies": 77,
+  "replies_needing_edits": 0,
+  "reply_problems": {},
+  "cost_estimates": 7,
+  "cost_estimates_with_problems": 0,
+  "cost_problems": {},
+  "emergencies": [
+   {
+    "incident": "Structure Collapse",
+    "agencies": [
+     "FDNY",
+     "NYPD",
+     "DOB",
+     "NYCEM",
+     "HPD"
+    ]
+   },
+   {
+    "incident": "Other danger to life or safety",
+    "agencies": [
+     "FDNY",
+     "NYCEM",
+     "DOT"
+    ]
+   }
+  ]
+ },
+ "crashes": []
+}

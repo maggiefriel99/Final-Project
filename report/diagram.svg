@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 660" font-family="Noto Sans, Helvetica, Arial, sans-serif" role="img" aria-label="CivicEquity agent diagram">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <style>
+      .code{fill:#fff;stroke:#000;stroke-width:1.5}
+      .ai{fill:#103FEF}
+      .human{fill:#FFB320}
+      .em{fill:#EC131E}
+      .t{font-size:13px;fill:#000}
+      .tw{font-size:13px;fill:#fff;font-weight:600}
+      .s{font-size:11px;fill:#444}
+      .sw{font-size:11px;fill:#E6ECFF}
+      .h{font-size:16px;font-weight:700;fill:#000}
+      .ln{stroke:#333;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+
+  <!-- Flow 1 -->
+  <text x="20" y="28" class="h">Flow 1 · each 311 request</text>
+  <rect x="20" y="42" width="200" height="54" rx="8" class="code"/>
+  <text x="120" y="64" text-anchor="middle" class="t">311 request</text>
+  <text x="120" y="82" text-anchor="middle" class="s">(live feed; demo: paste box)</text>
+
+  <rect x="260" y="42" width="270" height="54" rx="8" class="code"/>
+  <text x="395" y="62" text-anchor="middle" class="t">Code: screen the request</text>
+  <text x="395" y="80" text-anchor="middle" class="s">clean · remove personal info · attack + danger words</text>
+  <path d="M220 69 H258" class="ln"/>
+
+  <rect x="580" y="20" width="190" height="46" rx="8" class="ai"/>
+  <text x="675" y="40" text-anchor="middle" class="tw">Triage agent</text>
+  <text x="675" y="56" text-anchor="middle" class="sw">311 type, street, advice</text>
+  <rect x="580" y="74" width="190" height="46" rx="8" class="ai"/>
+  <text x="675" y="94" text-anchor="middle" class="tw">Life-Safety Screener</text>
+  <text x="675" y="110" text-anchor="middle" class="sw">emergency / hazard / none</text>
+  <path d="M530 62 L578 44" class="ln"/><path d="M530 76 L578 96" class="ln"/>
+  <text x="675" y="133" text-anchor="middle" class="s">run at the same time</text>
+
+  <rect x="800" y="42" width="180" height="54" rx="8" class="code"/>
+  <text x="890" y="62" text-anchor="middle" class="t">Code: City rules</text>
+  <text x="890" y="80" text-anchor="middle" class="s">decide the route</text>
+  <path d="M770 44 L798 60" class="ln"/><path d="M770 96 L798 80" class="ln"/>
+
+  <!-- routes -->
+  <rect x="20" y="170" width="220" height="62" rx="8" class="em"/>
+  <text x="130" y="192" text-anchor="middle" class="tw">Emergency (code only)</text>
+  <text x="130" y="210" text-anchor="middle" class="sw">911 message to resident +</text>
+  <text x="130" y="224" text-anchor="middle" class="sw">urgent alerts to CIMS agencies</text>
+
+  <rect x="265" y="170" width="215" height="62" rx="8" class="ai"/>
+  <text x="372" y="192" text-anchor="middle" class="tw">Cost Estimator agent</text>
+  <text x="372" y="210" text-anchor="middle" class="sw">capital needs only · tool:</text>
+  <text x="372" y="224" text-anchor="middle" class="sw">comparable City projects</text>
+
+  <rect x="505" y="170" width="215" height="62" rx="8" class="ai"/>
+  <text x="612" y="192" text-anchor="middle" class="tw">Operating Router agent</text>
+  <text x="612" y="210" text-anchor="middle" class="sw">drafts the agency alert</text>
+  <text x="612" y="224" text-anchor="middle" class="sw">(sees checked facts only)</text>
+
+  <rect x="745" y="170" width="235" height="62" rx="8" class="ai"/>
+  <text x="862" y="192" text-anchor="middle" class="tw">Resident Reply agent</text>
+  <text x="862" y="210" text-anchor="middle" class="sw">drafts the reply, advice only</text>
+  <text x="862" y="224" text-anchor="middle" class="sw">from the verified library</text>
+
+  <path d="M890 96 V142 H130 V168" class="ln"/>
+  <path d="M372 142 V168" class="ln"/><path d="M612 142 V168" class="ln"/><path d="M862 142 V168" class="ln"/>
+  <path d="M480 201 H503" class="ln"/>
+  <text x="380" y="161" class="s">capital</text><text x="620" y="161" class="s">capital + operating</text>
+  <text x="870" y="161" class="s">all except emergency</text>
+  <text x="138" y="161" class="s">emergency</text>
+
+  <rect x="20" y="265" width="960" height="50" rx="8" class="human"/>
+  <text x="500" y="287" text-anchor="middle" class="t" font-weight="700">A named person approves, edits, or rejects every draft</text>
+  <text x="500" y="304" text-anchor="middle" class="s">class project: approving only records the decision; nothing is ever sent</text>
+  <path d="M130 232 V262" class="ln"/><path d="M372 232 V262" class="ln"/><path d="M612 232 V262" class="ln"/><path d="M862 232 V262" class="ln"/>
+
+  <!-- harness band -->
+  <rect x="20" y="335" width="960" height="40" rx="8" fill="#F4F4F4" stroke="#999" stroke-dasharray="5 4"/>
+  <text x="500" y="352" text-anchor="middle" class="t" font-weight="700">Agent harness (every agent)</text>
+  <text x="500" y="368" text-anchor="middle" class="s">shared safety rules first · registered agents and tools only · material tagged as data · token, call, and daily-dollar limits · audit log</text>
+
+  <!-- Flow 2 -->
+  <text x="20" y="410" class="h">Flow 2 · capital memo</text>
+  <rect x="20" y="425" width="230" height="62" rx="8" class="code"/>
+  <text x="135" y="447" text-anchor="middle" class="t">Code: compute every fact</text>
+  <text x="135" y="464" text-anchor="middle" class="s">311 year · capital plan · cost model</text>
+  <text x="135" y="478" text-anchor="middle" class="s">Census income · heat vulnerability</text>
+
+  <rect x="290" y="420" width="190" height="36" rx="8" class="ai"/>
+  <text x="385" y="443" text-anchor="middle" class="tw">Needs Analyst</text>
+  <rect x="290" y="462" width="190" height="36" rx="8" class="ai"/>
+  <text x="385" y="485" text-anchor="middle" class="tw">Equity Analyst</text>
+  <path d="M250 450 L288 438" class="ln"/><path d="M250 462 L288 478" class="ln"/>
+
+  <rect x="520" y="430" width="170" height="50" rx="8" class="ai"/>
+  <text x="605" y="453" text-anchor="middle" class="tw">Memo Writer</text>
+  <text x="605" y="470" text-anchor="middle" class="sw">one page</text>
+  <path d="M480 438 L518 450" class="ln"/><path d="M480 480 L518 464" class="ln"/>
+
+  <rect x="730" y="425" width="250" height="62" rx="8" class="ai"/>
+  <text x="855" y="447" text-anchor="middle" class="tw">Code check + Fact Verifier</text>
+  <text x="855" y="464" text-anchor="middle" class="sw">every number, quote, and claim;</text>
+  <text x="855" y="478" text-anchor="middle" class="sw">one rewrite, then remove what fails</text>
+  <path d="M690 455 H728" class="ln"/>
+
+  <rect x="560" y="530" width="420" height="44" rx="8" class="human"/>
+  <text x="770" y="557" text-anchor="middle" class="t" font-weight="700">Verified memo + appendix (download as HTML)</text>
+  <path d="M855 487 V528" class="ln"/>
+
+  <rect x="20" y="530" width="460" height="44" rx="8" class="code"/>
+  <text x="250" y="551" text-anchor="middle" class="t">Equity dashboard: code only, no AI</text>
+  <text x="250" y="566" text-anchor="middle" class="s">lean · Gini · heat share · asset mix · follow-through</text>
+  <path d="M135 487 V528" class="ln"/>
+
+  <!-- legend -->
+  <rect x="20" y="610" width="18" height="14" rx="3" class="ai"/><text x="44" y="622" class="t">AI agent (gpt-6-luna)</text>
+  <rect x="210" y="610" width="18" height="14" rx="3" class="code"/><text x="234" y="622" class="t">code (rules, checks, numbers)</text>
+  <rect x="440" y="610" width="18" height="14" rx="3" class="human"/><text x="464" y="622" class="t">person / output</text>
+  <rect x="600" y="610" width="18" height="14" rx="3" class="em"/><text x="624" y="622" class="t">emergency (simulation)</text>
+  <text x="20" y="648" class="s">No agent calls another agent: code decides the order, supplies every number, and checks every answer.</text>
+</svg>

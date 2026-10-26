@@ -1,0 +1,20 @@
+# Python 3.12+ (built and tested on 3.14). Versions are pinned to exactly what was tested;
+# after upgrading any of them, run `python run_checks.py --full` before relying on the app.
+# App
+streamlit==1.66.1
+plotly==7.1.0
+# Data (geopandas places capital projects inside community district boundaries)
+pandas==3.1.0
+geopandas==1.2.0
+requests==2.34.2
+pyyaml==6.0.3
+# Agents (gpt-6-luna through Portkey's OpenAI-compatible API)
+pydantic-ai-slim[openai]==2.60.0
+python-dotenv==1.2.4
+# Optional log encryption (only used when CIVICEQUITY_LOG_KEY is set)
+cryptography==50.0.2
+# Statistical validation of the cost model (analysis/validate_cost_model.py)
+statsmodels==0.15.0
+scipy==1.18.1
+# Source checks (analysis/verify_sources.py reads the DOT testimony PDF)
+pypdf==6.21.2

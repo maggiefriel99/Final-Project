@@ -1,0 +1,258 @@
+{
+ "_about": "Test set for loosely worded requests and emergencies. Written for this check (not real 311 requests). 'accept' lists every complaint type a reasonable 311 operator could choose; 'advice:<id>' means no complaint type fits and the verified advice entry should be used instead. Cases marked lang are written in another language for this check.",
+ "ambiguous": [
+  {
+   "text": "a dog wandered into my apartment in brooklyn",
+   "accept": [
+    "advice:found_stray_dog"
+   ]
+  },
+  {
+   "text": "theres a big hole in the road on atlantic ave by my house and my tire popped, brooklyn",
+   "accept": [
+    "Street Condition"
+   ]
+  },
+  {
+   "text": "rats everywhere by the garbage cans on my block in the bronx",
+   "accept": [
+    "Rodent"
+   ]
+  },
+  {
+   "text": "the tree in front of my building on 86th st in queens looks like its about to fall over",
+   "accept": [
+    "Damaged Tree",
+    "Overgrown Tree/Branches"
+   ]
+  },
+  {
+   "text": "landlord wont turn the heat on and its freezing in here, apt in the bronx",
+   "accept": [
+    "HEAT/HOT WATER"
+   ]
+  },
+  {
+   "text": "someone keeps leaving their pitbull tied up outside with no water all day in queens",
+   "accept": [
+    "Animal-Abuse"
+   ]
+  },
+  {
+   "text": "people next door blasting music at 2am every single night, manhattan",
+   "accept": [
+    "Noise - Residential"
+   ]
+  },
+  {
+   "text": "theres a dead raccoon in front of my house on bay ridge parkway brooklyn",
+   "accept": [
+    "Dead Animal"
+   ]
+  },
+  {
+   "text": "loose dog running around the playground in prospect park with no owner around",
+   "accept": [
+    "Animal in a Park",
+    "Unleashed Dog"
+   ]
+  },
+  {
+   "text": "the streetlight on my corner has been out for a week, its pitch black, staten island",
+   "accept": [
+    "Street Light Condition"
+   ]
+  },
+  {
+   "text": "found a lost dog on my street in queens, it has a collar but no one around",
+   "accept": [
+    "advice:found_stray_dog"
+   ]
+  },
+  {
+   "text": "pile of old mattresses and junk dumped on the sidewalk on fulton st brooklyn",
+   "accept": [
+    "Illegal Dumping",
+    "Dirty Condition"
+   ]
+  },
+  {
+   "lang": "es",
+   "text": "Hay un bache enorme en la Avenida Roosevelt en Queens, ya se me poncharon dos llantas",
+   "accept": [
+    "Street Condition"
+   ]
+  },
+  {
+   "lang": "zh",
+   "text": "我家楼下垃圾桶旁边到处都是老鼠，在布朗克斯",
+   "accept": [
+    "Rodent"
+   ]
+  },
+  {
+   "lang": "ru",
+   "text": "В моей квартире в Бруклине уже три дня нет отопления и горячей воды",
+   "accept": [
+    "HEAT/HOT WATER"
+   ]
+  },
+  {
+   "lang": "ko",
+   "text": "퀸즈 노던 블러바드에 가로등이 일주일째 꺼져 있어요",
+   "accept": [
+    "Street Light Condition"
+   ]
+  }
+ ],
+ "emergency": [
+  {
+   "text": "a building collapsed in downtown manhattan",
+   "accept": [
+    "Structure Collapse"
+   ]
+  },
+  {
+   "text": "I smell gas really strong in the hallway of my building on ocean ave brooklyn",
+   "accept": [
+    "Utility Emergency: Gas"
+   ]
+  },
+  {
+   "text": "smoke and flames are coming out of a window in the apartment building across the street, bronx",
+   "accept": [
+    "Fire"
+   ]
+  },
+  {
+   "text": "my neighbor is stuck in the elevator between floors and nobody is answering the alarm, queens",
+   "accept": [
+    "Elevator Incident or Emergency",
+    "Entrapment/Impalement"
+   ]
+  },
+  {
+   "text": "a huge tree just fell on a parked car on victory blvd staten island and theres someone inside",
+   "accept": [
+    "Downed Tree",
+    "Auto Extrication"
+   ]
+  },
+  {
+   "text": "water is gushing out of the street and pouring into the subway entrance at 14 st and 8 ave manhattan",
+   "accept": [
+    "Utility Emergency: Water/Wastewater",
+    "Flash Flood"
+   ]
+  },
+  {
+   "text": "there was a loud explosion and windows blew out on my block in jackson heights",
+   "accept": [
+    "Explosion"
+   ]
+  },
+  {
+   "text": "my apartment is -7 degrees, the heat has been off for two days, bronx",
+   "accept": [
+    "Other danger to life or safety"
+   ]
+  },
+  {
+   "text": "our carbon monoxide alarm keeps going off and my kids have headaches, queens",
+   "accept": [
+    "Other danger to life or safety",
+    "Utility Emergency: Gas",
+    "Hazardous Materials (CBRN): Chemical"
+   ]
+  },
+  {
+   "text": "a pit bull on my block attacked a kid and is still running loose, brooklyn",
+   "accept": [
+    "Other danger to life or safety"
+   ]
+  },
+  {
+   "text": "the ceiling in my kitchen is sagging and cracking and looks like it's about to come down, manhattan",
+   "accept": [
+    "Structure Collapse",
+    "Other danger to life or safety"
+   ]
+  },
+  {
+   "lang": "es",
+   "text": "Huele mucho a gas en el pasillo de mi edificio en el Bronx",
+   "accept": [
+    "Utility Emergency: Gas"
+   ]
+  },
+  {
+   "lang": "zh",
+   "text": "对面楼里着火了，窗户在冒浓烟，在法拉盛",
+   "accept": [
+    "Fire"
+   ]
+  },
+  {
+   "lang": "ru",
+   "text": "В Бруклине обрушилась стена дома, под завалами могут быть люди",
+   "accept": [
+    "Structure Collapse",
+    "Entrapment/Impalement"
+   ]
+  },
+  {
+   "lang": "ht",
+   "text": "Gen dife nan bilding vwazen mwen an nan Flatbush, gen anpil lafimen",
+   "accept": [
+    "Fire"
+   ]
+  }
+ ],
+ "not_emergency": [
+  {
+   "text": "the fire hydrant on fulton st in brooklyn has been leaking for a week"
+  },
+  {
+   "text": "my smoke detector is broken and the landlord wont replace it, bronx apartment"
+  },
+  {
+   "text": "illegal fireworks going off every night in my neighborhood in queens"
+  },
+  {
+   "text": "the building next door on 5 ave manhattan has had a crack in the facade for months"
+  },
+  {
+   "text": "beach 90 street in queens floods every time it rains"
+  },
+  {
+   "text": "the elevator in my building on grand concourse has been out of service for 3 days"
+  },
+  {
+   "text": "the fire escape outside my window is blocked with furniture by a neighbor, manhattan"
+  },
+  {
+   "text": "there is a gas station on my corner that leaves its lights on all night, staten island"
+  },
+  {
+   "text": "no heat in my apartment since this morning, it's about 64 inside, bronx"
+  },
+  {
+   "text": "there is no carbon monoxide detector in my apartment and the landlord won't install one"
+  },
+  {
+   "text": "a stray cat keeps sleeping on my stoop in queens"
+  },
+  {
+   "lang": "es",
+   "text": "La boca de incendio de mi calle en Queens lleva una semana goteando"
+  },
+  {
+   "lang": "zh",
+   "text": "每天晚上都有人在我家附近放烟花，在皇后区"
+  },
+  {
+   "lang": "es",
+   "text": "Mi detector de humo no funciona y el dueño no lo quiere cambiar"
+  }
+ ]
+}

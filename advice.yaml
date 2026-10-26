@@ -1,0 +1,93 @@
+# CivicEquity: advice the resident reply may give. Nothing outside this file may be offered as advice.
+# Every source_quote was checked word for word against the live official page on Oct 23, 2026
+# (python analysis/verify_sources.py re-checks them). "guidance" is the plain-language version a reply may use;
+# it must say no more than the quote supports.
+
+entries:
+  heat_hot_water:
+    applies_when: "A tenant reports no heat or no hot water in their apartment."
+    guidance: "HPD advises tenants without heat or hot water to contact their landlord first. If the landlord does not respond, file a complaint with 311 (call 311, or use 311 online or the 311 app); complaints can be filed anonymously."
+    source_quote: "If you are a tenant without heat or hot water, contact your landlord first."
+    source_title: "NYC HPD: Heat and Hot Water"
+    url: "https://www.nyc.gov/site/hpd/services-and-information/heat-and-hot-water-information.page"
+
+  sidewalk_owner:
+    applies_when: "A broken or uneven sidewalk in front of private property (not City-owned property)."
+    guidance: "Under NYC law, property owners are responsible for installing, repairing, and maintaining the sidewalk next to their property. If you own the property, you will need to arrange the repair; if DOT issues a Notice of Sidewalk Violation, the owner has 75 days to make the repair."
+    source_quote: "Property owners are responsible for installing, repairing and maintaining sidewalks adjoining their properties"
+    source_title: "NYC DOT: Sidewalks"
+    url: "https://www.nyc.gov/html/dot/html/infrastructure/sidewalkintro.shtml"
+
+  sewer_service_line:
+    applies_when: "Sewage or water backing up into a home or building."
+    guidance: "DEP will investigate whether the backup comes from the City's sewer or from the building's private sewer service line. Property owners are responsible for maintaining and repairing the service line that connects their property to the City's sewer main; if the problem is in that line, DEP issues a Notice to Repair. If you believe the City caused damage, you can file a claim with the NYC Comptroller's Office within 90 days."
+    source_quote: "Property owners own and are responsible for maintaining and repairing their sewer service line, which connects their property to the City's sewer main in the street."
+    source_title: "NYC DEP: Sewer Backup"
+    url: "https://www.nyc.gov/site/dep/water/sewer-backup.page"
+
+  snow_sidewalk:
+    applies_when: "Snow or ice on a sidewalk."
+    guidance: "Property owners must clear the sidewalk next to their property. If snow stops between 7 AM and 5 PM, clear it within 4 hours; between 5 PM and 9 PM, within 14 hours; between 9 PM and 7 AM, by 11 AM. Clear a path at least 4 feet wide, and do not shovel snow into the street."
+    source_quote: "If the snow stops falling between: 7 AM and 5 PM, clear the sidewalk within 4 hours 5 PM and 9 PM, clear the sidewalk within 14 hours 9 PM and 7 AM, clear the sidewalk by 11 AM"
+    source_title: "NYC 311: Snow or Ice on a Sidewalk"
+    url: "https://portal.311.nyc.gov/article/?kanumber=KA-01397"
+
+  private_tree:
+    applies_when: "A tree problem that may involve a tree on private property."
+    guidance: "NYC Parks cares for trees on City property, such as street trees, but does not do tree work on trees on private property; owners need a private contractor for those. Trees can appear to be on your property but actually be on City property, so check your property lines before doing any tree work."
+    source_quote: "NYC Parks does not perform tree work on private property trees."
+    source_title: "NYC 311: Tree on Private Property"
+    url: "https://portal.311.nyc.gov/article/?kanumber=KA-02138"
+
+  gas_smell:
+    applies_when: "The writer smells gas (a utility emergency handled by Con Edison and 911, not a 311 request)."
+    guidance: "If you smell gas, leave the area immediately and call 911 or Con Edison at 1-800-75-CONED (1-800-752-6633)."
+    source_quote: "If you smell gas, leave the area immediately and call 911 or 1-800-75-CONED (1-800-752-6633)."
+    source_title: "Con Edison: Reported Gas Leaks"
+    url: "https://www.coned.com/en/safety/energy-safety/gas-safety/reported-gas-leaks"
+
+  graffiti:
+    applies_when: "Graffiti on a residential or commercial building."
+    guidance: "Graffiti can be removed for free through the Graffiti-Free NYC program, managed by the Department of Sanitation; it covers the front exterior of residential and commercial buildings in areas that are easy to reach. Request it through 311."
+    source_quote: "You can have the graffiti removed for FREE through the Graffiti-Free NYC Program, managed by DSNY."
+    source_title: "NYC DSNY: Graffiti Removal"
+    url: "https://www.nyc.gov/site/dsny/what-we-do/cleaning/graffiti.page"
+
+  found_stray_dog:
+    applies_when: "The writer found a dog that is not theirs (a stray or lost dog), for example one that wandered into their home or is loose with no owner nearby, and it is not acting dangerously."
+    guidance: "New York City's animal shelters are run by Animal Care Centers of NYC (ACC), a non-profit that operates the City's shelter system under a contract with the City. If the dog has identification, you can contact the owner directly or use the dog license number to report a found dog. You can also bring the dog to most veterinary hospitals to scan for a microchip. You can drop a found dog off at any ACC location, or report it on ACC's lost and found database."
+    source_quote: "If the dog has identification, you can contact their owner directly or use their dog license number to report a found dog. You can also bring a dog to most veterinary hospitals to scan for a microchip. You can drop a found dog off at any ACC location or report the found dog on the ACC's lost and found database."
+    source_title: "NYC 311: Stray Animal"
+    url: "https://portal.311.nyc.gov/article/?kanumber=KA-02852"
+    more_sources:
+      - source_quote: "ACC is a non-profit organization that operates the New York City (City) municipal animal shelter system under a contract"
+        source_title: "NYC Comptroller: Audit on Animal Care & Control of New York City, Inc.'s Operating Practices (MH19-068A)"
+        url: "https://comptroller.nyc.gov/reports/audit-on-animal-care-control-of-new-york-city-inc-s-operating-practices/"
+
+  dangerous_animal:
+    applies_when: "An animal is causing a dangerous or hazardous condition (for example it is attacking or threatening people)."
+    guidance: "NYC 311 says to call 911 to report an animal causing a dangerous or hazardous condition."
+    source_quote: "Call 911 to report an animal causing a dangerous or hazardous condition."
+    source_title: "NYC 311: Emergencies and public safety"
+    url: "https://portal.311.nyc.gov/category/?id=311-68"
+
+  extreme_cold_home:
+    applies_when: "A home is dangerously cold (for example no heat in freezing weather), or someone may have hypothermia or frostbite."
+    guidance: "If you think anyone may have frostbite or hypothermia, call 911 to get medical help. Until heat returns: hang blankets over windows and doorways and stay in a well-insulated room, wear a hat, scarf, gloves, and layered clothing, and open your faucets to a steady drip so pipes do not freeze. If the cold persists and your heat is not restored, ask family, neighbors, or friends if you can stay with them."
+    source_quote: "If you suspect a person is suffering from frostbite or hypothermia, call 911 to get medical help."
+    source_title: "NYC Emergency Management: Cold Weather Safety Tips"
+    url: "https://www.nyc.gov/assets/em/downloads/pdf/cold_weather_safety_tips.pdf"
+
+  hate_graffiti:
+    applies_when: "Graffiti or vandalism with hate speech or hate symbols (for example a swastika or a noose)."
+    guidance: "NYC's Office for the Prevention of Hate Crimes says that if you find graffiti that includes hate speech or hate symbols, you should call 911 and say \"hate crime\". It also helps to take a picture of the graffiti to share with law enforcement."
+    source_quote: "If you find graffiti that includes hate speech or hate symbols, call 911 and say \"hate crime\"."
+    source_title: "NYC Office for the Prevention of Hate Crimes: What Is a Hate Crime?"
+    url: "https://www.nyc.gov/assets/stophate/downloads/pdf/OPHC-WhatIsAHateCrime.pdf"
+
+  bias_harassment:
+    applies_when: "Someone was harassed because of their race, national origin, religion, gender, sexual orientation or gender identity, disability, or another protected category, without being threatened or physically harmed."
+    guidance: "If someone harasses you because of who you are, you can call 311 and say \"human rights\", or report the bias incident to the NYC Commission on Human Rights. If someone has physically harmed you or threatened to harm you, call 911."
+    source_quote: "you should call 311 and say \"human rights\" or report the bias incident to the NYC Commission on Human Rights (CCHR)"
+    source_title: "NYC Office for the Prevention of Hate Crimes: What Is a Hate Crime?"
+    url: "https://www.nyc.gov/assets/stophate/downloads/pdf/OPHC-WhatIsAHateCrime.pdf"

@@ -1,0 +1,48 @@
+{
+  "pulled_at": "2026-10-23T18:24:02+00:00",
+  "window_start": "2025-10-01",
+  "window_end_exclusive": "2026-10-01",
+  "infra_agencies": [
+    "DOT",
+    "DEP",
+    "DPR",
+    "DSNY"
+  ],
+  "street_hotspot_floor": 5,
+  "descriptor_hotspot_floor": 2,
+  "program_window_start": "2023-10-01",
+  "program_window_end_exclusive": "2026-10-01",
+  "capital_reporting_period": "202605",
+  "capital_coverage": {
+    "projects_total": 5608,
+    "budget_total": 207593826803.75,
+    "projects_placed": 3172,
+    "budget_placed": 81294299603.85,
+    "placed_by_map_location": 2313,
+    "placed_by_district_tag": 848,
+    "placed_by_street_reconstruction": 11
+  },
+  "sources": {
+    "311": "https://data.cityofnewyork.us/d/erm2-nwe9",
+    "capital_dashboard": "https://data.cityofnewyork.us/d/fb86-vt7u",
+    "cpdb_points": "https://data.cityofnewyork.us/d/h2ic-zdws",
+    "cpdb_polygons": "https://data.cityofnewyork.us/d/9jkp-n57r",
+    "districts": "https://data.cityofnewyork.us/d/5crt-au7u",
+    "population": "https://data.cityofnewyork.us/d/9ji4-nien",
+    "pluto": "https://data.cityofnewyork.us/d/64uk-42ks",
+    "resurfacing": "https://data.cityofnewyork.us/d/ffaf-8mrv",
+    "ped_ramps": "https://data.cityofnewyork.us/d/e7gc-ub6z",
+    "forestry_work_orders": "https://data.cityofnewyork.us/d/bdjm-n7q4",
+    "street_reconstruction": "https://data.cityofnewyork.us/d/97nd-ff3i"
+  },
+  "income": {
+    "source": "US Census Bureau, ACS 2020-2024 5-year estimates, table B19013 by PUMA",
+    "url": "https://api.census.gov/data/2024/acs/acs5",
+    "pulled_at": "2026-10-23T20:50:14+00:00"
+  },
+  "heat": {
+    "source": "NYC Department of Health and Mental Hygiene, Heat Vulnerability Index (Environment & Health Data Portal, indicator 2191, by Community District Tabulation Area 2020)",
+    "url": "https://raw.githubusercontent.com/nychealth/EHDP-data/production/indicators/data/2191.json",
+    "pulled_at": "2026-10-24T04:20:29+00:00"
+  }
+}

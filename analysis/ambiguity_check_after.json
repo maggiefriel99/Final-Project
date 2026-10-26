@@ -1,0 +1,850 @@
+{
+ "summary": {
+  "ambiguous": "16 of 16",
+  "emergency": "15 of 15",
+  "not_emergency": "14 of 14",
+  "ambiguous_escalated": "3 of 16"
+ },
+ "cases": [
+  {
+   "group": "ambiguous",
+   "text": "a dog wandered into my apartment in brooklyn",
+   "accept": [
+    "advice:found_stray_dog"
+   ],
+   "pass": true,
+   "route": "advice",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [
+    "found_stray_dog"
+   ],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "theres a big hole in the road on atlantic ave by my house and my tire popped, brooklyn",
+   "accept": [
+    "Street Condition"
+   ],
+   "pass": true,
+   "route": "capital",
+   "complaint_type": "Street Condition",
+   "agency": "DOT",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": true,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "rats everywhere by the garbage cans on my block in the bronx",
+   "accept": [
+    "Rodent"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Rodent",
+   "agency": "DOHMH",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "the tree in front of my building on 86th st in queens looks like its about to fall over",
+   "accept": [
+    "Damaged Tree",
+    "Overgrown Tree/Branches"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Damaged Tree",
+   "agency": "DPR",
+   "confidence": "high",
+   "advice": [
+    "private_tree"
+   ],
+   "emergency_type": "Downed Tree",
+   "emergency_source": [
+    "Life-Safety Screener"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "landlord wont turn the heat on and its freezing in here, apt in the bronx",
+   "accept": [
+    "HEAT/HOT WATER"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "HEAT/HOT WATER",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [
+    "heat_hot_water",
+    "extreme_cold_home"
+   ],
+   "emergency_type": "Other danger to life or safety",
+   "emergency_source": [
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "someone keeps leaving their pitbull tied up outside with no water all day in queens",
+   "accept": [
+    "Animal-Abuse"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Animal-Abuse",
+   "agency": "NYPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": true,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "people next door blasting music at 2am every single night, manhattan",
+   "accept": [
+    "Noise - Residential"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Noise - Residential",
+   "agency": "NYPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "theres a dead raccoon in front of my house on bay ridge parkway brooklyn",
+   "accept": [
+    "Dead Animal"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Dead Animal",
+   "agency": "DSNY",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "loose dog running around the playground in prospect park with no owner around",
+   "accept": [
+    "Animal in a Park",
+    "Unleashed Dog"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Animal in a Park",
+   "agency": "DPR",
+   "confidence": "high",
+   "advice": [
+    "found_stray_dog"
+   ],
+   "emergency_type": "Other danger to life or safety",
+   "emergency_source": [
+    "Life-Safety Screener"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "the streetlight on my corner has been out for a week, its pitch black, staten island",
+   "accept": [
+    "Street Light Condition"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Street Light Condition",
+   "agency": "DOT",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "found a lost dog on my street in queens, it has a collar but no one around",
+   "accept": [
+    "advice:found_stray_dog"
+   ],
+   "pass": true,
+   "route": "advice",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [
+    "found_stray_dog"
+   ],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "pile of old mattresses and junk dumped on the sidewalk on fulton st brooklyn",
+   "accept": [
+    "Illegal Dumping",
+    "Dirty Condition"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Illegal Dumping",
+   "agency": "DSNY",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "Hay un bache enorme en la Avenida Roosevelt en Queens, ya se me poncharon dos llantas",
+   "accept": [
+    "Street Condition"
+   ],
+   "pass": true,
+   "route": "capital",
+   "complaint_type": "Street Condition",
+   "agency": "DOT",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": true,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "\u6211\u5bb6\u697c\u4e0b\u5783\u573e\u6876\u65c1\u8fb9\u5230\u5904\u90fd\u662f\u8001\u9f20\uff0c\u5728\u5e03\u6717\u514b\u65af",
+   "accept": [
+    "Rodent"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Rodent",
+   "agency": "DOHMH",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "\u0412 \u043c\u043e\u0435\u0439 \u043a\u0432\u0430\u0440\u0442\u0438\u0440\u0435 \u0432 \u0411\u0440\u0443\u043a\u043b\u0438\u043d\u0435 \u0443\u0436\u0435 \u0442\u0440\u0438 \u0434\u043d\u044f \u043d\u0435\u0442 \u043e\u0442\u043e\u043f\u043b\u0435\u043d\u0438\u044f \u0438 \u0433\u043e\u0440\u044f\u0447\u0435\u0439 \u0432\u043e\u0434\u044b",
+   "accept": [
+    "HEAT/HOT WATER"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "HEAT/HOT WATER",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [
+    "heat_hot_water"
+   ],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "ambiguous",
+   "text": "\ud038\uc988 \ub178\ub358 \ube14\ub7ec\ubc14\ub4dc\uc5d0 \uac00\ub85c\ub4f1\uc774 \uc77c\uc8fc\uc77c\uc9f8 \uaebc\uc838 \uc788\uc5b4\uc694",
+   "accept": [
+    "Street Light Condition"
+   ],
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Street Light Condition",
+   "agency": "DOT",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "a building collapsed in downtown manhattan",
+   "accept": [
+    "Structure Collapse"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "General Construction/Plumbing",
+   "agency": "DOB",
+   "confidence": "medium",
+   "advice": [],
+   "emergency_type": "Structure Collapse",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "I smell gas really strong in the hallway of my building on ocean ave brooklyn",
+   "accept": [
+    "Utility Emergency: Gas"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [
+    "gas_smell"
+   ],
+   "emergency_type": "Utility Emergency: Gas",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "smoke and flames are coming out of a window in the apartment building across the street, bronx",
+   "accept": [
+    "Fire"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Fire",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": [
+    "A City matter with no matching 311 complaint type: a person should decide where it goes."
+   ]
+  },
+  {
+   "group": "emergency",
+   "text": "my neighbor is stuck in the elevator between floors and nobody is answering the alarm, queens",
+   "accept": [
+    "Elevator Incident or Emergency",
+    "Entrapment/Impalement"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Elevator",
+   "agency": "DOB",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Elevator Incident or Emergency",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "a huge tree just fell on a parked car on victory blvd staten island and theres someone inside",
+   "accept": [
+    "Downed Tree",
+    "Auto Extrication"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Damaged Tree",
+   "agency": "DPR",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Downed Tree",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "water is gushing out of the street and pouring into the subway entrance at 14 st and 8 ave manhattan",
+   "accept": [
+    "Utility Emergency: Water/Wastewater",
+    "Flash Flood"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Water System",
+   "agency": "DEP",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Flash Flood",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "there was a loud explosion and windows blew out on my block in jackson heights",
+   "accept": [
+    "Explosion"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "General Construction/Plumbing",
+   "agency": "DOB",
+   "confidence": "medium",
+   "advice": [],
+   "emergency_type": "Explosion",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "my apartment is -7 degrees, the heat has been off for two days, bronx",
+   "accept": [
+    "Other danger to life or safety"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "HEAT/HOT WATER",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [
+    "heat_hot_water",
+    "extreme_cold_home"
+   ],
+   "emergency_type": "Other danger to life or safety",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "our carbon monoxide alarm keeps going off and my kids have headaches, queens",
+   "accept": [
+    "Other danger to life or safety",
+    "Utility Emergency: Gas",
+    "Hazardous Materials (CBRN): Chemical"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "SAFETY",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Other danger to life or safety",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "a pit bull on my block attacked a kid and is still running loose, brooklyn",
+   "accept": [
+    "Other danger to life or safety"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Animal-Abuse",
+   "agency": "NYPD",
+   "confidence": "medium",
+   "advice": [
+    "dangerous_animal"
+   ],
+   "emergency_type": "Other danger to life or safety",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "the ceiling in my kitchen is sagging and cracking and looks like it's about to come down, manhattan",
+   "accept": [
+    "Structure Collapse",
+    "Other danger to life or safety"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "PAINT/PLASTER",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Structure Collapse",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "Huele mucho a gas en el pasillo de mi edificio en el Bronx",
+   "accept": [
+    "Utility Emergency: Gas"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [
+    "gas_smell"
+   ],
+   "emergency_type": "Utility Emergency: Gas",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "\u5bf9\u9762\u697c\u91cc\u7740\u706b\u4e86\uff0c\u7a97\u6237\u5728\u5192\u6d53\u70df\uff0c\u5728\u6cd5\u62c9\u76db",
+   "accept": [
+    "Fire"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Fire",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": [
+    "A City matter with no matching 311 complaint type: a person should decide where it goes."
+   ]
+  },
+  {
+   "group": "emergency",
+   "text": "\u0412 \u0411\u0440\u0443\u043a\u043b\u0438\u043d\u0435 \u043e\u0431\u0440\u0443\u0448\u0438\u043b\u0430\u0441\u044c \u0441\u0442\u0435\u043d\u0430 \u0434\u043e\u043c\u0430, \u043f\u043e\u0434 \u0437\u0430\u0432\u0430\u043b\u0430\u043c\u0438 \u043c\u043e\u0433\u0443\u0442 \u0431\u044b\u0442\u044c \u043b\u044e\u0434\u0438",
+   "accept": [
+    "Structure Collapse",
+    "Entrapment/Impalement"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "General Construction/Plumbing",
+   "agency": "DOB",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Structure Collapse",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "emergency",
+   "text": "Gen dife nan bilding vwazen mwen an nan Flatbush, gen anpil lafimen",
+   "accept": [
+    "Fire"
+   ],
+   "pass": true,
+   "route": "emergency",
+   "complaint_type": "Non-Emergency Police Matter",
+   "agency": "NYPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": "Fire",
+   "emergency_source": [
+    "Life-Safety Screener",
+    "Triage agent",
+    "danger words"
+   ],
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "the fire hydrant on fulton st in brooklyn has been leaking for a week",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Water System",
+   "agency": "DEP",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "my smoke detector is broken and the landlord wont replace it, bronx apartment",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "SAFETY",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "illegal fireworks going off every night in my neighborhood in queens",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Illegal Fireworks",
+   "agency": "NYPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "the building next door on 5 ave manhattan has had a crack in the facade for months",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "General Construction/Plumbing",
+   "agency": "DOB",
+   "confidence": "medium",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "beach 90 street in queens floods every time it rains",
+   "accept": null,
+   "pass": true,
+   "route": "capital",
+   "complaint_type": "Sewer",
+   "agency": "DEP",
+   "confidence": "medium",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "the elevator in my building on grand concourse has been out of service for 3 days",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Elevator",
+   "agency": "DOB",
+   "confidence": "medium",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "the fire escape outside my window is blocked with furniture by a neighbor, manhattan",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "SAFETY",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": true,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "there is a gas station on my corner that leaves its lights on all night, staten island",
+   "accept": null,
+   "pass": true,
+   "route": "not_city",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "no heat in my apartment since this morning, it's about 64 inside, bronx",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "HEAT/HOT WATER",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [
+    "heat_hot_water"
+   ],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "there is no carbon monoxide detector in my apartment and the landlord won't install one",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "SAFETY",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "a stray cat keeps sleeping on my stoop in queens",
+   "accept": null,
+   "pass": true,
+   "route": "human_review",
+   "complaint_type": null,
+   "agency": null,
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": [
+    "A City matter with no matching 311 complaint type: a person should decide where it goes."
+   ]
+  },
+  {
+   "group": "not_emergency",
+   "text": "La boca de incendio de mi calle en Queens lleva una semana goteando",
+   "accept": null,
+   "pass": true,
+   "route": "human_review",
+   "complaint_type": "Water System",
+   "agency": "DEP",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": [
+    "The agent's answer can't be passed on as-is: numbers not in the request: 1"
+   ]
+  },
+  {
+   "group": "not_emergency",
+   "text": "\u6bcf\u5929\u665a\u4e0a\u90fd\u6709\u4eba\u5728\u6211\u5bb6\u9644\u8fd1\u653e\u70df\u82b1\uff0c\u5728\u7687\u540e\u533a",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "Illegal Fireworks",
+   "agency": "NYPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  },
+  {
+   "group": "not_emergency",
+   "text": "Mi detector de humo no funciona y el due\u00f1o no lo quiere cambiar",
+   "accept": null,
+   "pass": true,
+   "route": "operating",
+   "complaint_type": "SAFETY",
+   "agency": "HPD",
+   "confidence": "high",
+   "advice": [],
+   "emergency_type": null,
+   "emergency_source": null,
+   "urgent_hazard": false,
+   "review_reasons": []
+  }
+ ]
+}

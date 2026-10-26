@@ -1,0 +1,185 @@
+boro_cd,park_facility_name,complaint_type,descriptor,n,lat,lon,first_seen,last_seen
+307,Rainbow Playground,Maintenance or Facility,Garbage or Litter,16,40.640796484626236,-74.01119890785435,2025-10-30,2025-12-17
+107,Riverside Park,Maintenance or Facility,Structure - Outdoors,13,40.800245180318555,-73.97335875005403,2025-10-04,2026-06-30
+401,Whitey Ford Field,Maintenance or Facility,Structure - Outdoors,12,40.77700412645179,-73.93521459529559,2025-10-01,2025-11-20
+401,Columbus Square,Maintenance or Facility,Garbage or Litter,11,40.770073373177745,-73.91757805563076,2025-10-01,2025-11-26
+112,Isham Park,Maintenance or Facility,Snow or Ice,10,40.87121476286591,-73.91935095259326,2025-12-15,2025-12-17
+307,Greenwood Playground,Maintenance or Facility,Rodent Sighting,10,40.65091473941851,-73.9769501035021,2025-10-02,2025-10-20
+307,Sunset Park,Maintenance or Facility,Garbage or Litter,10,40.649500597233825,-74.00575514447839,2025-10-03,2025-11-16
+313,Calvert Vaux Park,Maintenance or Facility,Garbage or Litter,9,40.58699605157698,-73.99195321920783,2025-11-07,2025-12-07
+101,Collect Pond Park,Maintenance or Facility,Garbage or Litter,9,40.715924216328816,-74.00156557412566,2025-10-16,2025-12-17
+104,Clement Clarke Moore Park,Maintenance or Facility,Rodent Sighting,8,40.746786176963454,-74.00411424260324,2025-11-09,2025-11-24
+107,Theodore Roosevelt Park,Maintenance or Facility,Hours of Operation,7,40.781311764946494,-73.97225418170498,2025-10-02,2025-11-02
+406,Ian Maclennan Garden,Maintenance or Facility,Garbage or Litter,7,40.71424851313145,-73.85665610990411,2025-11-09,2025-12-14
+301,Msgr. McGolrick Park,Maintenance or Facility,Rodent Sighting,7,40.724441004030766,-73.94335432615917,2025-10-14,2025-11-20
+304,Maria Hernandez Park,Maintenance or Facility,Snow or Ice,6,40.70432703822901,-73.92372939936729,2025-12-14,2025-12-16
+208,Fort Independence Playground,Maintenance or Facility,Structure - Outdoors,6,40.88187205457075,-73.89502550775383,2025-10-08,2025-11-18
+109,Morningside Park,Maintenance or Facility,Garbage or Litter,6,40.805749429987166,-73.95843462297886,2025-10-15,2025-12-12
+301,Jaime Campiz Playground,Maintenance or Facility,Rodent Sighting,6,40.71359595741297,-73.95461436298187,2025-10-03,2025-11-25
+103,Tompkins Square Park,Maintenance or Facility,Rodent Sighting,5,40.72716820472698,-73.98271083621445,2025-10-24,2025-12-01
+309,Parade Ground,Maintenance or Facility,Structure - Outdoors,5,40.65571851333065,-73.95875876095177,2025-10-03,2025-12-07
+106,Stuyvesant Square,Maintenance or Facility,Hours of Operation,5,40.73408238651555,-73.98369410722287,2025-10-11,2025-10-31
+301,Msgr. McGolrick Park,Maintenance or Facility,Structure - Outdoors,5,40.724441004030766,-73.94335432615917,2025-10-05,2025-11-05
+406,Lost Battalion Hall Recreation Center,Maintenance or Facility,Garbage or Litter,5,40.73146947225762,-73.86604357823555,2025-10-09,2025-11-23
+313,Grady Playground,Maintenance or Facility,Garbage or Litter,5,40.58296999473037,-73.96541712821153,2025-10-07,2025-12-03
+301,WNYC Transmitter Park,Maintenance or Facility,Structure - Outdoors,5,40.73027543438651,-73.96094963483031,2025-10-10,2025-11-23
+401,Ditmars Playground,Maintenance or Facility,Rodent Sighting,5,40.7719017189908,-73.90720687437863,2025-10-04,2025-11-15
+104,De Witt Clinton Park,Maintenance or Facility,Rodent Sighting,5,40.7672673816161,-73.99402168334655,2025-10-19,2025-12-14
+303,Pulaski Playground,Maintenance or Facility,Rodent Sighting,4,40.69408534929721,-73.94074403311853,2025-11-05,2025-12-01
+401,Hoyt Playground,Maintenance or Facility,Unsecured Facility,4,40.77198098674482,-73.91760457747026,2025-11-04,2025-11-25
+307,Detective Joseph Mayrose Park,Maintenance or Facility,Snow or Ice,4,40.661266946124734,-73.98756496509048,2025-12-15,2025-12-17
+103,John V. Lindsay East River Park,Maintenance or Facility,Hours of Operation,4,40.713811040292896,-73.97617444840935,2025-10-16,2025-11-02
+107,Riverside Park,Maintenance or Facility,Rodent Sighting,4,40.800245180318555,-73.97335875005403,2025-10-09,2025-11-09
+301,Sternberg Park,Maintenance or Facility,Structure - Outdoors,4,40.70549884332763,-73.94797984888783,2025-10-08,2025-11-02
+301,Strawberry Playground,Maintenance or Facility,Garbage or Litter,4,40.710171080702835,-73.95612802907179,2025-10-05,2025-10-17
+108,Stanley Isaacs Playground,Maintenance or Facility,Rodent Sighting,4,40.78272105224736,-73.94509215729485,2025-10-08,2025-10-14
+309,Rolph Henry Playground,Maintenance or Facility,Rodent Sighting,4,40.65571927127017,-73.94718612792389,2025-10-16,2025-11-12
+310,Leif Ericson Park,Maintenance or Facility,Structure - Outdoors,4,40.63506988524358,-74.0186956713075,2025-10-02,2025-12-16
+302,Cadman Plaza Park,Maintenance or Facility,Structure - Outdoors,4,40.69850276876315,-73.98990576749503,2025-11-02,2025-11-29
+101,Collect Pond Park,Maintenance or Facility,Rodent Sighting,4,40.715924216328816,-74.00156557412566,2025-11-12,2025-11-20
+110,Jackie Robinson Park,Maintenance or Facility,Garbage or Litter,4,40.82332554323123,-73.94305697510212,2025-10-01,2025-10-12
+110,St. Nicholas Park,Maintenance or Facility,Garbage or Litter,4,40.80029610120122,-73.95247480385893,2025-10-18,2025-12-07
+304,Green Central Knoll,Maintenance or Facility,Hours of Operation,4,40.701297290034304,-73.93333343086512,2025-10-13,2025-10-31
+101,Collect Pond Park,Maintenance or Facility,Unsecured Facility,4,40.715924216328816,-74.00156557412566,2025-10-20,2025-11-12
+112,Highbridge Park (Manhattan),Maintenance or Facility,Garbage or Litter,4,40.832109860067675,-73.94006461219814,2025-10-04,2025-10-27
+102,Washington Square Park,Maintenance or Facility,Snow or Ice,4,40.73090778826059,-73.99593364337622,2025-12-15,2025-12-16
+102,Washington Square Park,Maintenance or Facility,Structure - Outdoors,4,40.73090778826059,-73.99593364337622,2025-10-14,2025-10-20
+316,Callahan-Kelly Playground,Maintenance or Facility,Garbage or Litter,4,40.678296690438636,-73.90655116784473,2025-10-15,2025-10-23
+401,Astoria Park,Maintenance or Facility,Structure - Outdoors,4,40.777312121014575,-73.92279730348663,2025-10-05,2026-08-29
+405,Rosemary's Playground,Maintenance or Facility,Garbage or Litter,4,40.70437056511764,-73.90478340599073,2025-11-03,2025-11-17
+401,Astoria Park,Maintenance or Facility,Unsecured Facility,4,40.777312121014575,-73.92279730348663,2025-10-04,2025-11-13
+101,Pier 42,Maintenance or Facility,Structure - Outdoors,3,40.703465501486974,-74.00753787654497,2025-10-07,2025-11-01
+112,Highbridge Park (Manhattan),Maintenance or Facility,Structure - Outdoors,3,40.832109860067675,-73.94006461219814,2025-10-21,2025-11-18
+209,Taylor-Soundview Block Assoc. Garden,Maintenance or Facility,Snow or Ice,3,40.81680885169014,-73.86131246521633,2025-12-15,2025-12-15
+112,J. Hood Wright Park,Maintenance or Facility,Structure - Outdoors,3,40.84547407167203,-73.94048629178738,2025-10-29,2026-04-27
+503,Bloomingdale Park,Maintenance or Facility,Unsecured Facility,3,40.53155047374847,-74.21780614219914,2025-10-01,2025-10-19
+408,Cunningham Park,Maintenance or Facility,Structure - Outdoors,3,40.730953577308505,-73.77463973117385,2025-10-11,2025-11-03
+202,Hunts Point Playground,Maintenance or Facility,Garbage or Litter,3,40.814508763124024,-73.88638912525246,2025-10-25,2025-12-05
+313,Century Playground,Maintenance or Facility,Garbage or Litter,3,40.577281644794496,-73.97132378801898,2025-10-10,2025-10-17
+208,Ewen Park,Maintenance or Facility,Structure - Outdoors,3,40.88163040262322,-73.9112341757852,2025-11-12,2025-11-24
+413,Brookville Park,Maintenance or Facility,Grass/Weeds,3,40.6614662429789,-73.744183172168,2025-10-19,2025-11-15
+104,De Witt Clinton Park,Maintenance or Facility,Structure - Outdoors,3,40.7672673816161,-73.99402168334655,2025-10-07,2026-04-16
+314,Lt. Federico Narvaez Tot Lot,Maintenance or Facility,Garbage or Litter,3,40.64049008456368,-73.96602509020276,2025-10-06,2025-10-15
+314,Lt. Federico Narvaez Tot Lot,Maintenance or Facility,Structure - Outdoors,3,40.64049008456368,-73.96602509020276,2025-10-11,2025-10-21
+301,Newtown Barge Playground,Maintenance or Facility,Garbage or Litter,3,40.73556146470334,-73.95988206563493,2025-10-10,2025-11-30
+102,Washington Square Park,Maintenance or Facility,Garbage or Litter,3,40.73090778826059,-73.99593364337622,2025-10-17,2025-10-19
+405,Juniper Valley Park,Maintenance or Facility,Hours of Operation,3,40.717586865277504,-73.88411212421667,2025-10-16,2025-10-22
+201,Ranaqua Playground,Maintenance or Facility,Hours of Operation,3,40.80724872469438,-73.92252778271616,2025-10-14,2025-12-11
+106,Stuyvesant Square,Maintenance or Facility,Rodent Sighting,3,40.73408238651555,-73.98369410722287,2025-10-01,2025-11-19
+407,Powell's Cove Park,Maintenance or Facility,Graffiti or Vandalism,3,40.78886581235899,-73.83502283859531,2025-10-01,2025-10-27
+204,Franz Sigel Park,Maintenance or Facility,Structure - Indoors,3,40.820170771463445,-73.92656287385856,2025-10-17,2025-12-05
+301,Cooper Park,Maintenance or Facility,Grass/Weeds,3,40.71849660931797,-73.92977731468619,2025-10-20,2025-10-28
+109,Morningside Park,Maintenance or Facility,Structure - Outdoors,3,40.805749429987166,-73.95843462297886,2025-10-24,2025-11-30
+303,P.O. Reinaldo Salgado Playground,Maintenance or Facility,Hours of Operation,3,40.688260796387134,-73.92623579126388,2025-10-03,2025-10-11
+310,Shore Park and Parkway,Maintenance or Facility,Structure - Outdoors,3,40.63413230347986,-74.03675310612998,2025-10-06,2025-10-26
+306,Carroll Park,Maintenance or Facility,Garbage or Litter,3,40.68063196762491,-73.99672268723114,2025-10-04,2025-11-06
+401,Dutch Kills Playground,Maintenance or Facility,Garbage or Litter,3,40.757380356371286,-73.9324073963107,2025-10-22,2025-10-22
+110,St. Nicholas Park,Maintenance or Facility,Structure - Outdoors,3,40.80029610120122,-73.95247480385893,2025-10-23,2025-12-02
+107,Riverside Park,Maintenance or Facility,Garbage or Litter,3,40.800245180318555,-73.97335875005403,2025-11-05,2026-05-18
+311,Seth Low Playground/ Bealin Square,Maintenance or Facility,Rodent Sighting,3,40.6085668571335,-73.98607655202892,2025-10-04,2025-11-18
+109,Morningside Park,Maintenance or Facility,Rodent Sighting,3,40.805749429987166,-73.95843462297886,2025-10-02,2025-10-02
+301,Msgr. McGolrick Park,Maintenance or Facility,Garbage or Litter,3,40.724441004030766,-73.94335432615917,2025-10-08,2025-10-22
+111,Marcus Garvey Park,Maintenance or Facility,Rodent Sighting,3,40.80484651053699,-73.94548930106254,2025-10-31,2025-10-31
+302,Brooklyn Heights Promenade,Maintenance or Facility,Rodent Sighting,3,40.695072234123536,-73.99796611140084,2025-10-17,2025-10-25
+112,Fort Washington Park,Maintenance or Facility,Garbage or Litter,3,40.84350055123097,-73.94590579172744,2025-10-02,2025-11-15
+112,Fort Washington Park,Maintenance or Facility,Structure - Outdoors,3,40.84350055123097,-73.94590579172744,2025-10-26,2025-12-16
+307,Sunset Park,Maintenance or Facility,Unsecured Facility,3,40.649500597233825,-74.00575514447839,2025-10-17,2025-11-21
+407,Kissena Park,Maintenance or Facility,Graffiti or Vandalism,2,40.74217584266615,-73.80407078709295,2025-10-11,2025-10-11
+301,Bedford Playground,Maintenance or Facility,Snow or Ice,2,40.708118075950395,-73.96429538282459,2026-01-27,2026-02-08
+301,Berry Playground,Maintenance or Facility,Garbage or Litter,2,40.71287725642817,-73.96353533219545,2025-10-02,2025-10-10
+301,Cooper Park,Maintenance or Facility,Garbage or Litter,2,40.71849660931797,-73.92977731468619,2025-10-19,2025-12-04
+301,Cooper Park,Maintenance or Facility,Graffiti or Vandalism,2,40.71849660931797,-73.92977731468619,2025-10-06,2025-10-19
+301,Epiphany Playground,Maintenance or Facility,Garbage or Litter,2,40.70824482599141,-73.96591481229946,2025-10-11,2025-11-26
+301,Epiphany Playground,Maintenance or Facility,Snow or Ice,2,40.70824482599141,-73.96591481229946,2025-12-16,2025-12-17
+301,McCarren Park,Maintenance or Facility,Broken Glass,2,40.72084647199604,-73.95180272776703,2025-11-28,2025-11-29
+301,McCarren Park,Maintenance or Facility,Garbage or Litter,2,40.72084647199604,-73.95180272776703,2025-10-07,2025-11-15
+301,Msgr. McGolrick Park,Maintenance or Facility,Structure - Indoors,2,40.724441004030766,-73.94335432615917,2025-11-01,2025-11-02
+301,Newtown Barge Playground,Maintenance or Facility,Structure - Outdoors,2,40.73556146470334,-73.95988206563493,2025-10-31,2025-11-12
+301,North 5th Street Pier and Park,Maintenance or Facility,Structure - Outdoors,2,40.72040352722904,-73.96397133622816,2025-11-08,2025-11-11
+301,Sgt. William Dougherty Playground,Maintenance or Facility,Garbage or Litter,2,40.72369963482779,-73.93749960181962,2025-10-08,2025-10-21
+301,Ten Eyck Plaza,Maintenance or Facility,Garbage or Litter,2,40.70964407551666,-73.94941218974891,2025-10-06,2025-10-08
+101,Collect Pond Park,Maintenance or Facility,Graffiti or Vandalism,2,40.715924216328816,-74.00156557412566,2025-10-03,2025-11-30
+101,Collect Pond Park,Maintenance or Facility,Structure - Outdoors,2,40.715924216328816,-74.00156557412566,2025-11-12,2025-11-26
+101,Washington Market Park,Maintenance or Facility,Structure - Outdoors,2,40.71661538980094,-74.01090862963785,2025-10-17,2025-10-17
+401,Astoria Park,Maintenance or Facility,Broken Glass,2,40.777312121014575,-73.92279730348663,2025-11-30,2025-11-30
+401,Mafera Park,Maintenance or Facility,Garbage or Litter,2,40.75853099218921,-73.9383476666168,2025-10-04,2025-10-04
+401,Playground Thirty Five XXXV,Maintenance or Facility,Rodent Sighting,2,40.754903710639965,-73.92229990779285,2025-10-07,2025-10-07
+401,Whitey Ford Field,Maintenance or Facility,Garbage or Litter,2,40.77700412645179,-73.93521459529559,2025-10-09,2025-10-17
+501,Silver Lake Park,Maintenance or Facility,Structure - Outdoors,2,40.621575241322326,-74.09733545955311,2025-10-04,2025-11-18
+302,Betty Carter Park,Maintenance or Facility,Rodent Sighting,2,40.68747524944417,-73.97736655257604,2025-10-24,2025-12-04
+302,Brooklyn Bridge Park,Maintenance or Facility,Rodent Sighting,2,40.70119028299261,-73.9964511878594,2025-10-26,2025-11-23
+302,Brooklyn Bridge Park,Maintenance or Facility,Snow or Ice,2,40.70119028299261,-73.9964511878594,2025-11-11,2025-12-15
+302,Cadman Plaza Park,Maintenance or Facility,Hours of Operation,2,40.69850276876315,-73.98990576749503,2025-11-08,2025-11-16
+302,Crispus Attucks Playground,Maintenance or Facility,Structure - Outdoors,2,40.68197814701527,-73.95974844925618,2025-11-22,2025-11-23
+302,Oracle Playground,Maintenance or Facility,Garbage or Litter,2,40.69420974802925,-73.97205963602853,2025-11-15,2025-11-15
+302,South Oxford Park,Maintenance or Facility,Broken Glass,2,40.683639843761206,-73.97292218980905,2025-10-27,2025-11-15
+302,Washington Park,Maintenance or Facility,Structure - Outdoors,2,40.684837668860204,-73.97811381366351,2025-10-01,2025-12-12
+102,Tony Dapolito Recreation Center,Maintenance or Facility,Snow or Ice,2,40.73666360444475,-74.00103562126382,2025-12-16,2025-12-16
+402,Doughboy Park,Maintenance or Facility,Snow or Ice,2,40.745243212312026,-73.90872004658289,2025-12-14,2025-12-17
+402,Lawrence Virgilio Playground,Maintenance or Facility,Rodent Sighting,2,40.74729610031015,-73.91200865479816,2025-10-14,2025-11-19
+402,Murray Playground,Maintenance or Facility,Rodent Sighting,2,40.747036012623994,-73.94968695231589,2025-10-01,2025-12-10
+402,Torsney Playground,Maintenance or Facility,Structure - Outdoors,2,40.74708674642574,-73.92241729490974,2025-10-23,2025-11-20
+303,Herbert Von King Park,Maintenance or Facility,Garbage or Litter,2,40.68965818409251,-73.94665802675449,2025-10-01,2025-11-13
+303,John Hancock Playground,Maintenance or Facility,Garbage or Litter,2,40.68280222126425,-73.95413054800431,2025-10-04,2025-10-04
+303,Saratoga Park,Maintenance or Facility,Structure - Outdoors,2,40.68521823120146,-73.92009151697178,2025-11-15,2025-11-23
+103,East River Waterfront Esplanade,Maintenance or Facility,Garbage or Litter,2,40.70794640923041,-73.98117568305577,2025-10-08,2025-10-19
+103,John V. Lindsay East River Park,Maintenance or Facility,Structure - Outdoors,2,40.71437788223605,-73.97641232499794,2025-11-15,2026-03-22
+103,Kimlau Square,Maintenance or Facility,Snow or Ice,2,40.71341000916725,-73.99804130257125,2025-12-15,2025-12-15
+103,Peretz Square,Maintenance or Facility,Snow or Ice,2,40.72297489478653,-73.98806213624847,2025-12-15,2025-12-16
+103,Pier 35,Maintenance or Facility,Garbage or Litter,2,40.70957500962467,-73.98841080517889,2025-10-07,2025-10-17
+103,Pier 35,Maintenance or Facility,Rodent Sighting,2,40.70957500962467,-73.98841080517889,2025-10-07,2025-10-17
+103,Sara D. Roosevelt Park,Maintenance or Facility,Garbage or Litter,2,40.71828180623328,-73.99374830429952,2025-10-02,2025-10-04
+103,Tompkins Square Park,Maintenance or Facility,Garbage or Litter,2,40.72716820472698,-73.98271083621445,2025-11-08,2025-11-26
+204,Franz Sigel Park,Maintenance or Facility,Garbage or Litter,2,40.820170771463445,-73.92656287385856,2025-10-06,2025-10-10
+204,Franz Sigel Park,Maintenance or Facility,Snow or Ice,2,40.820170771463445,-73.92656287385856,2025-12-16,2025-12-17
+204,Franz Sigel Park,Maintenance or Facility,Structure - Outdoors,2,40.820170771463445,-73.92656287385856,2025-11-08,2025-11-21
+204,Franz Sigel Park,Maintenance or Facility,Unsecured Facility,2,40.820170771463445,-73.92656287385856,2025-10-01,2025-11-10
+304,Evergreen Playground,Maintenance or Facility,Garbage or Litter,2,40.68674564882287,-73.91069313637917,2025-10-05,2025-11-23
+304,Green Central Knoll,Maintenance or Facility,Snow or Ice,2,40.701297290034304,-73.93333343086512,2025-12-16,2025-12-16
+304,Green Central Knoll,Maintenance or Facility,Unsecured Facility,2,40.701297290034304,-73.93333343086512,2025-10-06,2025-11-06
+304,Maria Hernandez Park,Maintenance or Facility,Structure - Outdoors,2,40.70432703822901,-73.92372939936729,2025-10-22,2025-10-26
+305,Belmont Playground (Brooklyn),Maintenance or Facility,Structure - Outdoors,2,40.67632139163932,-73.86353699122152,2025-10-01,2025-10-14
+305,Lion's Pride Playground,Maintenance or Facility,Rodent Sighting,2,40.66234916843566,-73.89960616777621,2025-11-19,2025-11-22
+405,Frank Principe Park,Maintenance or Facility,Structure - Outdoors,2,40.72753367848534,-73.90486215634128,2025-11-03,2025-11-20
+405,Juniper Valley Park,Maintenance or Facility,Rodent Sighting,2,40.717586865277504,-73.88411212421667,2025-10-19,2025-11-30
+405,Juniper Valley Park,Maintenance or Facility,Structure - Outdoors,2,40.717586865277504,-73.88411212421667,2025-10-17,2025-10-19
+405,Juniper Valley Park,Maintenance or Facility,Unsecured Facility,2,40.717586865277504,-73.88411212421667,2025-10-21,2025-11-26
+106,Constance Baker Motley Recreation Center,Maintenance or Facility,Recreation Center,2,40.7568817638864,-73.96553619022389,2025-11-24,2025-12-01
+106,East River Esplanade,Maintenance or Facility,Structure - Outdoors,2,40.74320371245519,-73.97207878604713,2025-10-21,2025-12-08
+106,Peter's Field,Maintenance or Facility,Unsecured Facility,2,40.73610230324877,-73.98219612436843,2025-10-13,2025-12-13
+406,Ehrenreich-Austin Playground,Maintenance or Facility,Broken Glass,2,40.716006534066445,-73.83705373974459,2025-10-10,2025-11-02
+207,Mosholu Parkway,Maintenance or Facility,Garbage or Litter,2,40.87616647519668,-73.88150702155092,2025-10-02,2025-10-06
+207,Mosholu Parkway,Maintenance or Facility,Rodent Sighting,2,40.87616647519668,-73.88150702155092,2025-10-08,2025-11-20
+207,Mosholu Parkway,Maintenance or Facility,Snow or Ice,2,40.87616647519668,-73.88150702155092,2025-12-15,2025-12-16
+307,Detective Joseph Mayrose Park,Maintenance or Facility,Garbage or Litter,2,40.661266946124734,-73.98756496509048,2025-11-09,2025-11-14
+307,Slope Park Playground,Maintenance or Facility,Broken Glass,2,40.66002356877522,-73.98763728268408,2025-11-03,2025-11-03
+107,Playground Eighty Nine LXXXIX,Maintenance or Facility,Snow or Ice,2,40.788727856211175,-73.97152161691578,2025-12-16,2025-12-16
+107,Straus Park,Maintenance or Facility,Rodent Sighting,2,40.801588695651404,-73.96786442699826,2025-10-17,2025-11-23
+407,Flushing Fields,Maintenance or Facility,Garbage or Litter,2,40.77616711328617,-73.81761517779653,2025-10-02,2025-11-02
+201,Fountain Of Youth Playground,Maintenance or Facility,Unsecured Facility,2,40.814114554116884,-73.90580772920791,2025-10-04,2025-10-26
+308,Dean Playground,Maintenance or Facility,Snow or Ice,2,40.68132336950046,-73.97340986509263,2025-12-15,2025-12-15
+308,Stroud Playground,Maintenance or Facility,Structure - Outdoors,2,40.675144235467315,-73.96142894912767,2025-10-03,2025-10-04
+108,Carl Schurz Park,Maintenance or Facility,Structure - Outdoors,2,40.77353200012174,-73.94578210607861,2025-10-12,2025-10-22
+408,Cunningham Park,Maintenance or Facility,Garbage or Litter,2,40.730953577308505,-73.77463973117385,2025-10-10,2025-10-16
+209,Soundview Park,Maintenance or Facility,Garbage or Litter,2,40.81778820113692,-73.87527766095268,2025-10-18,2026-09-02
+309,Parade Ground,Maintenance or Facility,Rodent Sighting,2,40.65571851333065,-73.95875876095177,2025-12-05,2025-12-13
+309,Parade Ground,Maintenance or Facility,Snow or Ice,2,40.65571851333065,-73.95875876095177,2025-10-30,2025-12-16
+310,Fort Hamilton Athletic Field,Maintenance or Facility,Broken Glass,2,40.62789780945477,-74.03998476829533,2025-11-02,2025-11-02
+310,McKinley Park,Maintenance or Facility,Rodent Sighting,2,40.6251531585317,-74.01745006282535,2025-12-02,2025-12-08
+310,McKinley Park,Maintenance or Facility,Snow or Ice,2,40.6251531585317,-74.01745006282535,2025-12-15,2025-12-15
+310,Patrick O'Rourke Playground,Maintenance or Facility,Hours of Operation,2,40.61867607140121,-74.01272246925214,2025-10-26,2025-11-02
+311,Milestone Park,Maintenance or Facility,Garbage or Litter,2,40.60986049789185,-73.99953179428257,2025-12-01,2025-12-03
+111,Harlem Art Park,Maintenance or Facility,Hours of Operation,2,40.800970336632616,-73.93878513386512,2025-10-07,2025-10-09
+111,Marcus Garvey Park,Maintenance or Facility,Garbage or Litter,2,40.80484651053699,-73.94548930106254,2025-10-04,2025-11-15
+111,Wards Island Park,Maintenance or Facility,Structure - Outdoors,2,40.78637259802437,-73.93165573710645,2025-10-05,2025-11-15
+112,Highbridge Park (Manhattan),Maintenance or Facility,Graffiti or Vandalism,2,40.832109860067675,-73.94006461219814,2025-10-21,2025-10-21
+112,Mitchel Square,Maintenance or Facility,Rodent Sighting,2,40.83995999082723,-73.94055989138492,2025-10-18,2025-10-18
+112,Mitchel Square,Maintenance or Facility,Structure - Outdoors,2,40.83995999082723,-73.94055989138492,2025-10-06,2025-11-09
+413,Detective William T. Gunn Playground,Maintenance or Facility,Broken Glass,2,40.73272715875263,-73.73134931374157,2025-10-01,2025-10-15
+414,Rockaway Beach,Maintenance or Facility,Garbage or Litter,2,40.57081674495128,-73.85437947966363,2025-10-10,2025-12-15
+414,Rockaway Beach,Maintenance or Facility,Structure - Outdoors,2,40.57081674495128,-73.85437947966363,2025-10-31,2025-10-31
+414,Rockaway Beach Boardwalk,Maintenance or Facility,Snow or Ice,2,40.58206462414331,-73.81934408194225,2025-12-15,2025-12-15
+414,Rockaway Beach Boardwalk,Maintenance or Facility,Structure - Outdoors,2,40.58206462414331,-73.81934408194225,2025-10-05,2025-10-06
+315,Kelly Park Playground,Maintenance or Facility,Broken Glass,2,40.603295869003645,-73.95900001409144,2025-10-25,2025-11-08
+318,Marine Park,Maintenance or Facility,Grass/Weeds,2,40.59663770945727,-73.91899123356184,2025-11-13,2025-11-15
+318,Marine Park,Maintenance or Facility,Structure - Outdoors,2,40.59663770945727,-73.91899123356184,2025-10-11,2025-10-16

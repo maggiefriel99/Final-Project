@@ -1,0 +1,217 @@
+# CivicEquity: operating vs. capital definitions
+# Version 2 (Oct 23, 2026): decisions from the project owner applied.
+#
+# The Triage agent, the Operating Router, and the equity comparison all read this file.
+# Change the rules here, not in agent prompts.
+#
+# Sources:
+#   - NYC Comptroller Directive #10, "Charges to the Capital Projects Fund" (revised Feb 17, 2023)
+#     https://comptroller.nyc.gov/wp-content/uploads/documents/Directive-10-Charges-to-the-Capital-Projects-Fund.pdf
+#     This is the rule for what NYC may pay for with bond money.
+#   - GFOA Best Practice, "Capitalization Thresholds for Capital Assets"
+#     https://www.gfoa.org/materials/capitalization-thresholds-capital-assets
+
+# ---------------------------------------------------------------------------
+# 1. The capital test
+# ---------------------------------------------------------------------------
+# Work is CAPITAL when it meets every baseline rule AND at least one purpose.
+# Anything else is OPERATING (repairs, maintenance, cleaning, enforcement, inspections).
+capital_test:
+  baseline:
+    min_cost_usd: 50000            # Directive 10 §3.2
+    min_useful_life_years: 5       # Directive 10 §3.4 (3 years only for IT)
+    # Decided: 5 years, matching what NYC can fund with bonds (GFOA's floor is 2).
+    city_owned_or_long_term_lease: true
+  purposes:                        # Directive 10 §4.1: at least one must be true
+    - new_asset: Builds or installs an asset that did not exist (new sewer, new street light, new tree pit).
+    - extends_useful_life: Extends the asset's life by at least the minimum useful life (reconstruction, replacement).
+    - expands_capacity: Substantially expands size or capacity (bigger sewer, wider sidewalk).
+    - increases_functionality: Substantially improves function (signal computerization, LED conversion).
+  combine_nearby_work:
+    radius_miles: 0.5              # Directive 10 §4.2(4): sidewalk, ramp, lighting, tree guard, catch basin
+    # work within half a mile may be pooled to meet the $50K minimum.
+  not_capital:                     # Directive 10 §3.6.2 and §4.4.3
+    - Repairs that restore an asset without extending its life (patching a pothole, relamping a light).
+    - Preventive maintenance, cleaning, sweeping, snow removal.
+    - Enforcement and inspections.
+    - Tree pruning on its own (capital only inside a park betterment or comprehensive planting program).
+
+# ---------------------------------------------------------------------------
+# 2. How 311 complaints are sorted
+# ---------------------------------------------------------------------------
+# Every complaint type gets one default class:
+#   not_infrastructure  -> Operating Router only (enforcement, cleanliness, behavior). Never capital.
+#   operating_repair    -> Operating Router by default; can be ESCALATED to a capital candidate (section 3).
+#   capital_signal      -> The descriptor itself suggests the asset has failed, not just worn.
+#                          Goes to the capital pipeline AND alerts the agency for the immediate fix.
+complaint_classes:
+
+  # ---- DOT: streets, sidewalks, lights, signals ----
+  Street Condition:
+    class: operating_repair
+    capital_signal_descriptors: [Cave-in, Failed Street Repair, "Rough, Pitted or Cracked Roads"]
+    # Decided: a failed patch means the road base is gone, so it is a capital signal.
+  Sidewalk Condition:
+    class: operating_repair
+    capital_signal_descriptors: [Sidewalk Collapsed, Pedestrian Ramp Defective]
+    # In NYC the adjacent property owner must fix most sidewalks (NYC Admin. Code §19-152),
+    # so a broken sidewalk is the owner's job, not city capital. Exception below.
+    city_owned_frontage_signal_descriptors: [Broken Sidewalk, Sidewalk Collapsed]
+    # Decided: when the complaint's lot (BBL) is city-owned in PLUTO (owner type C), the city
+    #   is the owner, so these become capital signals. Most such lots have one complaint, so they
+    #   are pooled into one candidate per district (Directive 10 lets nearby sidewalk work combine).
+  Curb Condition:
+    class: operating_repair
+  Street Light Condition:
+    class: operating_repair
+    capital_signal_descriptors: [Multiple Street Lights Out, Fixture/Luminaire Hanging]
+  Traffic Signal Condition:
+    class: operating_repair
+    # Repeated controller failures at one location are caught by the escalation rule (section 3).
+  Street Sign - Damaged: {class: operating_repair}
+  Street Sign - Dangling: {class: operating_repair}
+  Street Sign - Missing: {class: operating_repair}
+  Bus Stop Shelter Complaint: {class: operating_repair}
+  Outdoor Dining: {class: not_infrastructure}
+
+  # ---- DEP: water and sewer ----
+  Sewer:
+    class: operating_repair
+    capital_signal_descriptors:
+      - Sewer Backup (Use Comments) (SA)
+      - Street Flooding (SJ)
+      - Catch Basin Sunken/Damaged/Raised (SC1)
+  Sewer Maintenance:
+    class: operating_repair
+    capital_signal_descriptors: [Backup, Flooding on Street, Manhole Overflow, Catch Basin Sunken]
+  Water System:
+    class: operating_repair
+    capital_signal_descriptors: [Possible Water Main Break (Use Comments) (WA1)]
+    # Decided: "Dirty Water" is too ambiguous (old mains or routine flushing), so it stays operating.
+    # Decided: hydrant complaints (mostly hydrants opened or running in summer) and dirty water do not
+    #   count toward the repeat rule, so leaks, no-water, and main breaks drive water main candidates.
+    repeat_exclude_descriptors:
+      - Fire Hydrant Emergency (FHE)
+      - Hydrant Running (WC3)
+      - Hydrant Running Full (WA4)
+      - Hydrant Leaking (WC1)
+      - Hydrant Defective (WC2)
+      - Hydrant Knocked Over/Missing (WC)
+      - installation of hydrant side post (WHFP)
+      - Dirty Water (WE)
+  Water Maintenance:
+    class: operating_repair
+    repeat_exclude_descriptors:
+      - Fire Hydrant Running
+      - Fire Hydrant Running Full
+      - Fire Hydrant Emergency
+      - Fire Hydrant Leaking
+      - Fire Hydrant Defective
+      - Fire Hydrant Leaning/Missing
+      - Fire Hydrant Valve Box
+      - Fire Hydrant Fender Request
+      - Fire Hydrant Lock Installation
+      - Dirty Water
+  Water Quality: {class: operating_repair}
+  Lead: {class: not_infrastructure}               # test kit requests
+  Water Conservation: {class: not_infrastructure}
+  Noise: {class: not_infrastructure}
+  Air Quality: {class: not_infrastructure}
+  Hazardous Materials: {class: not_infrastructure}
+  Industrial Waste: {class: not_infrastructure}
+
+  # ---- DPR: trees and parks ----
+  Damaged Tree:
+    class: operating_repair
+    capital_signal_descriptors: [Entire Tree Has Fallen Down]
+  Dead/Dying Tree:
+    class: operating_repair
+    # Removal is operating. Replacement planting is capital only as part of a
+    # comprehensive planting program (Directive 10 §4.4.3), so these feed the
+    # tree-planting comparison rather than being capital on their own.
+  Overgrown Tree/Branches: {class: operating_repair}    # pruning = operating
+  New Tree Request:
+    class: capital_signal
+    # Decided: capital. NYC pays for street tree planting from the capital budget: Parks forestry
+    #   work orders for street tree planting are labeled "Capital", and the capital plan includes a
+    #   $205M "Citywide Street Tree Planting Lump Sum".
+  Root/Sewer/Sidewalk Condition:
+    class: operating_repair
+    capital_signal_descriptors: [Trees and Sidewalks Program]
+    # The city repairs sidewalks damaged by street trees with capital money (forestry work orders
+    #   "Tree and Sidewalk Repair" are labeled "Capital").
+  Maintenance or Facility:
+    class: operating_repair
+    # Decided: park complaints count toward capital only if they would need a real capital investment.
+    #   One broken bench is a repair, so no descriptor is a capital signal on its own. Only structure
+    #   complaints can escalate, when they repeat at the same park (section 3).
+    escalation_descriptors: [Structure - Outdoors, Structure - Indoors]
+    escalation_location: park_facility_name
+  Wood Pile Remaining: {class: operating_repair}
+  Illegal Tree Damage: {class: not_infrastructure}
+  Animal in a Park: {class: not_infrastructure}
+  Violation of Park Rules: {class: not_infrastructure}
+
+  # ---- DSNY: sanitation ----
+  # All sanitation complaints are services or enforcement, not assets.
+  Dirty Condition: {class: not_infrastructure}
+  Snow or Ice: {class: not_infrastructure}
+  Illegal Dumping: {class: not_infrastructure}
+  Derelict Vehicles: {class: not_infrastructure}
+  Missed Collection: {class: not_infrastructure}
+  Vendor Enforcement: {class: not_infrastructure}
+  Obstruction: {class: not_infrastructure}
+  Graffiti: {class: not_infrastructure}
+  Residential Disposal Complaint: {class: not_infrastructure}
+  Dead Animal: {class: not_infrastructure}
+  Street Sweeping Complaint: {class: not_infrastructure}
+  Illegal Posting: {class: not_infrastructure}
+  Litter Basket Request: {class: not_infrastructure}
+  Sanitation Worker or Vehicle Complaint: {class: not_infrastructure}
+  Dumpster Complaint: {class: not_infrastructure}
+  Abandoned Bike: {class: not_infrastructure}
+  Lot Condition: {class: not_infrastructure}
+  Litter Basket Complaint: {class: not_infrastructure}
+  Commercial Disposal Complaint: {class: not_infrastructure}
+
+default_class: not_infrastructure   # any complaint type not listed above
+
+# ---------------------------------------------------------------------------
+# 3. When repeated operating fixes become a capital candidate
+# ---------------------------------------------------------------------------
+# An operating_repair problem is ESCALATED to the capital pipeline when either rule fires
+# for the same complaint type on the same street within one community district in 12 months.
+escalation:
+  repeat_complaints_min: 25        # Decided: same complaint type, same street, 12 months
+  capital_signal_complaints_min: 5  # Decided: capital-signal descriptors on one street, 12 months
+
+# ---------------------------------------------------------------------------
+# 4. Which capital spending addresses which complaints (the equity comparison)
+# ---------------------------------------------------------------------------
+# Only capital in these categories counts as "money addressing 311 needs."
+# Jails, tunnels, treatment plants, dams, bridges, and hospitals are excluded.
+crosswalk:
+  streets:
+    complaint_types: [Street Condition, Curb Condition]
+    capital_categories: [PRIMARY STREET RECONSTRUCTION, PRIMARY STREET RESURFACING, LOCAL STREET RECONSTRUCTION,
+                         RECONSTRUCTION OF STEP STREETS]
+  sidewalks_and_ramps:
+    complaint_types: [Sidewalk Condition, Root/Sewer/Sidewalk Condition]
+    capital_categories: [SIDEWALK RECONSTRUCTION, PEDESTRIAN RAMP CONSTRUCTION]
+  street_lights_and_signals:
+    complaint_types: [Street Light Condition, Traffic Signal Condition]
+    capital_categories: [INSTALLATION OF LAMPPOSTS AND LUMINAIRES, SIGNAL INSTALLATION AND COMPUTERIZATION]
+  sewers_and_flooding:
+    complaint_types: [Sewer, Sewer Maintenance]
+    capital_categories: [REPLACEMENT OR AUGMENTATION OF EXISTING SYSTEMS, EXTENSIONS TO ACCOMMODATE NEW DEVELOPMENT,
+                         GREEN INFRASTRUCTURE PROGRAM, BLUEBELT PROGRAM]
+  water_mains:
+    complaint_types: [Water System, Water Maintenance, Water Quality]
+    capital_categories: [TRUNK AND DISTRIBUTION MAIN REPLACEMENT, TRUNK AND DISTRIBUTION MAIN EXTENSION]
+  street_trees:
+    complaint_types: [Damaged Tree, Dead/Dying Tree, Overgrown Tree/Branches, New Tree Request]
+    capital_categories: ["Land Acquisition, Tree Planting and Green Infrastructure"]
+  parks:
+    complaint_types: [Maintenance or Facility]
+    capital_categories: ["Neighborhood Parks, Playgrounds and Ballfields"]
+    # Only park complaints that escalate (repeated structure problems at one park) count as need.

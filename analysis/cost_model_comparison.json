@@ -1,0 +1,520 @@
+{
+  "summary": [
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.286869,
+      "rmse_log": 1.344411,
+      "median_abs_pct_error": 0.651463,
+      "within_2x": 0.397627,
+      "coverage50": 0.512742,
+      "coverage80": 0.79877,
+      "width50": 6.215266,
+      "width80": 36.881429
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "r2_out_of_sample": 0.293055,
+      "rmse_log": 1.338568,
+      "median_abs_pct_error": 0.644493,
+      "within_2x": 0.395431,
+      "coverage50": 0.517575,
+      "coverage80": 0.813269,
+      "width50": 6.064889,
+      "width80": 30.822578
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.29401,
+      "rmse_log": 1.337662,
+      "median_abs_pct_error": 0.642473,
+      "within_2x": 0.461775,
+      "coverage50": 0.492531,
+      "coverage80": 0.809315,
+      "width50": 4.872876,
+      "width80": 43.468701
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "r2_out_of_sample": 0.29425,
+      "rmse_log": 1.337435,
+      "median_abs_pct_error": 0.640713,
+      "within_2x": 0.463093,
+      "coverage50": 0.496485,
+      "coverage80": 0.793497,
+      "width50": 5.472319,
+      "width80": 26.91272
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.290188,
+      "rmse_log": 1.341279,
+      "median_abs_pct_error": 0.645993,
+      "within_2x": 0.394112,
+      "coverage50": 0.498682,
+      "coverage80": 0.8058,
+      "width50": 6.009825,
+      "width80": 40.679731
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "r2_out_of_sample": 0.294365,
+      "rmse_log": 1.337326,
+      "median_abs_pct_error": 0.646534,
+      "within_2x": 0.393234,
+      "coverage50": 0.519332,
+      "coverage80": 0.811511,
+      "width50": 6.023284,
+      "width80": 30.324924
+    }
+  ],
+  "per_scope": [
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.492308,
+      "width50": 7.65785
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.5,
+      "width50": 6.054922
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.51933,
+      "width50": 5.925631
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.510638,
+      "width50": 6.618178
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.464286,
+      "width50": 6.082182
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.3,
+      "width50": 6.045194
+    },
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.551948,
+      "width50": 6.331386
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.442308,
+      "width50": 6.056551
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.444444,
+      "width50": 6.270107
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.532861,
+      "width50": 6.037468
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.521277,
+      "width50": 6.1042
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.535714,
+      "width50": 6.502343
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.35,
+      "width50": 6.262581
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.551948,
+      "width50": 6.104477
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.503846,
+      "width50": 5.792673
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.592593,
+      "width50": 4.679568
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.497423,
+      "width50": 4.486011
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.478723,
+      "width50": 6.729683
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.357143,
+      "width50": 4.688421
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.4,
+      "width50": 4.697245
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.454545,
+      "width50": 5.09896
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.496154,
+      "width50": 5.295734
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.5,
+      "width50": 4.716882
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.498711,
+      "width50": 5.551196
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.494681,
+      "width50": 4.892551
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.464286,
+      "width50": 5.778965
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.425,
+      "width50": 7.94578
+    },
+    {
+      "model": "current",
+      "ranges": "native",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.5,
+      "width50": 5.249986
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.534615,
+      "width50": 8.647636
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.462963,
+      "width50": 5.915192
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.503222,
+      "width50": 5.635312
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.494681,
+      "width50": 6.09634
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.5,
+      "width50": 5.898892
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.325,
+      "width50": 5.91346
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.454545,
+      "width50": 5.303468
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Full street reconstruction",
+      "n": 130,
+      "coverage50": 0.453846,
+      "width50": 6.022479
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Green and natural drainage",
+      "n": 27,
+      "coverage50": 0.462963,
+      "width50": 6.028899
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Park reconstruction",
+      "n": 776,
+      "coverage50": 0.531572,
+      "width50": 6.022706
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Sewer construction or upgrade",
+      "n": 94,
+      "coverage50": 0.510638,
+      "width50": 6.024573
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Street light replacement",
+      "n": 14,
+      "coverage50": 0.535714,
+      "width50": 6.03654
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Street tree planting",
+      "n": 20,
+      "coverage50": 0.325,
+      "width50": 6.022479
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "scope": "Water main replacement",
+      "n": 77,
+      "coverage50": 0.584416,
+      "width50": 6.02473
+    }
+  ],
+  "tests": [
+    {
+      "model": "hierarchical",
+      "mean_sq_error_change": -0.000291,
+      "paired_t_p": 0.918047,
+      "wilcoxon_p": 0.894944
+    },
+    {
+      "model": "bayesian",
+      "mean_sq_error_change": 0.003031,
+      "paired_t_p": 0.386157,
+      "wilcoxon_p": 0.498265
+    }
+  ],
+  "candidates": [
+    {
+      "model": "bayesian",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.286869,
+      "rmse_log": 1.344411,
+      "median_abs_pct_error": 0.651463,
+      "within_2x": 0.397627,
+      "coverage50": 0.512742,
+      "coverage80": 0.79877,
+      "width50": 6.215266,
+      "width80": 36.881429,
+      "mean_sq_error_change": 0.003031,
+      "paired_t_p": 0.386157,
+      "more_accurate": false,
+      "honest_ranges": true,
+      "no_wider": false,
+      "wins": false
+    },
+    {
+      "model": "bayesian",
+      "ranges": "native",
+      "r2_out_of_sample": 0.293055,
+      "rmse_log": 1.338568,
+      "median_abs_pct_error": 0.644493,
+      "within_2x": 0.395431,
+      "coverage50": 0.517575,
+      "coverage80": 0.813269,
+      "width50": 6.064889,
+      "width80": 30.822578,
+      "mean_sq_error_change": 0.003031,
+      "paired_t_p": 0.386157,
+      "more_accurate": false,
+      "honest_ranges": true,
+      "no_wider": false,
+      "wins": false
+    },
+    {
+      "model": "current",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.29401,
+      "rmse_log": 1.337662,
+      "median_abs_pct_error": 0.642473,
+      "within_2x": 0.461775,
+      "coverage50": 0.492531,
+      "coverage80": 0.809315,
+      "width50": 4.872876,
+      "width80": 43.468701,
+      "more_accurate": false,
+      "honest_ranges": true,
+      "no_wider": true,
+      "wins": false
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "conformal",
+      "r2_out_of_sample": 0.290188,
+      "rmse_log": 1.341279,
+      "median_abs_pct_error": 0.645993,
+      "within_2x": 0.394112,
+      "coverage50": 0.498682,
+      "coverage80": 0.8058,
+      "width50": 6.009825,
+      "width80": 40.679731,
+      "mean_sq_error_change": -0.000291,
+      "paired_t_p": 0.918047,
+      "more_accurate": false,
+      "honest_ranges": true,
+      "no_wider": false,
+      "wins": false
+    },
+    {
+      "model": "hierarchical",
+      "ranges": "native",
+      "r2_out_of_sample": 0.294365,
+      "rmse_log": 1.337326,
+      "median_abs_pct_error": 0.646534,
+      "within_2x": 0.393234,
+      "coverage50": 0.519332,
+      "coverage80": 0.811511,
+      "width50": 6.023284,
+      "width80": 30.324924,
+      "mean_sq_error_change": -0.000291,
+      "paired_t_p": 0.918047,
+      "more_accurate": false,
+      "honest_ranges": true,
+      "no_wider": false,
+      "wins": false
+    }
+  ],
+  "decision": "No new model met all three conditions; the app keeps the current model",
+  "winner": {}
+}

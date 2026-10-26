@@ -1,0 +1,1222 @@
+agency,agency_name,complaint_type,descriptor,n
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Airline,5
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Arcade,7
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Art Supply Store,8
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Auction House or Auctioneer,3
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Automated Employment Decision Tool Use,9
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Bail Bond Agent,8
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,"Barber Shop, Beauty Salon, or Nail Salon",342
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,"Bodega, Deli, or Convenience Store",1502
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Booting Company,83
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Car Rental,167
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Car Wash,595
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Carpet and Flooring Business,11
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Catering Establishment,18
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Cell Phone Store,182
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,"Clothing, Shoe, or Accessories Store",387
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Construction Labor Provider,101
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Dealer in Products for the Disabled,136
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Debt Collection Agency,77
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Department Store or Megastore,178
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Domestic Worker Employment Agency,2
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Door to Door Sales,26
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Drug Store or Pharmacy,326
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Dry Cleaner,104
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,E-Cigarette Sales,329
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Electronics,11
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Electronics Store,256
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Electronics or Appliance Repair,67
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Employment Agency,94
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,For-Profit College or University,13
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Funeral Home,24
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Furniture Store,236
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Games of Chance,26
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Gaming Cafe,6
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Garage or Parking Lot,1051
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Gas Station Convenience Store,111
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Gas Station Pumps,286
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,General Vendor,65
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,"Gift, Novelty, or Souvenir Store",51
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Hardware Store,49
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Home Appliance Store,86
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Home Heating Oil Company,41
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Home Improvement Contractor,502
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Horse-Drawn Cab,14
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Hotel or Motel,653
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Immigration Services Provider,10
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Jewelry Store,52
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Landlord or Real Estate Agent,524
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Laundromat,505
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Locksmith,79
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Micromobility Device Store,22
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Mobile Food Vendor,114
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Movie Theater,19
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Moving Company,68
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Newsstand,31
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Office Supply or Stationery Store,16
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Online or Mail Order,83
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Other Store (Non-Food),1552
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pawnbroker,83
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pedicab,183
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pest Control Services,1
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pet Store,28
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pool or Billiard Room,1
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Pregnancy Services Center,2
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Printing Services,3
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Process Server,52
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Residential Rental Agency,137
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Restaurant,1325
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Scale Dealer or Repairer,15
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Scrap Metal Processor,19
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Self-Storage Facility,13
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Shipping Company,139
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,"Smoking, Cigar, or Vape Store",82
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Stoop Line Stand,970
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Storage Warehouse,317
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Street Fair Vendor,805
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Supermarket or Grocery Store,1209
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Tax Preparation Services,69
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Third-Party Food Delivery Service,127
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Ticket Seller,115
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Tobacco Sales,766
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Tour Bus,20
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Tour Guide,37
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Tow Truck Company,2071
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Travel Agency,29
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Used Car Dealer,536
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Used Goods Dealer,108
+DCWP,Department of Consumer and Worker Protection,Consumer Complaint,Wholesale Food Market,30
+DEP,Department of Environmental Protection,Air Quality,"Air: Dust, Construction/Demolition (AE4)",968
+DEP,Department of Environmental Protection,Air Quality,"Air: Dust, Other (Use Comments) (AE5)",153
+DEP,Department of Environmental Protection,Air Quality,"Air: Odor, Nail Salon (AD8)",68
+DEP,Department of Environmental Protection,Air Quality,"Air: Odor, Sweet From Unknown Source (AZ1)",45
+DEP,Department of Environmental Protection,Air Quality,"Air: Odor/Fumes, Dry Cleaners (AD1)",4
+DEP,Department of Environmental Protection,Air Quality,"Air: Odor/Fumes, Restaurant (AD2)",697
+DEP,Department of Environmental Protection,Air Quality,"Air: Odor/Fumes, Vehicle Idling (AD3)",4150
+DEP,Department of Environmental Protection,Air Quality,Air: Other Air Problem (Use Comments) (AZZ),192
+DEP,Department of Environmental Protection,Air Quality,"Air: Smoke, Chimney or vent (AS1)",459
+DEP,Department of Environmental Protection,Air Quality,"Air: Smoke, Vehicular (AA4)",247
+DEP,Department of Environmental Protection,Air Quality,Asbestos Disturbance,307
+DEP,Department of Environmental Protection,Air Quality,Chimney/Vent Smoke,100
+DEP,Department of Environmental Protection,Air Quality,Dry Cleaner Odor,4
+DEP,Department of Environmental Protection,Air Quality,Dust,43
+DEP,Department of Environmental Protection,Air Quality,Dust from Construction,283
+DEP,Department of Environmental Protection,Air Quality,Nail Salon Odor,13
+DEP,Department of Environmental Protection,Air Quality,Other Air Problem,75
+DEP,Department of Environmental Protection,Air Quality,Restaurant Odor,216
+DEP,Department of Environmental Protection,Air Quality,Sweet Odor From Unknown Source,16
+DEP,Department of Environmental Protection,Air Quality,Vehicle Exhaust Smoke,114
+DEP,Department of Environmental Protection,Air Quality,Vehicle Idling Odor,1428
+DEP,Department of Environmental Protection,Asbestos,Asbestos Complaint (B1),916
+DEP,Department of Environmental Protection,Dry Weather Discharge,From Outfall,6
+DEP,Department of Environmental Protection,Green Infrastructure,Rain Garden,280
+DEP,Department of Environmental Protection,Hazardous Material,Chemical Odor,346
+DEP,Department of Environmental Protection,Hazardous Material,Chemical Safety,34
+DEP,Department of Environmental Protection,Hazardous Material,Chemical Safety/Storage,25
+DEP,Department of Environmental Protection,Hazardous Material,Chemical Spill,143
+DEP,Department of Environmental Protection,Hazardous Material,Oil Spill Large,89
+DEP,Department of Environmental Protection,Hazardous Material,Oil Spill Small,21
+DEP,Department of Environmental Protection,Hazardous Materials,Chemical Odor (HD1),866
+DEP,Department of Environmental Protection,Hazardous Materials,Chemical Spill/Release (HA1),308
+DEP,Department of Environmental Protection,Hazardous Materials,"Oil Spill On Street, Large (HQL)",192
+DEP,Department of Environmental Protection,Hazardous Materials,"Oil Spill On Street, Small (HQS)",108
+DEP,Department of Environmental Protection,Hazardous Materials,"Unsafe Chemical, Abandoned (HC2)",131
+DEP,Department of Environmental Protection,Hazardous Materials,"Unsafe Chemical, Storage (HC1)",70
+DEP,Department of Environmental Protection,Industrial Waste,Chemical Spill,26
+DEP,Department of Environmental Protection,Industrial Waste,Chemical Spill (IAC),75
+DEP,Department of Environmental Protection,Industrial Waste,Color,15
+DEP,Department of Environmental Protection,Industrial Waste,Concrete,56
+DEP,Department of Environmental Protection,Industrial Waste,Concrete In Catch Basin (IEA),200
+DEP,Department of Environmental Protection,Industrial Waste,Gasoline Spill,12
+DEP,Department of Environmental Protection,Industrial Waste,Gasoline Spill (IAA),18
+DEP,Department of Environmental Protection,Industrial Waste,Grease,71
+DEP,Department of Environmental Protection,Industrial Waste,Grease In Sewer/Catch Basin (IDG),123
+DEP,Department of Environmental Protection,Industrial Waste,Odor,43
+DEP,Department of Environmental Protection,Industrial Waste,Odor In Sewer/Catch Basin (ICB),108
+DEP,Department of Environmental Protection,Industrial Waste,Oil Spill Into Basin/Sewer - Large (IABL),47
+DEP,Department of Environmental Protection,Industrial Waste,Oil Spill Into Basin/Sewer - Small (IABS),31
+DEP,Department of Environmental Protection,Industrial Waste,Oil Spill Large,8
+DEP,Department of Environmental Protection,Industrial Waste,Oil Spill Small,7
+DEP,Department of Environmental Protection,Industrial Waste,Sewage,5
+DEP,Department of Environmental Protection,Industrial Waste,Wastewater,69
+DEP,Department of Environmental Protection,Industrial Waste,Wastewater Into Catch Basin (IEB),210
+DEP,Department of Environmental Protection,Industrial Waste,Waterway-Color (IHD),40
+DEP,Department of Environmental Protection,Industrial Waste,Waterway-Sewage (IHA),19
+DEP,Department of Environmental Protection,Lead,Lead Kit,3526
+DEP,Department of Environmental Protection,Lead,Lead Kit Request (Residential) (L10),11787
+DEP,Department of Environmental Protection,Noise,Air Conditioner/Ventilation,1035
+DEP,Department of Environmental Protection,Noise,Alarm,1381
+DEP,Department of Environmental Protection,Noise,Animal Other Than Dog,89
+DEP,Department of Environmental Protection,Noise,Boat,332
+DEP,Department of Environmental Protection,Noise,Construction,4514
+DEP,Department of Environmental Protection,Noise,Construction Equipment,1440
+DEP,Department of Environmental Protection,Noise,Dog,1526
+DEP,Department of Environmental Protection,Noise,Ice Cream Truck,294
+DEP,Department of Environmental Protection,Noise,Jackhammer,466
+DEP,Department of Environmental Protection,Noise,Lawn Care Equipment,297
+DEP,Department of Environmental Protection,Noise,Manufacturing Business/Plant,412
+DEP,Department of Environmental Protection,Noise,"Noise, Barking Dog (NR5)",6889
+DEP,Department of Environmental Protection,Noise,"Noise, Ice Cream Truck (NR4)",816
+DEP,Department of Environmental Protection,Noise,"Noise, Other Animals (NR6)",287
+DEP,Department of Environmental Protection,Noise,Noise:  lawn care equipment (NCL),1030
+DEP,Department of Environmental Protection,Noise,Noise: Alarms (NR3),6461
+DEP,Department of Environmental Protection,Noise,"Noise: Boat(Engine,Music,Etc) (NR10)",531
+DEP,Department of Environmental Protection,Noise,Noise: Construction Before/After Hours (NM1),17711
+DEP,Department of Environmental Protection,Noise,Noise: Construction Equipment (NC1),6348
+DEP,Department of Environmental Protection,Noise,Noise: Jack Hammering (NC2),1840
+DEP,Department of Environmental Protection,Noise,Noise: Loud Music/Daytime (Mark Date And Time) (NN1),2
+DEP,Department of Environmental Protection,Noise,Noise: Manufacturing Noise (NK1),1665
+DEP,Department of Environmental Protection,Noise,Noise: Other Noise Sources (Use Comments) (NZZ),24
+DEP,Department of Environmental Protection,Noise,Noise: Private Carting Noise (NQ1),610
+DEP,Department of Environmental Protection,Noise,Noise: air condition/ventilation equipment (NV1),3758
+DEP,Department of Environmental Protection,Noise,Private Garbage Truck,189
+DEP,Department of Environmental Protection,Plant,DRY WEATHER DISCHARGE - DWD,2
+DEP,Department of Environmental Protection,Plant,Plants- Noise Related Problems (PN1),5
+DEP,Department of Environmental Protection,Plant,Plants- Odor Related Problems (PO1),188
+DEP,Department of Environmental Protection,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6758
+DEP,Department of Environmental Protection,Sewer,Catch Basin Grating Missing (SA4),198
+DEP,Department of Environmental Protection,Sewer,Catch Basin Search (SC2),1330
+DEP,Department of Environmental Protection,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1255
+DEP,Department of Environmental Protection,Sewer,Culvert Blocked/Needs Cleaning (SE),501
+DEP,Department of Environmental Protection,Sewer,Defective/Missing Curb Piece (SC4),248
+DEP,Department of Environmental Protection,Sewer,Highway Flooding (SH),108
+DEP,Department of Environmental Protection,Sewer,Manhole Cover Missing (Emergency) (SA3),1318
+DEP,Department of Environmental Protection,Sewer,Manhole Overflow (Use Comments) (SA1),1200
+DEP,Department of Environmental Protection,Sewer,RAIN GARDEN DEBRIS (GIRGD),316
+DEP,Department of Environmental Protection,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+DEP,Department of Environmental Protection,Sewer,RAIN GARDEN PLANTING (GIRGP),66
+DEP,Department of Environmental Protection,Sewer,RAIN GARDEN STRUCTURE (GIRGS),71
+DEP,Department of Environmental Protection,Sewer,Sewer Backup (Use Comments) (SA),7595
+DEP,Department of Environmental Protection,Sewer,Sewer Odor (SA2),1150
+DEP,Department of Environmental Protection,Sewer,Street Flooding (SJ),3971
+DEP,Department of Environmental Protection,Sewer Maintenance,Backup,2524
+DEP,Department of Environmental Protection,Sewer Maintenance,Catch Basin Clogged,3367
+DEP,Department of Environmental Protection,Sewer Maintenance,Catch Basin Grate Missing,55
+DEP,Department of Environmental Protection,Sewer Maintenance,Catch Basin Search,434
+DEP,Department of Environmental Protection,Sewer Maintenance,Catch Basin Sunken,550
+DEP,Department of Environmental Protection,Sewer Maintenance,Culvert,238
+DEP,Department of Environmental Protection,Sewer Maintenance,Curb Piece,66
+DEP,Department of Environmental Protection,Sewer Maintenance,Flooding on Highway,48
+DEP,Department of Environmental Protection,Sewer Maintenance,Flooding on Street,1527
+DEP,Department of Environmental Protection,Sewer Maintenance,Manhole Cover Missing,316
+DEP,Department of Environmental Protection,Sewer Maintenance,Manhole Overflow,575
+DEP,Department of Environmental Protection,Sewer Maintenance,Odor,442
+DEP,Department of Environmental Protection,Waste Water Treatment Plant,Noise,1
+DEP,Department of Environmental Protection,Waste Water Treatment Plant,Odor,46
+DEP,Department of Environmental Protection,Water Conservation,Fire Hydrant,361
+DEP,Department of Environmental Protection,Water Conservation,Hose,8
+DEP,Department of Environmental Protection,Water Conservation,Illegal Use Of A Hydrant (CIN),1496
+DEP,Department of Environmental Protection,Water Conservation,Illegal Use Of Hose - Other (CCO),34
+DEP,Department of Environmental Protection,Water Conservation,Illegal Use Of Hose - Private Residence (CCR),43
+DEP,Department of Environmental Protection,Water Conservation,Roof Tank,32
+DEP,Department of Environmental Protection,Water Conservation,Rooftank Leak Or Overflow (CKO),99
+DEP,Department of Environmental Protection,Water Conservation,"Wasting Faucets,Sinks,Flushometer,Urinal,Etc. - Other (CWO)",124
+DEP,Department of Environmental Protection,Water Conservation,"Wasting Faucets,Sinks,Flushometer,Urinal,Etc. - Private Residence (CWR)",178
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Broken/Leaking,333
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Broken/Leaking - Other (CMO),862
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Broken/Leaking - Private Residence (CMR),2727
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Missing/Stolen,12
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Stolen/Missing - Other (CLO),11
+DEP,Department of Environmental Protection,Water Conservation,Water Meter Stolen/Missing - Private Residence (CLR),46
+DEP,Department of Environmental Protection,Water Conservation,Water Waste,74
+DEP,Department of Environmental Protection,Water Maintenance,Dirty Water,1953
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Defective,775
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Emergency,2214
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Fender Request,33
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Leaking,1444
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Leaning/Missing,512
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Lock Installation,1
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Running,3527
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Running Full,2700
+DEP,Department of Environmental Protection,Water Maintenance,Fire Hydrant Valve Box,62
+DEP,Department of Environmental Protection,Water Maintenance,High Water Pressure,7
+DEP,Department of Environmental Protection,Water Maintenance,Leak,1821
+DEP,Department of Environmental Protection,Water Maintenance,Low Pressure,252
+DEP,Department of Environmental Protection,Water Maintenance,No Water,547
+DEP,Department of Environmental Protection,Water Maintenance,Water Main Break,1010
+DEP,Department of Environmental Protection,Water Maintenance,Water in Basement,246
+DEP,Department of Environmental Protection,Water Quality,"Clear Water With Organisms (Insects, Worms) (QE2)",10
+DEP,Department of Environmental Protection,Water Quality,Clear Water With Other Particles (Use Comments) (QEZ),88
+DEP,Department of Environmental Protection,Water Quality,Clear With Insects/Worms,4
+DEP,Department of Environmental Protection,Water Quality,Clear With Particles,38
+DEP,Department of Environmental Protection,Water Quality,Cloudy Or Milky Water (QB1),56
+DEP,Department of Environmental Protection,Water Quality,"Cloudy Or Milky, Other (Use Comments) (QBZ)",35
+DEP,Department of Environmental Protection,Water Quality,Cloudy/Milky,29
+DEP,Department of Environmental Protection,Water Quality,Defective Sampling Station,5
+DEP,Department of Environmental Protection,Water Quality,Defective Water Sampling Station (QSS),14
+DEP,Department of Environmental Protection,Water Quality,Drinking Water Information,25
+DEP,Department of Environmental Protection,Water Quality,Grease/Oil,5
+DEP,Department of Environmental Protection,Water Quality,"No Sampling Required, Requested Information (QG2)",88
+DEP,Department of Environmental Protection,Water Quality,Odor/Taste,194
+DEP,Department of Environmental Protection,Water Quality,"Oil, Grease In Water (QD1)",23
+DEP,Department of Environmental Protection,Water Quality,Other Water Problem (Use Comments) (QZZ),1
+DEP,Department of Environmental Protection,Water Quality,"Taste/Odor, Bitter/Metallic (QA3)",84
+DEP,Department of Environmental Protection,Water Quality,"Taste/Odor, Chemical (QA2)",113
+DEP,Department of Environmental Protection,Water Quality,"Taste/Odor, Chlorine (QA1)",103
+DEP,Department of Environmental Protection,Water Quality,"Taste/Odor, Musty/Stale (QA4)",149
+DEP,Department of Environmental Protection,Water Quality,"Taste/Odor, Sewer (QA5)",56
+DEP,Department of Environmental Protection,Water Quality,unknown odor/taste in drinking water (QA6),116
+DEP,Department of Environmental Protection,Water System,Dirty Water (WE),9184
+DEP,Department of Environmental Protection,Water System,Excessive Water In Basement (WEFB),1077
+DEP,Department of Environmental Protection,Water System,Fire Hydrant Emergency (FHE),10604
+DEP,Department of Environmental Protection,Water System,High Water Pressure (WHP),30
+DEP,Department of Environmental Protection,Water System,Hyd Valve Box Cover Missing (WV2),291
+DEP,Department of Environmental Protection,Water System,Hydrant Defective (WC2),2071
+DEP,Department of Environmental Protection,Water System,Hydrant Knocked Over/Missing (WC),1434
+DEP,Department of Environmental Protection,Water System,Hydrant Leaking (WC1),5316
+DEP,Department of Environmental Protection,Water System,Hydrant Running (WC3),9663
+DEP,Department of Environmental Protection,Water System,Hydrant Running Full (WA4),7922
+DEP,Department of Environmental Protection,Water System,LOW WATER PRESSURE - WLWP,1557
+DEP,Department of Environmental Protection,Water System,Leak (Use Comments) (WA2),9538
+DEP,Department of Environmental Protection,Water System,No Water (WNW),4622
+DEP,Department of Environmental Protection,Water System,Possible Water Main Break (Use Comments) (WA1),6022
+DEP,Department of Environmental Protection,Water System,installation of hydrant side post (WHFP),76
+DHS,Department of Homeless Services,Encampment,N/A,13681
+DHS,Department of Homeless Services,Homeless Person Assistance,Chronic,8799
+DHS,Department of Homeless Services,Homeless Person Assistance,Non-Chronic,25504
+DOB,Department of Buildings,AHV Inspection Unit,After Hours Work - With An AHV Permit,119
+DOB,Department of Buildings,BEST/Site Safety,Demolition - Unsafe,409
+DOB,Department of Buildings,BEST/Site Safety,Safety Netting/Guard Rails - Damaged/Inadequate/None (Over 6 Stories/75 Feet),97
+DOB,Department of Buildings,Boilers,Boiler - Defective/Inoperative/No Permit,4193
+DOB,Department of Buildings,Borough Office,Restroom Non-Complaince With Local Law 79/16,17
+DOB,Department of Buildings,Building Marshal's Office,Tenant Safety - Failure To Post/Distribute,1
+DOB,Department of Buildings,Building Marshal's Office,Tenant Safety Inspection,17
+DOB,Department of Buildings,Building Marshals office,Unlicensed/Illegal/Improper Work In Progress,1
+DOB,Department of Buildings,Building/Use,Illegal Conversion Of Residential Building/Space,16927
+DOB,Department of Buildings,Building/Use,Illegal. Commercial Use In Resident Zone,1447
+DOB,Department of Buildings,Building/Use,No Certificate Of Occupancy/Illegal/Contrary To CO,4248
+DOB,Department of Buildings,Building/Use,SRO - Illegal Work/No Permit/Change In Occupancy/Use,948
+DOB,Department of Buildings,Building/Use,Zoning - Non-Conforming/Illegal Vehicle Storage,2292
+DOB,Department of Buildings,Construction Safety Enforcement,CSC - Monitoring Tracking,2110
+DOB,Department of Buildings,Construction Safety Enforcement,CSE - Tracking Compliance,2
+DOB,Department of Buildings,Cranes and Derricks,Crane/Suspension Scaffold - No Permit/License/Cert./Unsafe/Illegal,76
+DOB,Department of Buildings,Dept of Investigations,Integrity Complaint Referral,20
+DOB,Department of Buildings,Electrical,Electrical Wiring Defective/Exposed,2517
+DOB,Department of Buildings,Elevator,Elevator - Multiple Devices On Property,10476
+DOB,Department of Buildings,Elevator,Elevator - Single Device On Property/No Alternate Service,15188
+DOB,Department of Buildings,Emergency Response Team (ERT),After Hours Work - Illegal,3062
+DOB,Department of Buildings,Emergency Response Team (ERT),Lights From Parking Lot Shining On Building,483
+DOB,Department of Buildings,General Construction/Plumbing,Adjacent Buildings Not Protected,848
+DOB,Department of Buildings,General Construction/Plumbing,"Building - Vacant, Open And Unguarded",1093
+DOB,Department of Buildings,General Construction/Plumbing,Building Permit - None,9535
+DOB,Department of Buildings,General Construction/Plumbing,Building Shaking/Vibrating/Structural Stability,3764
+DOB,Department of Buildings,General Construction/Plumbing,Cons - Contrary/Beyond Approved Plans/Permits,3171
+DOB,Department of Buildings,General Construction/Plumbing,Construction - Change Grade/Watercourse,161
+DOB,Department of Buildings,General Construction/Plumbing,Curb Cut/Driveway/Carport - Illegal,2622
+DOB,Department of Buildings,General Construction/Plumbing,Debris - Excessive,1153
+DOB,Department of Buildings,General Construction/Plumbing,Debris - Falling Or In Danger Of Falling,1033
+DOB,Department of Buildings,General Construction/Plumbing,Deck Inspection,7
+DOB,Department of Buildings,General Construction/Plumbing,Egress - Doors Locked/Blocked/Improper/No Secondary Means,1944
+DOB,Department of Buildings,General Construction/Plumbing,Excavation Undermining Adjacent Building,154
+DOB,Department of Buildings,General Construction/Plumbing,Failure To Maintain,841
+DOB,Department of Buildings,General Construction/Plumbing,Failure to Comply with Vacate Order,258
+DOB,Department of Buildings,General Construction/Plumbing,Fence - None/Inadequate,2779
+DOB,Department of Buildings,General Construction/Plumbing,Illegal Conversion Of Commercial Bldg/Space To Other Uses,225
+DOB,Department of Buildings,General Construction/Plumbing,Inadequate Support Shoring,20
+DOB,Department of Buildings,General Construction/Plumbing,Landmark Bldg - Illegal Work,94
+DOB,Department of Buildings,General Construction/Plumbing,Material Storage - Unsafe,35
+DOB,Department of Buildings,General Construction/Plumbing,Posted Notice Or Order Removed/Tampered With,577
+DOB,Department of Buildings,General Construction/Plumbing,Safety Inspection-Retaining Walls (May 2005),15
+DOB,Department of Buildings,General Construction/Plumbing,Safety Netting/Guard Rails - Damaged/Inadequate/None (6 Stories/75 Feet Or Less),153
+DOB,Department of Buildings,General Construction/Plumbing,Sidewalk Shed/Pipe Scafford - Inadequate Defective/None,4408
+DOB,Department of Buildings,General Construction/Plumbing,Site Conditions Endangering Workers,805
+DOB,Department of Buildings,General Construction/Plumbing,Smoking Ban - Smoking on Construction Site,19
+DOB,Department of Buildings,General Construction/Plumbing,"Smoking Signs - ""No Smoking"" Signs Not Observed on Construction Site",21
+DOB,Department of Buildings,General Construction/Plumbing,Structural Stability Impacted - New Building Under Construction,78
+DOB,Department of Buildings,General Construction/Plumbing,Vent/Exhaust - Illegal/Improper,1275
+DOB,Department of Buildings,General Construction/Plumbing,Wall/Retaining Wall - Bulging/Cracked,446
+DOB,Department of Buildings,General Construction/Plumbing,Working Contrary To Stop Work Order,2440
+DOB,Department of Buildings,Investigations and Discipline (IAD),Investigative Inspection,530
+DOB,Department of Buildings,Investigations and Discipline (IAD),Plumbing Work - Unlicensed/Illegal/Improper Work In Progress,209
+DOB,Department of Buildings,Plumbing,Failure To Retain Water/Improper Drainage- (LL103/89),1475
+DOB,Department of Buildings,Plumbing,Gas Hook-Up/Piping - Illegal Or Defective,385
+DOB,Department of Buildings,Plumbing,Plumbing Work - Illegal/No Permit/Standpipe/Sprinkler,909
+DOB,Department of Buildings,Plumbing,Plumbing-Defective/Leaking/Not Maintained,922
+DOB,Department of Buildings,Plumbing,Sprinkler System - Inadequate,170
+DOB,Department of Buildings,Real Time Enforcement,Work Without A Permit - Occupied Multiple Dwelling,6258
+DOB,Department of Buildings,Scaffold Safety,Suspended (Hanging) Scaffolds - No Pmt/Lic/Dangerous/Accident,140
+DOB,Department of Buildings,Special Natural Area District (SNAD),Illegal Tree Removal/Topo. Change in SNAD,37
+DOB,Department of Buildings,Special Operations,Special Operations Compliance Inspection,158
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Adult Establishment,220
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Advertising Sign/Billboard/Posters/Flexible Fabric - Illegal,440
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Illegal Conversion Of Manufacturing/Industrial Space,21
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Illegal Hotel Rooms In Residential Building,2041
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Privately Owned Public Space/Non-Compliance,311
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Sign - In Danger Of Falling,64
+DOB,Department of Buildings,Special Projects Inspection Team (SPIT),Sign/Awning/Marquee - Illegal/No Permit,933
+DOE,Department of Education,School Maintenance,Air Conditioning Problem,11
+DOE,Department of Education,School Maintenance,Asbestos,5
+DOE,Department of Education,School Maintenance,Broken Fence,1
+DOE,Department of Education,School Maintenance,Broken Lock,2
+DOE,Department of Education,School Maintenance,Broken Water Fountain,10
+DOE,Department of Education,School Maintenance,Broken Window,1
+DOE,Department of Education,School Maintenance,Graffiti,10
+DOE,Department of Education,School Maintenance,Heating Problem,249
+DOE,Department of Education,School Maintenance,Lack of Supplies,7
+DOE,Department of Education,School Maintenance,Leaky Roof,4
+DOE,Department of Education,School Maintenance,Other School Condition,123
+DOE,Department of Education,School Maintenance,Plumbing Problem,52
+DOE,Department of Education,School Maintenance,Rodents/Mice,109
+DOE,Department of Education,School Maintenance,Snow/Ice,354
+DOE,Department of Education,School Maintenance,Unclean Condition,107
+DOHMH,Department of Health and Mental Hygiene,Animal Facility - No Permit,N/A,168
+DOHMH,Department of Health and Mental Hygiene,Asbestos,N/A,636
+DOHMH,Department of Health and Mental Hygiene,Beach/Pool/Sauna Complaint,Beach/Pool Water,67
+DOHMH,Department of Health and Mental Hygiene,Beach/Pool/Sauna Complaint,Beach/Pool/Sauna Unpermitted,22
+DOHMH,Department of Health and Mental Hygiene,Beach/Pool/Sauna Complaint,Facility Maintenance,107
+DOHMH,Department of Health and Mental Hygiene,Beach/Pool/Sauna Complaint,Safety Equipment/Signs,59
+DOHMH,Department of Health and Mental Hygiene,Building Drinking Water Tank,Broken or Defective,9
+DOHMH,Department of Health and Mental Hygiene,Building Drinking Water Tank,Unsanitary Condition,73
+DOHMH,Department of Health and Mental Hygiene,Calorie Labeling,Failure to Post Calorie Information,8
+DOHMH,Department of Health and Mental Hygiene,Construction Lead Dust,Coming into Apartment,316
+DOHMH,Department of Health and Mental Hygiene,Construction Lead Dust,Common Areas and Apartment,377
+DOHMH,Department of Health and Mental Hygiene,Construction Lead Dust,In Common Areas,662
+DOHMH,Department of Health and Mental Hygiene,Cooling Tower,Broken/Defective,26
+DOHMH,Department of Health and Mental Hygiene,Cooling Tower,Unsanitary Condition,53
+DOHMH,Department of Health and Mental Hygiene,Day Care,Day Care Facility,1571
+DOHMH,Department of Health and Mental Hygiene,Day Care,Other,9
+DOHMH,Department of Health and Mental Hygiene,Day Care,Summer Camp,104
+DOHMH,Department of Health and Mental Hygiene,Day Care,Unlicensed Day Care,1
+DOHMH,Department of Health and Mental Hygiene,Drinking Water,Illness Caused by Drinking Water,361
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Allergy Information,64
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Bare Hands in Contact w/ Food,691
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Dishwashing/Utensils,136
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Facility Construction,85
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Contains Foreign Object,578
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Contaminated,818
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Preparation Location,180
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Protection,352
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Spoiled,1304
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Temperature,520
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Worker Activity,68
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Worker Hygiene,403
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Food Worker Illness,33
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Handwashing,105
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Kitchen/Food Prep Area,567
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Letter Grading,951
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Lighting,2
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Milk Not Pasteurized,2
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,No Permit or License,537
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Odor,291
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Permit/License/Certificate,155
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Pesticide,34
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Pet/Animal,1606
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Plumbing,44
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Rodents/Insects/Garbage,4198
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Sewage,41
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Sign,15
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Sodium Warning,10
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Toilet Facility,341
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Toxic Chemical/Material,44
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Ventilation,56
+DOHMH,Department of Health and Mental Hygiene,Food Establishment,Water,40
+DOHMH,Department of Health and Mental Hygiene,Food Poisoning,1 or 2,2584
+DOHMH,Department of Health and Mental Hygiene,Food Poisoning,3 or More,498
+DOHMH,Department of Health and Mental Hygiene,Harboring Bees/Wasps,Beekeeping - Honeybees,55
+DOHMH,Department of Health and Mental Hygiene,Harboring Bees/Wasps,Bees/Wasps - Not a beekeper,376
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Farm Animal,52
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Ferret,17
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Iguana,1
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Monkey,5
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Other,132
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Rooster,394
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Snake,16
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Kept as Pet,Turtle Under 4 inches Long,1
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Farm Animal,5
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Ferret,2
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Monkey,3
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Other,39
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Rooster,1
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Snake,2
+DOHMH,Department of Health and Mental Hygiene,Illegal Animal Sold,Turtle Under 4 inches Long,72
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Chemical Vapors/Gases/Odors,3599
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Dry Cleaning Vapors (PERC),25
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Dust from Construction,940
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Human Feces,302
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,N/A,1
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Other (Explain Below),1453
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Sewage Odor,1802
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Unsafe Mold Cleanup,222
+DOHMH,Department of Health and Mental Hygiene,Indoor Air Quality,Ventilation,2288
+DOHMH,Department of Health and Mental Hygiene,Indoor Sewage,Sewage Leak,691
+DOHMH,Department of Health and Mental Hygiene,Lifeguard,Absent,16
+DOHMH,Department of Health and Mental Hygiene,Lifeguard,Inattentive,11
+DOHMH,Department of Health and Mental Hygiene,Lifeguard,Not Certified,1
+DOHMH,Department of Health and Mental Hygiene,Lifeguard,Too Few on Duty,2
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Equipment,593
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Food Source/Protection,610
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Food Temperature,382
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Food Worker Activity,515
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Insects / Pests,252
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Milk/Dairy Products,8
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Permit/License/Certificate,122
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Plumbing,88
+DOHMH,Department of Health and Mental Hygiene,Mobile Food Vendor,Smoke/Odor,302
+DOHMH,Department of Health and Mental Hygiene,Mold,Loft Building,43
+DOHMH,Department of Health and Mental Hygiene,Mold,Public Complaint - Comm Location,335
+DOHMH,Department of Health and Mental Hygiene,Mold,Workplace - 10 or Less Staff,1
+DOHMH,Department of Health and Mental Hygiene,Mosquitoes,Large Number of Mosquitoes,623
+DOHMH,Department of Health and Mental Hygiene,Non-Residential Heat,Inadequate or No Heat,1603
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Animals Sold From Residence,158
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Cat Sold,10
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Dog Sold,24
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Illegal Animal Sold,9
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Inadequate Care,22
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,No Animal Handling Certificate,6
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,No Permit,14
+DOHMH,Department of Health and Mental Hygiene,Pet Sale,Unsanitary Conditions,15
+DOHMH,Department of Health and Mental Hygiene,Poison Ivy,N/A,173
+DOHMH,Department of Health and Mental Hygiene,Radioactive Material,Contamination Risk,10
+DOHMH,Department of Health and Mental Hygiene,Radioactive Material,Material Stored Improperly,3
+DOHMH,Department of Health and Mental Hygiene,Radioactive Material,User Unlicensed,2
+DOHMH,Department of Health and Mental Hygiene,Rodent,Condition Attracting Rodents,5992
+DOHMH,Department of Health and Mental Hygiene,Rodent,Mouse Sighting,842
+DOHMH,Department of Health and Mental Hygiene,Rodent,Rat Sighting,16950
+DOHMH,Department of Health and Mental Hygiene,Rodent,Signs of Rodents,1482
+DOHMH,Department of Health and Mental Hygiene,Smoking or Vaping,Allowed in Smoke Free Area,7983
+DOHMH,Department of Health and Mental Hygiene,Smoking or Vaping,Ashtray in Smoke-Free Area,20
+DOHMH,Department of Health and Mental Hygiene,Smoking or Vaping,Sign Inadequate,122
+DOHMH,Department of Health and Mental Hygiene,Smoking or Vaping,Workplace Policy Not Provided or Inadequate,18
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Basement,7
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Bird Bath,8
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Building Foundation,31
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Container - Over 5 Gallons,127
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Container - Under 5 Gallons,27
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Flower Planters,21
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Fountain - Over 5 Gallons,9
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Fountain - Under 5 Gallons,4
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Other - Explain Below,403
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Puddle in Ground,276
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Puddle on Driveway,52
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Puddle on Roof,52
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Puddle on Sidewalk,112
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Roof Gutters,10
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Sewer or Drain,93
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Swimming Pool - Unmaintained,317
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Swimming Pool Cover,38
+DOHMH,Department of Health and Mental Hygiene,Standing Water,Tires,21
+DOHMH,Department of Health and Mental Hygiene,Tanning,Child or Minor Tanning,2
+DOHMH,Department of Health and Mental Hygiene,Tanning,Equipment Maintenance,2
+DOHMH,Department of Health and Mental Hygiene,Tanning,Injury or Illness from Tanning,4
+DOHMH,Department of Health and Mental Hygiene,Tanning,Operator Not Present,1
+DOHMH,Department of Health and Mental Hygiene,Tattooing,Dirty/Inadequate Eqp/Facility,64
+DOHMH,Department of Health and Mental Hygiene,Tattooing,Minor Received Tattoo,18
+DOHMH,Department of Health and Mental Hygiene,Tattooing,No Consent Form,13
+DOHMH,Department of Health and Mental Hygiene,Tattooing,Tattoo Artist Unlicensed,147
+DOHMH,Department of Health and Mental Hygiene,Tobacco or Non-Tobacco Sale,Banned Tobacco Flavors Sold,61
+DOHMH,Department of Health and Mental Hygiene,Tobacco or Non-Tobacco Sale,Original Labels or Packaging Not Kept,68
+DOHMH,Department of Health and Mental Hygiene,Tobacco or Non-Tobacco Sale,Shisha Sold to Minor,21
+DOHMH,Department of Health and Mental Hygiene,Trapping Pigeon,N/A,1
+DOHMH,Department of Health and Mental Hygiene,Unleashed Dog,Unleashed Dog in Public,1866
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Animal Facility,Animal Odor,40
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Animal Facility,Animal Waste,35
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Animal Pvt Property,Cat,857
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Animal Pvt Property,Dog,1820
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Animal Pvt Property,Other Animal,393
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Pigeon Condition,Pigeon Odor,157
+DOHMH,Department of Health and Mental Hygiene,Unsanitary Pigeon Condition,Pigeon Waste,1677
+DOHMH,Department of Health and Mental Hygiene,Window Guard,Inside Apartment,1
+DOHMH,Department of Health and Mental Hygiene,Window Guard,Tenant Refusal,26
+DOHMH,Department of Health and Mental Hygiene,X-Ray Machine/Equipment,Exposure Unnecessary,8
+DOHMH,Department of Health and Mental Hygiene,X-Ray Machine/Equipment,Exposure from Nearby Facility,1
+DOHMH,Department of Health and Mental Hygiene,X-Ray Machine/Equipment,Facility Unregistered,2
+DOHMH,Department of Health and Mental Hygiene,X-Ray Machine/Equipment,Technician Unlicensed,1
+DOT,Department of Transportation,Bench,Damaged/Bent/Loose/Leaning,110
+DOT,Department of Transportation,Bench,Graffiti,6
+DOT,Department of Transportation,Bench,Missing,33
+DOT,Department of Transportation,Bike Rack,Abandoned Bike,430
+DOT,Department of Transportation,Bike Rack,Damaged/Bent/Loose/Leaning,249
+DOT,Department of Transportation,Bike Rack,Graffiti,2
+DOT,Department of Transportation,Bike Rack,Missing,55
+DOT,Department of Transportation,Bridge Condition,American Flag,1
+DOT,Department of Transportation,Bridge Condition,Decorative Necklace Lighting,7
+DOT,Department of Transportation,Bridge Condition,"Dirt, Debris, Litter Complaint",68
+DOT,Department of Transportation,Bridge Condition,Fallen Debris from Bridge,13
+DOT,Department of Transportation,Bridge Condition,Fence,14
+DOT,Department of Transportation,Bridge Condition,Graffiti - Bridge,20
+DOT,Department of Transportation,Bridge Condition,Guard Rail - Bridge,8
+DOT,Department of Transportation,Bridge Condition,Pothole,278
+DOT,Department of Transportation,Bridge Condition,Rough Pavement,39
+DOT,Department of Transportation,Bridge Condition,Snow on Overpass,41
+DOT,Department of Transportation,Broken Parking Meter,Bent/Loose,65
+DOT,Department of Transportation,Broken Parking Meter,Coin or Card Did Not Register,813
+DOT,Department of Transportation,Broken Parking Meter,Credit Card Stuck in Meter,54
+DOT,Department of Transportation,Broken Parking Meter,Graffiti,43
+DOT,Department of Transportation,Broken Parking Meter,Missing/Stump,56
+DOT,Department of Transportation,Broken Parking Meter,No Receipt,676
+DOT,Department of Transportation,Broken Parking Meter,Out of Order,1005
+DOT,Department of Transportation,Broken Parking Meter,Parking Card Stuck in Meter,13
+DOT,Department of Transportation,Broken Parking Meter,Relocation of Parking Meter,9
+DOT,Department of Transportation,Broken Parking Meter,Timer Defect - Fast/Fail,83
+DOT,Department of Transportation,Building Condition,Bikes in Buildings,3
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Broken Glass,399
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Damaged Bench,78
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Damaged Leg or Pole Bent,5
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Damaged Other,127
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Damaged or Leaking Roof,6
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Damaged or Missing Ad Box,15
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Dirty/Graffiti,382
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Lighting,108
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Sign Missing or Defective,40
+DOT,Department of Transportation,Bus Stop Shelter Complaint,Snow Removal Requested,814
+DOT,Department of Transportation,Bus Stop Shelter Placement,New Bus Stop Shelter Placement,321
+DOT,Department of Transportation,Curb Condition,Broken Curb,5287
+DOT,Department of Transportation,Curb Condition,Curb Defect-Metal Protruding,615
+DOT,Department of Transportation,Curb Condition,Curb Violation,7
+DOT,Department of Transportation,Curb Condition,Defacement,2949
+DOT,Department of Transportation,DEP Highway Condition,Cave-in,3
+DOT,Department of Transportation,DEP Highway Condition,Defective Manhole Cover,1
+DOT,Department of Transportation,DEP Highway Condition,Plate Condition - DEP,1
+DOT,Department of Transportation,DEP Sidewalk Condition,Cave-in,1
+DOT,Department of Transportation,DEP Sidewalk Condition,Concrete Around Hydrant,2
+DOT,Department of Transportation,DEP Sidewalk Condition,Defective Catch Basin,2
+DOT,Department of Transportation,DEP Street Condition,Cave-in,8
+DOT,Department of Transportation,DEP Street Condition,Concrete Around Hydrant,1
+DOT,Department of Transportation,DEP Street Condition,Defective Catch Basin,2
+DOT,Department of Transportation,DEP Street Condition,Defective Manhole Cover,2
+DOT,Department of Transportation,DEP Street Condition,Failed Street Cut - DEP,1
+DOT,Department of Transportation,E-Scooter,Damaged or Vandalized,8
+DOT,Department of Transportation,E-Scooter,Improperly Parked or Abandoned,422
+DOT,Department of Transportation,E-Scooter,Parking Corral Not Maintained,24
+DOT,Department of Transportation,Ferry Complaint,Announcements,4
+DOT,Department of Transportation,Ferry Complaint,Cleanliness,15
+DOT,Department of Transportation,Ferry Complaint,Delays,32
+DOT,Department of Transportation,Ferry Complaint,Disruptive Passenger,13
+DOT,Department of Transportation,Ferry Complaint,General Complaint,132
+DOT,Department of Transportation,Ferry Complaint,Homeless Issue,2
+DOT,Department of Transportation,Ferry Complaint,Restrooms,9
+DOT,Department of Transportation,Ferry Inquiry,General Inquiry,9
+DOT,Department of Transportation,Ferry Inquiry,Lost and Found,387
+DOT,Department of Transportation,Highway Condition,Cave-in,516
+DOT,Department of Transportation,Highway Condition,Concrete Barrier,11
+DOT,Department of Transportation,Highway Condition,Crash Cushion Defect,58
+DOT,Department of Transportation,Highway Condition,Dead Animal,221
+DOT,Department of Transportation,Highway Condition,Graffiti - Highway,442
+DOT,Department of Transportation,Highway Condition,Guard Rail - Highway,14
+DOT,Department of Transportation,Highway Condition,High Grass,88
+DOT,Department of Transportation,Highway Condition,Highway Fence,56
+DOT,Department of Transportation,Highway Condition,Loose Plate,67
+DOT,Department of Transportation,Highway Condition,Painted Line/Marking,165
+DOT,Department of Transportation,Highway Condition,Pothole - Highway,3932
+DOT,Department of Transportation,Highway Condition,Sign Blocked by Tree,14
+DOT,Department of Transportation,Highway Condition,Unsafe Worksite,60
+DOT,Department of Transportation,Highway Sign - Damaged,Construction,5
+DOT,Department of Transportation,Highway Sign - Damaged,Electronic Sign - Overhead,14
+DOT,Department of Transportation,Highway Sign - Damaged,Electronic Sign - Portable,1
+DOT,Department of Transportation,Highway Sign - Damaged,Exit/Route,22
+DOT,Department of Transportation,Highway Sign - Damaged,Other/Unknown,32
+DOT,Department of Transportation,Highway Sign - Damaged,Speed Limit,5
+DOT,Department of Transportation,Highway Sign - Dangling,Construction,3
+DOT,Department of Transportation,Highway Sign - Dangling,Exit/Route,11
+DOT,Department of Transportation,Highway Sign - Dangling,Other/Unknown,9
+DOT,Department of Transportation,Highway Sign - Missing,Construction,6
+DOT,Department of Transportation,Highway Sign - Missing,Exit/Route,16
+DOT,Department of Transportation,Highway Sign - Missing,Other/Unknown,21
+DOT,Department of Transportation,Leaning Bar,Damaged/Bent/Loose/Leaning,3
+DOT,Department of Transportation,Leaning Bar,Graffiti,1
+DOT,Department of Transportation,Municipal Parking Facility,"Dirt, Litter, Debris - Garage",4
+DOT,Department of Transportation,Municipal Parking Facility,"Dirt, Litter, Debris - Lot",12
+DOT,Department of Transportation,Municipal Parking Facility,General Maintenance,21
+DOT,Department of Transportation,Municipal Parking Facility,Lighting - Garage,1
+DOT,Department of Transportation,Municipal Parking Facility,Sign Defect - Garage,1
+DOT,Department of Transportation,Municipal Parking Facility,Sign Defect - Lot,2
+DOT,Department of Transportation,Municipal Parking Facility,Snow Removal,32
+DOT,Department of Transportation,Outdoor Dining,Barrier Condition,111
+DOT,Department of Transportation,Outdoor Dining,Restaurant Status,664
+DOT,Department of Transportation,Outdoor Dining,Sidewalk Zone Blocked,1701
+DOT,Department of Transportation,Outdoor Dining,Site Setup Condition,488
+DOT,Department of Transportation,Outdoor Dining,Street Zone Blocked,227
+DOT,Department of Transportation,Public Toilet,Broken Glass,1
+DOT,Department of Transportation,Public Toilet,Damaged Door,3
+DOT,Department of Transportation,Public Toilet,Damaged Other,19
+DOT,Department of Transportation,Public Toilet,Damaged Safety Alert Buttons,2
+DOT,Department of Transportation,Public Toilet,Damaged Toilet/Sink,2
+DOT,Department of Transportation,Public Toilet,Dirty/Graffiti,7
+DOT,Department of Transportation,Public Toilet,Flooded,4
+DOT,Department of Transportation,Public Toilet,Lighting/Electrical,1
+DOT,Department of Transportation,Public Toilet,New Automatic Public Toilet Request,27
+DOT,Department of Transportation,SNW,Unspecified,33
+DOT,Department of Transportation,Sidewalk Condition,Blocked - ATM,103
+DOT,Department of Transportation,Sidewalk Condition,Blocked - Construction,3491
+DOT,Department of Transportation,Sidewalk Condition,Broken Sidewalk,10851
+DOT,Department of Transportation,Sidewalk Condition,Canopy Complaint,72
+DOT,Department of Transportation,Sidewalk Condition,Cellar Door Defective,94
+DOT,Department of Transportation,Sidewalk Condition,Cellar Door New,1
+DOT,Department of Transportation,Sidewalk Condition,Cellar Door Open/Unprotected,167
+DOT,Department of Transportation,Sidewalk Condition,Defacement,3
+DOT,Department of Transportation,Sidewalk Condition,Defective Hardware,684
+DOT,Department of Transportation,Sidewalk Condition,Dumpster - Construction Waste,312
+DOT,Department of Transportation,Sidewalk Condition,Metal Protruding - Sign Stump,121
+DOT,Department of Transportation,Sidewalk Condition,Newspaper Box Complaint,138
+DOT,Department of Transportation,Sidewalk Condition,Pedestrian Ramp Defective,793
+DOT,Department of Transportation,Sidewalk Condition,Sidewalk Collapsed,801
+DOT,Department of Transportation,Sidewalk Condition,Sidewalk Grating - Defective,272
+DOT,Department of Transportation,Sidewalk Condition,Sidewalk Grating - Missing,56
+DOT,Department of Transportation,Sidewalk Condition,Sidewalk Staircase,148
+DOT,Department of Transportation,Sidewalk Condition,Sidewalk Violation,8287
+DOT,Department of Transportation,Sidewalk Condition,Unsafe Worksite,7
+DOT,Department of Transportation,Street Condition,Blocked - Construction,4616
+DOT,Department of Transportation,Street Condition,Cave-in,18661
+DOT,Department of Transportation,Street Condition,Crash Cushion Defect,129
+DOT,Department of Transportation,Street Condition,Defacement,13
+DOT,Department of Transportation,Street Condition,Defective Hardware,6586
+DOT,Department of Transportation,Street Condition,Depression Maintenance,124
+DOT,Department of Transportation,Street Condition,Dumpster - Construction Waste,723
+DOT,Department of Transportation,Street Condition,Failed Street Repair,4519
+DOT,Department of Transportation,Street Condition,General Bad Condition,2
+DOT,Department of Transportation,Street Condition,Guard Rail - Street,137
+DOT,Department of Transportation,Street Condition,Hummock,14
+DOT,Department of Transportation,Street Condition,Line/Marking - After Repaving,781
+DOT,Department of Transportation,Street Condition,Line/Marking - Faded,840
+DOT,Department of Transportation,Street Condition,Maintenance Cover,2
+DOT,Department of Transportation,Street Condition,Plate Condition - Anti-Skid,29
+DOT,Department of Transportation,Street Condition,Plate Condition - Noisy,2653
+DOT,Department of Transportation,Street Condition,Plate Condition - Open,63
+DOT,Department of Transportation,Street Condition,Plate Condition - Shifted,716
+DOT,Department of Transportation,Street Condition,Pothole,75011
+DOT,Department of Transportation,Street Condition,"Rough, Pitted or Cracked Roads",4362
+DOT,Department of Transportation,Street Condition,Strip Paving,2
+DOT,Department of Transportation,Street Condition,Unsafe Worksite,86
+DOT,Department of Transportation,Street Condition,Wear & Tear,279
+DOT,Department of Transportation,Street Light Condition,Bracket Arm Bent,9
+DOT,Department of Transportation,Street Light Condition,Bracket Arm Broken,19
+DOT,Department of Transportation,Street Light Condition,Bracket Arm Loose,14
+DOT,Department of Transportation,Street Light Condition,Bracket Arm Missing,28
+DOT,Department of Transportation,Street Light Condition,Control Panel Damaged,7
+DOT,Department of Transportation,Street Light Condition,Defective Streetlight,1
+DOT,Department of Transportation,Street Light Condition,Fire Alarm Lamp Dayburning,1
+DOT,Department of Transportation,Street Light Condition,Fire Alarm Lamp Missing,1
+DOT,Department of Transportation,Street Light Condition,Fire Globe Missing,4
+DOT,Department of Transportation,Street Light Condition,Fixture/Luminaire Damaged,201
+DOT,Department of Transportation,Street Light Condition,Fixture/Luminaire Door Open,113
+DOT,Department of Transportation,Street Light Condition,Fixture/Luminaire Hanging,581
+DOT,Department of Transportation,Street Light Condition,Fixture/Luminaire Missing,113
+DOT,Department of Transportation,Street Light Condition,Fixture/Luminaire Out Of Position,163
+DOT,Department of Transportation,Street Light Condition,Flood Light Lamp Cycling,24
+DOT,Department of Transportation,Street Light Condition,Flood Light Lamp Dayburning,7
+DOT,Department of Transportation,Street Light Condition,Flood Light Lamp Dim,9
+DOT,Department of Transportation,Street Light Condition,Flood Light Lamp Missing,10
+DOT,Department of Transportation,Street Light Condition,Flood Light Lamp Out,129
+DOT,Department of Transportation,Street Light Condition,Foreign Attachment On Lamppost,20
+DOT,Department of Transportation,Street Light Condition,Foreign Attachment On Wood Pole,3
+DOT,Department of Transportation,Street Light Condition,Glassware Broken,10
+DOT,Department of Transportation,Street Light Condition,Glassware Hanging,41
+DOT,Department of Transportation,Street Light Condition,Glassware Missing,23
+DOT,Department of Transportation,Street Light Condition,Lamppost Base Door/Cover Damaged,103
+DOT,Department of Transportation,Street Light Condition,Lamppost Base Door/Cover Missing,123
+DOT,Department of Transportation,Street Light Condition,Lamppost Base Door/Cover Open,216
+DOT,Department of Transportation,Street Light Condition,Lamppost Damaged,471
+DOT,Department of Transportation,Street Light Condition,Lamppost Knocked Down,639
+DOT,Department of Transportation,Street Light Condition,Lamppost Leaning,338
+DOT,Department of Transportation,Street Light Condition,Lamppost Missing,338
+DOT,Department of Transportation,Street Light Condition,Lamppost Wire Exposed,512
+DOT,Department of Transportation,Street Light Condition,Multiple St Lts Dayburning,73
+DOT,Department of Transportation,Street Light Condition,Multiple Street Lights Out,1170
+DOT,Department of Transportation,Street Light Condition,New Con Ed Service Request,136
+DOT,Department of Transportation,Street Light Condition,Photocell (PEC) Missing,1
+DOT,Department of Transportation,Street Light Condition,Street Light Cycling,510
+DOT,Department of Transportation,Street Light Condition,Street Light Dayburning,549
+DOT,Department of Transportation,Street Light Condition,Street Light Lamp Dim,463
+DOT,Department of Transportation,Street Light Condition,Street Light Lamp Missing,315
+DOT,Department of Transportation,Street Light Condition,Street Light Out,29977
+DOT,Department of Transportation,Street Light Condition,Time Clock Maladjusted,9
+DOT,Department of Transportation,Street Light Condition,Traffic Signal Light,559
+DOT,Department of Transportation,Street Light Condition,Wood Pole Damaged,1
+DOT,Department of Transportation,Street Light Condition,Wood Pole Knocked Down,2
+DOT,Department of Transportation,Street Light Condition,Wood Pole Leaning,4
+DOT,Department of Transportation,Street Light Condition,Wood Pole Wires Exposed,1
+DOT,Department of Transportation,Street Sign - Damaged,Bus Stop,389
+DOT,Department of Transportation,Street Sign - Damaged,Construction,90
+DOT,Department of Transportation,Street Sign - Damaged,Detour,22
+DOT,Department of Transportation,Street Sign - Damaged,Do Not Block the Box,1
+DOT,Department of Transportation,Street Sign - Damaged,Do Not Enter,81
+DOT,Department of Transportation,Street Sign - Damaged,Honorary,10
+DOT,Department of Transportation,Street Sign - Damaged,No Idling,4
+DOT,Department of Transportation,Street Sign - Damaged,"No Parking, Standing, Stopping",1019
+DOT,Department of Transportation,Street Sign - Damaged,One Way,308
+DOT,Department of Transportation,Street Sign - Damaged,Other/Unknown,1689
+DOT,Department of Transportation,Street Sign - Damaged,School Crossing,38
+DOT,Department of Transportation,Street Sign - Damaged,Speed Limit,72
+DOT,Department of Transportation,Street Sign - Damaged,St Name - Attached to Pole,419
+DOT,Department of Transportation,Street Sign - Damaged,St Name - Over Intersection,37
+DOT,Department of Transportation,Street Sign - Damaged,Stop,927
+DOT,Department of Transportation,Street Sign - Damaged,Street Cleaning - ASP,320
+DOT,Department of Transportation,Street Sign - Damaged,Yield,31
+DOT,Department of Transportation,Street Sign - Dangling,Bus Stop,136
+DOT,Department of Transportation,Street Sign - Dangling,Construction,17
+DOT,Department of Transportation,Street Sign - Dangling,Detour,15
+DOT,Department of Transportation,Street Sign - Dangling,Do Not Block the Box,2
+DOT,Department of Transportation,Street Sign - Dangling,Do Not Enter,38
+DOT,Department of Transportation,Street Sign - Dangling,Honorary,9
+DOT,Department of Transportation,Street Sign - Dangling,No Idling,2
+DOT,Department of Transportation,Street Sign - Dangling,"No Parking, Standing, Stopping",836
+DOT,Department of Transportation,Street Sign - Dangling,One Way,187
+DOT,Department of Transportation,Street Sign - Dangling,Other/Unknown,934
+DOT,Department of Transportation,Street Sign - Dangling,School Crossing,36
+DOT,Department of Transportation,Street Sign - Dangling,Speed Limit,143
+DOT,Department of Transportation,Street Sign - Dangling,St Name - Attached to Pole,538
+DOT,Department of Transportation,Street Sign - Dangling,St Name - Over Intersection,190
+DOT,Department of Transportation,Street Sign - Dangling,Stop,693
+DOT,Department of Transportation,Street Sign - Dangling,Street Cleaning - ASP,314
+DOT,Department of Transportation,Street Sign - Dangling,Yield,22
+DOT,Department of Transportation,Street Sign - Missing,Bus Stop,156
+DOT,Department of Transportation,Street Sign - Missing,Construction,32
+DOT,Department of Transportation,Street Sign - Missing,Detour,2
+DOT,Department of Transportation,Street Sign - Missing,Do Not Block the Box,2
+DOT,Department of Transportation,Street Sign - Missing,Do Not Enter,38
+DOT,Department of Transportation,Street Sign - Missing,Honorary,18
+DOT,Department of Transportation,Street Sign - Missing,No Idling,3
+DOT,Department of Transportation,Street Sign - Missing,"No Parking, Standing, Stopping",1108
+DOT,Department of Transportation,Street Sign - Missing,One Way,61
+DOT,Department of Transportation,Street Sign - Missing,Other/Unknown,815
+DOT,Department of Transportation,Street Sign - Missing,School Crossing,18
+DOT,Department of Transportation,Street Sign - Missing,Speed Limit,29
+DOT,Department of Transportation,Street Sign - Missing,St Name - Attached to Pole,305
+DOT,Department of Transportation,Street Sign - Missing,St Name - Over Intersection,19
+DOT,Department of Transportation,Street Sign - Missing,Stop,544
+DOT,Department of Transportation,Street Sign - Missing,Street Cleaning - ASP,316
+DOT,Department of Transportation,Street Sign - Missing,Yield,40
+DOT,Department of Transportation,Traffic Signal Condition,APS,1668
+DOT,Department of Transportation,Traffic Signal Condition,Base Door,436
+DOT,Department of Transportation,Traffic Signal Condition,Bike Signal,384
+DOT,Department of Transportation,Traffic Signal Condition,Blank Out Matrix Sgn,76
+DOT,Department of Transportation,Traffic Signal Condition,Box Cover,12
+DOT,Department of Transportation,Traffic Signal Condition,CMU Communication,24
+DOT,Department of Transportation,Traffic Signal Condition,Cable,1511
+DOT,Department of Transportation,Traffic Signal Condition,Coax Cable,1
+DOT,Department of Transportation,Traffic Signal Condition,Conduit,57
+DOT,Department of Transportation,Traffic Signal Condition,Condulet Cover,1
+DOT,Department of Transportation,Traffic Signal Condition,Controller,30894
+DOT,Department of Transportation,Traffic Signal Condition,Controller Cabinet,197
+DOT,Department of Transportation,Traffic Signal Condition,Controller Flasher,20
+DOT,Department of Transportation,Traffic Signal Condition,Dead End Signal,11
+DOT,Department of Transportation,Traffic Signal Condition,Detector Sensor,3
+DOT,Department of Transportation,Traffic Signal Condition,Door,20
+DOT,Department of Transportation,Traffic Signal Condition,Door Lock,52
+DOT,Department of Transportation,Traffic Signal Condition,Dust Cover,13
+DOT,Department of Transportation,Traffic Signal Condition,EXPY Fixture,1
+DOT,Department of Transportation,Traffic Signal Condition,Enclosure Cap,20
+DOT,Department of Transportation,Traffic Signal Condition,Fixture(S),6
+DOT,Department of Transportation,Traffic Signal Condition,Flashing Hazard,7
+DOT,Department of Transportation,Traffic Signal Condition,Foundation,64
+DOT,Department of Transportation,Traffic Signal Condition,Hangers,7
+DOT,Department of Transportation,Traffic Signal Condition,In Conduit,90
+DOT,Department of Transportation,Traffic Signal Condition,In Post Base,60
+DOT,Department of Transportation,Traffic Signal Condition,Junction Box,183
+DOT,Department of Transportation,Traffic Signal Condition,LED Pedestrian Unit,829
+DOT,Department of Transportation,Traffic Signal Condition,Lane Control Signal,6
+DOT,Department of Transportation,Traffic Signal Condition,Lane Station,1
+DOT,Department of Transportation,Traffic Signal Condition,Mast Arm,36
+DOT,Department of Transportation,Traffic Signal Condition,Messenger,1
+DOT,Department of Transportation,Traffic Signal Condition,On Messenger,243
+DOT,Department of Transportation,Traffic Signal Condition,On Structure,12
+DOT,Department of Transportation,Traffic Signal Condition,Ped Flasher,182
+DOT,Department of Transportation,Traffic Signal Condition,Ped Lamp,834
+DOT,Department of Transportation,Traffic Signal Condition,Ped Lens,23
+DOT,Department of Transportation,Traffic Signal Condition,Ped Multiple Lamps,610
+DOT,Department of Transportation,Traffic Signal Condition,Ped Visor,13
+DOT,Department of Transportation,Traffic Signal Condition,Pedestrian Sign,24
+DOT,Department of Transportation,Traffic Signal Condition,Pedestrian Signal,5279
+DOT,Department of Transportation,Traffic Signal Condition,Post,1080
+DOT,Department of Transportation,Traffic Signal Condition,Push Button,99
+DOT,Department of Transportation,Traffic Signal Condition,Reflector/Louvre,6
+DOT,Department of Transportation,Traffic Signal Condition,Sidewalk Pull Box Co,8
+DOT,Department of Transportation,Traffic Signal Condition,Sign,5
+DOT,Department of Transportation,Traffic Signal Condition,Speed Board Sign,68
+DOT,Department of Transportation,Traffic Signal Condition,Street Light Feed,288
+DOT,Department of Transportation,Traffic Signal Condition,Support Bracket,304
+DOT,Department of Transportation,Traffic Signal Condition,Sway Bar,35
+DOT,Department of Transportation,Traffic Signal Condition,Telco Connection Blk,12
+DOT,Department of Transportation,Traffic Signal Condition,Temporary,62
+DOT,Department of Transportation,Traffic Signal Condition,Tie Rods,2
+DOT,Department of Transportation,Traffic Signal Condition,Time Switch,265
+DOT,Department of Transportation,Traffic Signal Condition,Traffic Camera,9
+DOT,Department of Transportation,Traffic Signal Condition,Transducer-Loop,2
+DOT,Department of Transportation,Traffic Signal Condition,Turn Signal,7
+DOT,Department of Transportation,Traffic Signal Condition,Underground,538
+DOT,Department of Transportation,Traffic Signal Condition,Veh Sgnl Mult Lamps,1033
+DOT,Department of Transportation,Traffic Signal Condition,Veh Signal Head,1780
+DOT,Department of Transportation,Traffic Signal Condition,Veh Signal Lamp,5301
+DOT,Department of Transportation,Traffic Signal Condition,Veh Signal Lens,299
+DOT,Department of Transportation,Traffic Signal Condition,Veh Signal Sec Door,46
+DOT,Department of Transportation,Traffic Signal Condition,Veh Signal Visor,425
+DOT,Department of Transportation,Traffic Signal Condition,Vehicle Signal,1943
+DOT,Department of Transportation,Traffic Signal Condition,Ver Mesage Sign RTPI,125
+DOT,Department of Transportation,Traffic Signal Condition,Warning Buzzer,9
+DOT,Department of Transportation,Traffic Signal Condition,Warning Signal,43
+DOT,Department of Transportation,Traffic Signal Condition,Warning Signal Lamp,24
+DOT,Department of Transportation,Traffic Signal Condition,Weather Head,4
+DOT,Department of Transportation,Traffic Signal Condition,Wireless,256
+DOT,Department of Transportation,Traffic Signal Condition,Wireless Antenna,5
+DOT,Department of Transportation,Traffic Signal Condition,Wood Pole Equipment,19
+DOT,Department of Transportation,Tunnel Condition,"Dirt, Debris, Litter Complaint",1
+DOT,Department of Transportation,Tunnel Condition,Fallen Debris from Tunnel,2
+DOT,Department of Transportation,Tunnel Condition,Pothole - Tunnel,1
+DOT,Department of Transportation,Tunnel Condition,Rough Pavement,2
+DOT,Department of Transportation,Wayfinding,Broken/Cracked/Damaged Glass,3
+DOT,Department of Transportation,Wayfinding,Dirty/Graffiti/Stickers,7
+DOT,Department of Transportation,Wayfinding,Electronic Screen Bad/Wrong Info,2
+DOT,Department of Transportation,Wayfinding,Electronic Screen No Power,3
+DOT,Department of Transportation,Wayfinding,Loose/Leaning Sign,3
+DOT,Department of Transportation,Wayfinding,Map Bad/Wrong Info,2
+DOT,Department of Transportation,Wayfinding,Missing Glass Panel,1
+DOT,Department of Transportation,Wayfinding,Other Damage to Sign,1
+DPR,Department of Parks and Recreation,Animal in a Park,Animal Waste,228
+DPR,Department of Parks and Recreation,Animal in a Park,Dead Animal,762
+DPR,Department of Parks and Recreation,Animal in a Park,Dog Off Leash,3006
+DPR,Department of Parks and Recreation,Animal in a Park,Domestic Strays,250
+DPR,Department of Parks and Recreation,Animal in a Park,Injured Wildlife,1002
+DPR,Department of Parks and Recreation,Animal in a Park,Removing Wildlife,204
+DPR,Department of Parks and Recreation,Animal in a Park,Wildlife Sighting,254
+DPR,Department of Parks and Recreation,Damaged Tree,Branch Cracked and Will Fall,8671
+DPR,Department of Parks and Recreation,Damaged Tree,Branch or Limb Has Fallen Down,19699
+DPR,Department of Parks and Recreation,Damaged Tree,Entire Tree Has Fallen Down,9184
+DPR,Department of Parks and Recreation,Damaged Tree,Tree Alive - in Poor Condition,3459
+DPR,Department of Parks and Recreation,Damaged Tree,Tree Leaning/Uprooted,4151
+DPR,Department of Parks and Recreation,Damaged Tree,Tree Trunk Split,729
+DPR,Department of Parks and Recreation,Dead/Dying Tree,Planted Less Than 2 Years Ago,924
+DPR,Department of Parks and Recreation,Dead/Dying Tree,Planted More Than 2 Years Ago,10617
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Bicycle Chained to Tree,555
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Branches Damaged,2014
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Roots Damaged,1008
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Trunk Damaged,2326
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Unauthorized Tree Pruning,329
+DPR,Department of Parks and Recreation,Illegal Tree Damage,Unauthorized Tree Removal,885
+DPR,Department of Parks and Recreation,Maintenance or Facility,Broken Glass,258
+DPR,Department of Parks and Recreation,Maintenance or Facility,Garbage or Litter,4469
+DPR,Department of Parks and Recreation,Maintenance or Facility,Graffiti or Vandalism,1190
+DPR,Department of Parks and Recreation,Maintenance or Facility,Grass/Weeds,2426
+DPR,Department of Parks and Recreation,Maintenance or Facility,Hours of Operation,1322
+DPR,Department of Parks and Recreation,Maintenance or Facility,Recreation Center,628
+DPR,Department of Parks and Recreation,Maintenance or Facility,Rodent Sighting,4564
+DPR,Department of Parks and Recreation,Maintenance or Facility,Snow or Ice,1996
+DPR,Department of Parks and Recreation,Maintenance or Facility,Structure - Indoors,703
+DPR,Department of Parks and Recreation,Maintenance or Facility,Structure - Outdoors,9287
+DPR,Department of Parks and Recreation,Maintenance or Facility,Unsecured Facility,1514
+DPR,Department of Parks and Recreation,New Tree Request,For One Address,804
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Blocking Street,5213
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Clear Street Light,1188
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Dead Branches in Tree,3495
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Hitting Building,8597
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Hitting Phone/Cable Lines,1531
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Hitting Power Lines,3163
+DPR,Department of Parks and Recreation,Overgrown Tree/Branches,Traffic Sign or Signal Blocked,648
+DPR,Department of Parks and Recreation,Root/Sewer/Sidewalk Condition,Affecting Sewer or Foundation,62
+DPR,Department of Parks and Recreation,Root/Sewer/Sidewalk Condition,Trees and Sidewalks Program,10178
+DPR,Department of Parks and Recreation,Uprooted Stump,Remove Stump,380
+DPR,Department of Parks and Recreation,Violation of Park Rules,BBQ Outside Authorized Area,642
+DPR,Department of Parks and Recreation,Violation of Park Rules,Biking/Rollerblading off Path,101
+DPR,Department of Parks and Recreation,Violation of Park Rules,Obstructing Public Use,1337
+DPR,Department of Parks and Recreation,Violation of Park Rules,Removing Flowers/Plants,17
+DPR,Department of Parks and Recreation,Violation of Park Rules,Smoking,585
+DPR,Department of Parks and Recreation,Violation of Park Rules,Social Distancing,7
+DPR,Department of Parks and Recreation,Violation of Park Rules,Unauthorized Climbing,22
+DPR,Department of Parks and Recreation,Violation of Park Rules,Unauthorized Film Shoot,15
+DPR,Department of Parks and Recreation,Violation of Park Rules,Unauthorized Posting of Signs,39
+DPR,Department of Parks and Recreation,Violation of Park Rules,Unlicensed Vendors,1493
+DPR,Department of Parks and Recreation,Violation of Park Rules,Unsafe Use of Playground,605
+DPR,Department of Parks and Recreation,Violation of Park Rules,Use of Newly Seeded Lawn,17
+DPR,Department of Parks and Recreation,Wood Pile Remaining,Remove Debris,1862
+DSNY,Department of Sanitation,Abandoned Bike,Chained to Public Property,2134
+DSNY,Department of Sanitation,Commercial Disposal Complaint,Waste Disposal,965
+DSNY,Department of Sanitation,Commercial Disposal Complaint,Waste Left in Front of Residence,491
+DSNY,Department of Sanitation,DSNY Internal,Other Request for Enforcement,2
+DSNY,Department of Sanitation,Dead Animal,Bird,969
+DSNY,Department of Sanitation,Dead Animal,Cat,4135
+DSNY,Department of Sanitation,Dead Animal,Deer,119
+DSNY,Department of Sanitation,Dead Animal,Dog,558
+DSNY,Department of Sanitation,Dead Animal,Opossum,790
+DSNY,Department of Sanitation,Dead Animal,Other,840
+DSNY,Department of Sanitation,Dead Animal,Raccoon,1320
+DSNY,Department of Sanitation,Dead Animal,Rat or Mouse,1325
+DSNY,Department of Sanitation,Dead Animal,Squirrel,795
+DSNY,Department of Sanitation,Derelict Vehicles,Derelict Vehicles,36238
+DSNY,Department of Sanitation,Dirty Condition,Broken Glass,1178
+DSNY,Department of Sanitation,Dirty Condition,Debris from Car Accident,430
+DSNY,Department of Sanitation,Dirty Condition,Dirt or Gravel,1400
+DSNY,Department of Sanitation,Dirty Condition,Dog Waste,3746
+DSNY,Department of Sanitation,Dirty Condition,Syringes,767
+DSNY,Department of Sanitation,Dirty Condition,Trash,61210
+DSNY,Department of Sanitation,Dumpster Complaint,Blocking Sidewalk or Street,893
+DSNY,Department of Sanitation,Dumpster Complaint,Overflowing dumpster,1105
+DSNY,Department of Sanitation,Dumpster Complaint,Small uncovered dumpster,191
+DSNY,Department of Sanitation,Graffiti,Graffiti,16697
+DSNY,Department of Sanitation,Highway Condition,Litter,816
+DSNY,Department of Sanitation,Illegal Dumping,Chronic Dumping,4119
+DSNY,Department of Sanitation,Illegal Dumping,Removal Request,33295
+DSNY,Department of Sanitation,Illegal Posting,Flyer or Handbill,423
+DSNY,Department of Sanitation,Illegal Posting,Poster or Sign,4529
+DSNY,Department of Sanitation,Illegal Posting,Sticker or Decal,551
+DSNY,Department of Sanitation,Incorrect Data,Collection Days,28
+DSNY,Department of Sanitation,Institution Disposal Complaint,Storage Area Not Provided,30
+DSNY,Department of Sanitation,Institution Disposal Complaint,Trash Not Separated from Recycling,16
+DSNY,Department of Sanitation,Litter Basket Complaint,Misuse,216
+DSNY,Department of Sanitation,Litter Basket Complaint,Overflowing,1264
+DSNY,Department of Sanitation,Litter Basket Request,New Basket,1973
+DSNY,Department of Sanitation,Litter Basket Request,Replacement Basket,2059
+DSNY,Department of Sanitation,Lot Condition,Appliances,24
+DSNY,Department of Sanitation,Lot Condition,Construction Debris,186
+DSNY,Department of Sanitation,Lot Condition,Trash,1454
+DSNY,Department of Sanitation,Missed Collection,Bulky Recycling,2478
+DSNY,Department of Sanitation,Missed Collection,Bulky Trash,4371
+DSNY,Department of Sanitation,Missed Collection,Compost,7861
+DSNY,Department of Sanitation,Missed Collection,Recycling - Metal/Glass/Rigid Plastic,2486
+DSNY,Department of Sanitation,Missed Collection,Recycling - Paper,3129
+DSNY,Department of Sanitation,Missed Collection,Recycling - Paper/Metal/Glass/Rigid Plastic,3897
+DSNY,Department of Sanitation,Missed Collection,Trash,10802
+DSNY,Department of Sanitation,Missed Collection,Trash and Bulky Trash,566
+DSNY,Department of Sanitation,Obstruction,Coin-Operated Ride,5
+DSNY,Department of Sanitation,Obstruction,Cone,9035
+DSNY,Department of Sanitation,Obstruction,Donation Collection Bin,40
+DSNY,Department of Sanitation,Obstruction,Merchandise,2043
+DSNY,Department of Sanitation,Obstruction,Sidewalk Display,307
+DSNY,Department of Sanitation,Obstruction,Sign,900
+DSNY,Department of Sanitation,Obstruction,Trash or Recycling,5257
+DSNY,Department of Sanitation,Obstruction,Weeds or Grass,4401
+DSNY,Department of Sanitation,Oil or Gas Spill,Emergency Personnel Report,8
+DSNY,Department of Sanitation,Recycling Basket Complaint,Misuse,24
+DSNY,Department of Sanitation,Recycling Basket Complaint,Overflowing,75
+DSNY,Department of Sanitation,Residential Disposal Complaint,Bin Not Used,1877
+DSNY,Department of Sanitation,Residential Disposal Complaint,Containers Left Out After Collection,194
+DSNY,Department of Sanitation,Residential Disposal Complaint,Containers Set Out Too Early,1
+DSNY,Department of Sanitation,Residential Disposal Complaint,Curbside Composting,5
+DSNY,Department of Sanitation,Residential Disposal Complaint,Mattress or Box Spring Uncovered,494
+DSNY,Department of Sanitation,Residential Disposal Complaint,Recycling Posters Not Posted,36
+DSNY,Department of Sanitation,Residential Disposal Complaint,Refrigerator or Freezer Door Attached,133
+DSNY,Department of Sanitation,Residential Disposal Complaint,Storage Area Not Provided,965
+DSNY,Department of Sanitation,Residential Disposal Complaint,Trash or Recycling Not Secure,3897
+DSNY,Department of Sanitation,Residential Disposal Complaint,Waste Left in Front of Other Residence,1633
+DSNY,Department of Sanitation,Residential Disposal Complaint,Waste Not Separated,2227
+DSNY,Department of Sanitation,Residential Disposal Complaint,Waste Set Out Too Early or Too Late,2007
+DSNY,Department of Sanitation,Sanitation Worker or Vehicle Complaint,Idling or Blocking Traffic,173
+DSNY,Department of Sanitation,Sanitation Worker or Vehicle Complaint,Inappropriate Behavior,1306
+DSNY,Department of Sanitation,Sanitation Worker or Vehicle Complaint,Noise,466
+DSNY,Department of Sanitation,Sanitation Worker or Vehicle Complaint,Spilled Garbage,1016
+DSNY,Department of Sanitation,Sanitation Worker or Vehicle Complaint,Unsafe Driving,310
+DSNY,Department of Sanitation,Snow or Ice,Bike Lane,157
+DSNY,Department of Sanitation,Snow or Ice,Pedestrian Feature,2117
+DSNY,Department of Sanitation,Snow or Ice,Roadway,12403
+DSNY,Department of Sanitation,Snow or Ice,Sidewalk,34099
+DSNY,Department of Sanitation,Snow or Ice,Snow Tracking,15165
+DSNY,Department of Sanitation,Street Sweeping Complaint,Inadequate Sweeping,5355
+DSNY,Department of Sanitation,Street Sweeping Complaint,Street Not Swept,2717
+DSNY,Department of Sanitation,Transfer Station Complaint,Dust,1
+DSNY,Department of Sanitation,Transfer Station Complaint,Litter,1
+DSNY,Department of Sanitation,Transfer Station Complaint,Odor,10
+DSNY,Department of Sanitation,Unspecified,Unspecified,1
+DSNY,Department of Sanitation,Vendor Enforcement,Food Vendor,15245
+DSNY,Department of Sanitation,Vendor Enforcement,Non-Food Vendor,8908
+EDC,Economic Development Corporation,Noise - Helicopter,NYPD,302
+EDC,Economic Development Corporation,Noise - Helicopter,News Gathering,107
+EDC,Economic Development Corporation,Noise - Helicopter,Other,12094
+HPD,Department of Housing Preservation and Development,APPLIANCE,ELECTRIC/GAS RANGE,15835
+HPD,Department of Housing Preservation and Development,APPLIANCE,MICROWAVE,21
+HPD,Department of Housing Preservation and Development,APPLIANCE,REFRIGERATOR,10111
+HPD,Department of Housing Preservation and Development,DOOR/WINDOW,DOOR,28451
+HPD,Department of Housing Preservation and Development,DOOR/WINDOW,DOOR FRAME,3995
+HPD,Department of Housing Preservation and Development,DOOR/WINDOW,DOOR TO DUMBWAITER,203
+HPD,Department of Housing Preservation and Development,DOOR/WINDOW,WINDOW FRAME,17258
+HPD,Department of Housing Preservation and Development,DOOR/WINDOW,WINDOW PANE,3380
+HPD,Department of Housing Preservation and Development,ELECTRIC,LIGHTING,5709
+HPD,Department of Housing Preservation and Development,ELECTRIC,NO LIGHTING,7482
+HPD,Department of Housing Preservation and Development,ELECTRIC,OUTLET/SWITCH,8893
+HPD,Department of Housing Preservation and Development,ELECTRIC,POWER OUTAGE,9574
+HPD,Department of Housing Preservation and Development,ELECTRIC,WIRING,4012
+HPD,Department of Housing Preservation and Development,ELEVATOR,MAINTENANCE,2172
+HPD,Department of Housing Preservation and Development,FLOORING/STAIRS,FLOOR,29626
+HPD,Department of Housing Preservation and Development,FLOORING/STAIRS,STAIRS,1280
+HPD,Department of Housing Preservation and Development,GENERAL,BELL/BUZZER/INTERCOM,11531
+HPD,Department of Housing Preservation and Development,GENERAL,CABINET,10109
+HPD,Department of Housing Preservation and Development,GENERAL,COOKING GAS,9990
+HPD,Department of Housing Preservation and Development,GENERAL,JANITOR/SUPER,2877
+HPD,Department of Housing Preservation and Development,GENERAL,MAILBOX,1791
+HPD,Department of Housing Preservation and Development,GENERAL,SIGNAGE MISSING,2335
+HPD,Department of Housing Preservation and Development,GENERAL,VENTILATION SYSTEM,4722
+HPD,Department of Housing Preservation and Development,HEAT/HOT WATER,APARTMENT ONLY,122777
+HPD,Department of Housing Preservation and Development,HEAT/HOT WATER,ENTIRE BUILDING,236310
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,FENCING,1
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,GUTTER/LEADER,101
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,PAVEMENT,304
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,PORCH/BALCONY,115
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,ROOF DOOR/HATCH,147
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,ROOFING,441
+HPD,Department of Housing Preservation and Development,OUTSIDE BUILDING,SKYLIGHT,57
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,CABINET,903
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,CEILING,30932
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,DOOR/FRAME,990
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,RADIATOR,1018
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,WALL,33367
+HPD,Department of Housing Preservation and Development,PAINT/PLASTER,WINDOW/FRAME,1190
+HPD,Department of Housing Preservation and Development,PLUMBING,BASIN/SINK,20116
+HPD,Department of Housing Preservation and Development,PLUMBING,BATHTUB/SHOWER,16765
+HPD,Department of Housing Preservation and Development,PLUMBING,BOILER,105
+HPD,Department of Housing Preservation and Development,PLUMBING,RADIATOR,5473
+HPD,Department of Housing Preservation and Development,PLUMBING,SEWER,118
+HPD,Department of Housing Preservation and Development,PLUMBING,STEAM PIPE/RISER,2114
+HPD,Department of Housing Preservation and Development,PLUMBING,TOILET,11479
+HPD,Department of Housing Preservation and Development,PLUMBING,WATER SUPPLY,28293
+HPD,Department of Housing Preservation and Development,SAFETY,CARBON MONOXIDE DETECTOR,3291
+HPD,Department of Housing Preservation and Development,SAFETY,FIRE ESCAPE,3479
+HPD,Department of Housing Preservation and Development,SAFETY,OUTLET COVER,33
+HPD,Department of Housing Preservation and Development,SAFETY,SMOKE DETECTOR,4499
+HPD,Department of Housing Preservation and Development,SAFETY,SPRINKLER,541
+HPD,Department of Housing Preservation and Development,SAFETY,WINDOW GUARD BROKEN/MISSING,2831
+HPD,Department of Housing Preservation and Development,Safety,Safety,1
+HPD,Department of Housing Preservation and Development,UNSANITARY CONDITION,GARBAGE/RECYCLING STORAGE,21319
+HPD,Department of Housing Preservation and Development,UNSANITARY CONDITION,MOLD,38994
+HPD,Department of Housing Preservation and Development,UNSANITARY CONDITION,PESTS,72166
+HPD,Department of Housing Preservation and Development,UNSANITARY CONDITION,SEWAGE,4404
+HPD,Department of Housing Preservation and Development,WATER LEAK,DAMP SPOT,7127
+HPD,Department of Housing Preservation and Development,WATER LEAK,HEAVY FLOW,22051
+HPD,Department of Housing Preservation and Development,WATER LEAK,SLOW LEAK,19076
+NYC311-PRD,HIQA,Curb Condition,Broken Curb,1
+NYC311-PRD,HIQA,Curb Condition,Curb Defect-Metal Protruding,4
+NYC311-PRD,HIQA,DEP Street Condition,Failed Street Cut - DEP,1
+NYC311-PRD,HIQA,Sidewalk Condition,Blocked - ATM,3
+NYC311-PRD,HIQA,Sidewalk Condition,Blocked - Construction,27
+NYC311-PRD,HIQA,Sidewalk Condition,Broken Sidewalk,14
+NYC311-PRD,HIQA,Sidewalk Condition,Defective Hardware,2
+NYC311-PRD,HIQA,Sidewalk Condition,Dumpster - Construction Waste,1
+NYC311-PRD,HIQA,Sidewalk Condition,Sidewalk Collapsed,7
+NYC311-PRD,HIQA,Sidewalk Condition,Sidewalk Grating - Defective,2
+NYC311-PRD,HIQA,Street Condition,Blocked - Construction,45
+NYC311-PRD,HIQA,Street Condition,Cave-in,112
+NYC311-PRD,HIQA,Street Condition,Defective Hardware,43
+NYC311-PRD,HIQA,Street Condition,Dumpster - Construction Waste,1
+NYC311-PRD,HIQA,Street Condition,Failed Street Repair,33
+NYC311-PRD,HIQA,Street Condition,Plate Condition - Noisy,58
+NYC311-PRD,HIQA,Street Condition,Plate Condition - Shifted,10
+NYC311-PRD,HIQA,Street Condition,"Rough, Pitted or Cracked Roads",3
+NYC311-PRD,HIQA,Street Condition,Unsafe Worksite,2
+NYC311-PRD,HIQA,Street Sign - Damaged,Construction,2
+NYPD,New York City Police Department,Abandoned Vehicle,With License Plate,71290
+NYPD,New York City Police Department,Animal-Abuse,Chained,391
+NYPD,New York City Police Department,Animal-Abuse,In Car,149
+NYPD,New York City Police Department,Animal-Abuse,Neglected,5649
+NYPD,New York City Police Department,Animal-Abuse,No Shelter,884
+NYPD,New York City Police Department,Animal-Abuse,Other (complaint details),2850
+NYPD,New York City Police Department,Animal-Abuse,Tortured,1626
+NYPD,New York City Police Department,Bike/Roller/Skate,N/A,1800
+NYPD,New York City Police Department,Bike/Roller/Skate Chronic,N/A,275
+NYPD,New York City Police Department,Blocked Driveway,No Access,145585
+NYPD,New York City Police Department,Blocked Driveway,Partial Access,49087
+NYPD,New York City Police Department,Disorderly Youth,Nuisance/Truant,96
+NYPD,New York City Police Department,Disorderly Youth,Playing in Unsuitable Place,107
+NYPD,New York City Police Department,Drinking,After Hours - Licensed Est,259
+NYPD,New York City Police Department,Drinking,In Public,3668
+NYPD,New York City Police Department,Drinking,Underage - Licensed Est,475
+NYPD,New York City Police Department,Drug Activity,Use Indoor,2944
+NYPD,New York City Police Department,Drug Activity,Use Outside,6799
+NYPD,New York City Police Department,Encampment,N/A,34554
+NYPD,New York City Police Department,Graffiti,Police Report Not Requested,725
+NYPD,New York City Police Department,Graffiti,Police Report Requested,190
+NYPD,New York City Police Department,Illegal Fireworks,N/A,11282
+NYPD,New York City Police Department,Illegal Parking,Blocked Bike Lane,19288
+NYPD,New York City Police Department,Illegal Parking,Blocked Crosswalk,38351
+NYPD,New York City Police Department,Illegal Parking,Blocked Hydrant,171045
+NYPD,New York City Police Department,Illegal Parking,Blocked Sidewalk,85992
+NYPD,New York City Police Department,Illegal Parking,Commercial Overnight Parking,43267
+NYPD,New York City Police Department,Illegal Parking,Detached Trailer,1798
+NYPD,New York City Police Department,Illegal Parking,Double Parked Blocking Traffic,33775
+NYPD,New York City Police Department,Illegal Parking,Double Parked Blocking Vehicle,18026
+NYPD,New York City Police Department,Illegal Parking,License Plate Obscured,13328
+NYPD,New York City Police Department,Illegal Parking,Overnight Commercial Storage,3140
+NYPD,New York City Police Department,Illegal Parking,Paper License Plates,5823
+NYPD,New York City Police Department,Illegal Parking,Parking Permit Improper Use,25806
+NYPD,New York City Police Department,Illegal Parking,Posted Parking Sign Violation,147122
+NYPD,New York City Police Department,Illegal Parking,Unauthorized Bus Layover,4521
+NYPD,New York City Police Department,Noise - Commercial,Banging/Pounding,7097
+NYPD,New York City Police Department,Noise - Commercial,Car/Truck Horn,620
+NYPD,New York City Police Department,Noise - Commercial,Car/Truck Music,805
+NYPD,New York City Police Department,Noise - Commercial,Loud Music/Party,46461
+NYPD,New York City Police Department,Noise - Commercial,Loud Talking,5049
+NYPD,New York City Police Department,Noise - Commercial,Loud Television,212
+NYPD,New York City Police Department,Noise - House of Worship,Banging/Pounding,81
+NYPD,New York City Police Department,Noise - House of Worship,Loud Music/Party,813
+NYPD,New York City Police Department,Noise - House of Worship,Loud Talking,1958
+NYPD,New York City Police Department,Noise - House of Worship,Loud Television,3
+NYPD,New York City Police Department,Noise - Park,Loud Music/Party,6855
+NYPD,New York City Police Department,Noise - Park,Loud Talking,1514
+NYPD,New York City Police Department,Noise - Residential,Banging/Pounding,147644
+NYPD,New York City Police Department,Noise - Residential,Loud Music/Party,247972
+NYPD,New York City Police Department,Noise - Residential,Loud Talking,29669
+NYPD,New York City Police Department,Noise - Residential,Loud Television,7146
+NYPD,New York City Police Department,Noise - Street/Sidewalk,Loud Music/Party,137838
+NYPD,New York City Police Department,Noise - Street/Sidewalk,Loud Talking,36502
+NYPD,New York City Police Department,Noise - Vehicle,Car/Truck Horn,19800
+NYPD,New York City Police Department,Noise - Vehicle,Car/Truck Music,21458
+NYPD,New York City Police Department,Noise - Vehicle,Engine Idling,10158
+NYPD,New York City Police Department,Non-Emergency Police Matter,Other (complaint details),16022
+NYPD,New York City Police Department,Non-Emergency Police Matter,Street Con Game,28
+NYPD,New York City Police Department,Non-Emergency Police Matter,Ticket Scalping,12
+NYPD,New York City Police Department,Non-Emergency Police Matter,Trespassing,8232
+NYPD,New York City Police Department,Panhandling,N/A,11433
+NYPD,New York City Police Department,Posting Advertisement,Building,94
+NYPD,New York City Police Department,Posting Advertisement,Vehicle,34
+NYPD,New York City Police Department,Squeegee,N/A,6
+NYPD,New York City Police Department,Traffic,Chronic Speeding,1134
+NYPD,New York City Police Department,Traffic,Chronic Stoplight Violation,946
+NYPD,New York City Police Department,Traffic,Congestion/Gridlock,2742
+NYPD,New York City Police Department,Traffic,Drag Racing,1646
+NYPD,New York City Police Department,Traffic,Truck Route Violation,2943
+NYPD,New York City Police Department,Urinating in Public,N/A,1689
+OOS,Office of the Sheriff,Cannabis Retailer,Product Concerns,194
+OOS,Office of the Sheriff,Cannabis Retailer,Sales to Minors Under 21,1508
+OOS,Office of the Sheriff,Cannabis Retailer,Suspicious Activity,545
+OOS,Office of the Sheriff,Cannabis Retailer,Too Close to a House of Worship,120
+OOS,Office of the Sheriff,Cannabis Retailer,Too Close to a School,302
+OOS,Office of the Sheriff,Cannabis Retailer,Unlicensed,1723
+OTI,Office of Technology and Innovation,LinkNYC,Blocking Sidewalk,11
+OTI,Office of Technology and Innovation,LinkNYC,Damaged/Defective,133
+OTI,Office of Technology and Innovation,LinkNYC,Graffiti/Dirty Condition,25
+OTI,Office of Technology and Innovation,LinkNYC,Touchscreen/Button Not Working,23
+OTI,Office of Technology and Innovation,LinkNYC,WiFi/Internet Not Working/Slow,67
+OTI,Office of Technology and Innovation,Public Payphone Complaint,Damaged Telephone,3
+OTI,Office of Technology and Innovation,Public Payphone Complaint,Phone Blocking Sidewalk,2
+TLC,Taxi and Limousine Commission,FHV Licensee Complaint,Licensee Complaint,3
+TLC,Taxi and Limousine Commission,For Hire Vehicle Complaint,Car Service Company Complaint,897
+TLC,Taxi and Limousine Commission,For Hire Vehicle Complaint,Driver Complaint - Non Passenger,16041
+TLC,Taxi and Limousine Commission,For Hire Vehicle Complaint,Driver Complaint - Passenger,2317
+TLC,Taxi and Limousine Commission,For Hire Vehicle Complaint,Driver Report - Non Passenger,114
+TLC,Taxi and Limousine Commission,For Hire Vehicle Complaint,Equipment Complaint,70
+TLC,Taxi and Limousine Commission,For Hire Vehicle Report,Car Service Company Complaint,1
+TLC,Taxi and Limousine Commission,For Hire Vehicle Report,Car Service Company Report,145
+TLC,Taxi and Limousine Commission,For Hire Vehicle Report,Driver Complaint - Non Passenger,2
+TLC,Taxi and Limousine Commission,For Hire Vehicle Report,Driver Report - Non Passenger,426
+TLC,Taxi and Limousine Commission,For Hire Vehicle Report,Driver Report - Passenger,124
+TLC,Taxi and Limousine Commission,Found Property,Bag/Wallet,30
+TLC,Taxi and Limousine Commission,Found Property,Clothing/Glasses,5
+TLC,Taxi and Limousine Commission,Found Property,Electronics/Phones,27
+TLC,Taxi and Limousine Commission,Found Property,Jewelry,3
+TLC,Taxi and Limousine Commission,Found Property,Other,8
+TLC,Taxi and Limousine Commission,Green Taxi Complaint,Car Service Company Complaint,1
+TLC,Taxi and Limousine Commission,Green Taxi Complaint,Driver Complaint - Non Passenger,166
+TLC,Taxi and Limousine Commission,Green Taxi Complaint,Driver Complaint - Passenger,227
+TLC,Taxi and Limousine Commission,Green Taxi Complaint,Vehicle Complaint,10
+TLC,Taxi and Limousine Commission,Green Taxi Report,Driver Report - Non Passenger,15
+TLC,Taxi and Limousine Commission,Green Taxi Report,Driver Report - Passenger,22
+TLC,Taxi and Limousine Commission,Green Taxi Report,Vehicle Report,4
+TLC,Taxi and Limousine Commission,Lost Property,Bag/Wallet,3403
+TLC,Taxi and Limousine Commission,Lost Property,Book/Stationery,55
+TLC,Taxi and Limousine Commission,Lost Property,Clothing/Glasses,551
+TLC,Taxi and Limousine Commission,Lost Property,Electronics/Phones,1948
+TLC,Taxi and Limousine Commission,Lost Property,Jewelry,104
+TLC,Taxi and Limousine Commission,Lost Property,Musical Instrument,10
+TLC,Taxi and Limousine Commission,Lost Property,Other,876
+TLC,Taxi and Limousine Commission,Lost Property,Sports Equipment,22
+TLC,Taxi and Limousine Commission,Lost Property,Vehicle Complaint,1
+TLC,Taxi and Limousine Commission,Taxi Complaint,Driver Complaint - Non Passenger,3395
+TLC,Taxi and Limousine Commission,Taxi Complaint,Driver Complaint - Passenger,6972
+TLC,Taxi and Limousine Commission,Taxi Complaint,Driver Report - Non Passenger,1
+TLC,Taxi and Limousine Commission,Taxi Complaint,Driver Report - Passenger,1
+TLC,Taxi and Limousine Commission,Taxi Complaint,Vehicle Complaint,142
+TLC,Taxi and Limousine Commission,Taxi Compliment,Driver Compliment,110
+TLC,Taxi and Limousine Commission,Taxi Compliment,Driver Report - Passenger,1
+TLC,Taxi and Limousine Commission,Taxi Licensee Complaint,Driver Complaint,5
+TLC,Taxi and Limousine Commission,Taxi Licensee Complaint,Driver Complaint - Non Passenger,1
+TLC,Taxi and Limousine Commission,Taxi Licensee Complaint,Driver Complaint - Passenger,1
+TLC,Taxi and Limousine Commission,Taxi Licensee Complaint,Driver Compliment,1
+TLC,Taxi and Limousine Commission,Taxi Licensee Complaint,Owner/Broker/Agent Complaint,2
+TLC,Taxi and Limousine Commission,Taxi Report,Driver Report - Non Passenger,167
+TLC,Taxi and Limousine Commission,Taxi Report,Driver Report - Passenger,616
+TLC,Taxi and Limousine Commission,Taxi Report,Vehicle Report,27

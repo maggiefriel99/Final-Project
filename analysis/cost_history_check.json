@@ -1,0 +1,92 @@
+{
+  "current_projects": 1138,
+  "projects_added_from_older_snapshots": 274,
+  "added_by_scope": {
+    "Park reconstruction": 105,
+    "Sewer construction or upgrade": 75,
+    "Full street reconstruction": 48,
+    "Green and natural drainage": 16,
+    "Water main replacement": 14,
+    "Street tree planting": 14,
+    "Street light replacement": 2
+  },
+  "models": {
+    "latest snapshot only": {
+      "r2_out_of_sample": 0.293,
+      "coverage50": 0.496,
+      "coverage80": 0.791,
+      "width50": 5.46,
+      "coverage50_by_scope": {
+        "Green and natural drainage": 0.48,
+        "Street light replacement": 0.46,
+        "Street tree planting": 0.43,
+        "Park reconstruction": 0.5,
+        "Full street reconstruction": 0.5,
+        "Sewer construction or upgrade": 0.5,
+        "Water main replacement": 0.49
+      }
+    },
+    "with older snapshots (BLS-adjusted)": {
+      "r2_out_of_sample": 0.282,
+      "coverage50": 0.484,
+      "coverage80": 0.779,
+      "width50": 5.87,
+      "coverage50_by_scope": {
+        "Green and natural drainage": 0.39,
+        "Street light replacement": 0.55,
+        "Street tree planting": 0.17,
+        "Park reconstruction": 0.49,
+        "Full street reconstruction": 0.49,
+        "Sewer construction or upgrade": 0.5,
+        "Water main replacement": 0.47
+      }
+    }
+  },
+  "mean_squared_error_change": 0.028,
+  "paired_t_p": 6.634229275441483e-08,
+  "median_budget_millions": {
+    "Green and natural drainage": {
+      "current": 24.64,
+      "left the plan": 4.81
+    },
+    "Street light replacement": {
+      "current": 0.3,
+      "left the plan": 29.88
+    },
+    "Street tree planting": {
+      "current": 7.44,
+      "left the plan": 3.74
+    },
+    "Park reconstruction": {
+      "current": 3.39,
+      "left the plan": 2.69
+    },
+    "Full street reconstruction": {
+      "current": 19.58,
+      "left the plan": 14.63
+    },
+    "Sewer construction or upgrade": {
+      "current": 20.44,
+      "left the plan": 5.3
+    },
+    "Water main replacement": {
+      "current": 20.66,
+      "left the plan": 28.84
+    }
+  },
+  "added_by_phase": {
+    "Close-out": 97,
+    "(Pending)": 88,
+    "(Completed)": 48,
+    "Construction": 12,
+    "Design": 7,
+    "Construction Procurement": 5,
+    "(On-Hold)": 4,
+    "(Pre-Design)": 4,
+    "Pre-Design": 3,
+    "(Requirements Contract)": 2,
+    "(Partner-managed)": 2,
+    "(Design)": 1,
+    "(Construction)": 1
+  }
+}

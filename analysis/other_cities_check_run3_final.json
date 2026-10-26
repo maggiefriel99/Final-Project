@@ -1,0 +1,647 @@
+{
+ "summary": {
+  "requests": 300,
+  "crashes": 0,
+  "routes": {
+   "emergency": 3,
+   "operating": 211,
+   "human_review": 46,
+   "capital": 18,
+   "not_city": 22
+  },
+  "held": 46,
+  "held_reasons": {
+   "The agent had low confidence in its reading of the request.": 41,
+   "The Life-Safety Screener flagged text that looks like instructions to the system.": 1,
+   "The request uses words that can signal danger to life (\"\u2026\"), but neither AI check found an emergency. A person": 1,
+   "The agent flagged text that looks like instructions to the system.": 1,
+   "The agent's answer can't be passed on as-is: numbers not in the request: 2": 1,
+   "The agent's answer can't be passed on as-is: numbers not in the request: 450": 1
+  },
+  "pattern_false_alarms": 0,
+  "agent_or_screener_manipulation_flags": 2,
+  "provider_blocked": 0,
+  "invented_nyc_borough": 2,
+  "district_assigned": 10,
+  "emergencies": 3,
+  "urgent_hazards": 22,
+  "possible_emergency_holds": 1,
+  "type_scored": 238,
+  "type_ok": 159,
+  "type_accuracy_by_city": {
+   "albuquerque": "20 of 39",
+   "chicago": "31 of 46",
+   "detroit": "35 of 44",
+   "houston": "24 of 37",
+   "new-haven": "26 of 43",
+   "richmond": "23 of 29"
+  },
+  "personal_info_removed": 1,
+  "median_seconds": 2.4
+ },
+ "misses": [
+  {
+   "city": "albuquerque",
+   "id": 23057004,
+   "category": "Graffiti",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23065491,
+   "category": "Residential Trash Recycle Cart Request",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23090582,
+   "category": "Obstructions and Debris",
+   "complaint_type": "Sidewalk Condition",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23073464,
+   "category": "Residential Large Item Pick Up",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23068331,
+   "category": "Street Light",
+   "complaint_type": "Traffic Signal Condition",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23069827,
+   "category": "Housing Code Violation",
+   "complaint_type": "Air Quality",
+   "route": "emergency"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23069078,
+   "category": "Graffiti",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23057002,
+   "category": "Graffiti",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23062191,
+   "category": "Residential Large Item Pick Up",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23069301,
+   "category": "Residential Trash Recycle Cart Request",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23073494,
+   "category": "Residential Large Item Pick Up",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23091601,
+   "category": "Obstructions and Debris",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23091644,
+   "category": "Graffiti",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23073944,
+   "category": "Encampments",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23082108,
+   "category": "Parking",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23081797,
+   "category": "Missed Trash Pick Up",
+   "complaint_type": "Sanitation Worker or Vehicle Complaint",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23086883,
+   "category": "Parking",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23063040,
+   "category": "Encampments",
+   "complaint_type": "Drug Activity",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23065959,
+   "category": "Missed Trash Pick Up",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 8769080,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "chicago",
+   "id": 12262815,
+   "category": "Sign Repair Request - All Other Signs",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 12776545,
+   "category": "E-Scooter",
+   "complaint_type": "Traffic",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 9108012,
+   "category": "rodent",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 9366111,
+   "category": "Ice and Snow Removal Request",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 7853351,
+   "category": "Restaurant Complaint",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 10209847,
+   "category": "Sidewalk Inspection Request",
+   "complaint_type": "Illegal Parking",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 14916720,
+   "category": "E-Scooter",
+   "complaint_type": "Bike/Roller/Skate Chronic",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 8750685,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": "Lot Condition",
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 8888997,
+   "category": "rodent",
+   "complaint_type": "Bridge Condition",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 8502202,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 12558647,
+   "category": "rodent",
+   "complaint_type": "Graffiti",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 9137018,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": "Sewer",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 8064389,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": "Illegal Parking",
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 13358932,
+   "category": "Green Tree Dental",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "detroit",
+   "id": 23090542,
+   "category": "Investigate Service Leak",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "detroit",
+   "id": 23088092,
+   "category": "Illegal Dump Sites",
+   "complaint_type": "Obstruction",
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23081779,
+   "category": "Curbside Solid Waste Issue",
+   "complaint_type": "FLOORING/STAIRS",
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23089105,
+   "category": "Tall Grass and Weeds",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23086518,
+   "category": "Street Light Pole Down",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "detroit",
+   "id": 23090610,
+   "category": "Illegal Dump Sites",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23078808,
+   "category": "Illegal Dump Sites",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23082574,
+   "category": "Investigate Service Leak",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "detroit",
+   "id": 23080256,
+   "category": "Tree Issue",
+   "complaint_type": "Lot Condition",
+   "route": "human_review"
+  },
+  {
+   "city": "houston",
+   "id": 23084760,
+   "category": "Water Leak",
+   "complaint_type": "Sewer",
+   "route": "capital"
+  },
+  {
+   "city": "houston",
+   "id": 23090814,
+   "category": "Street Condition",
+   "complaint_type": "Dirty Condition",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23086402,
+   "category": "Drainage",
+   "complaint_type": "Rodent",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23083838,
+   "category": "Sewer Wastewater",
+   "complaint_type": "Indoor Air Quality",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23084761,
+   "category": "Water Service",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "houston",
+   "id": 23084944,
+   "category": "Traffic Signs",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23084737,
+   "category": "Water Service",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "houston",
+   "id": 23091348,
+   "category": "Dead Animal Collection",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "houston",
+   "id": 23087256,
+   "category": "Sewer Wastewater",
+   "complaint_type": "Sidewalk Condition",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23088346,
+   "category": "Street Hazard",
+   "complaint_type": "Sidewalk Condition",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23087366,
+   "category": "Street Condition",
+   "complaint_type": "Traffic",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23091616,
+   "category": "Building Code Violation",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "houston",
+   "id": 23090394,
+   "category": "Street Hazard",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085600,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23015513,
+   "category": "Parking Violation",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085659,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23035892,
+   "category": "Street Lamp",
+   "complaint_type": "Maintenance or Facility",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23030158,
+   "category": "Missed Trash/Recycling",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085649,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 22990130,
+   "category": "Street Lamp",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085423,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23090693,
+   "category": "Private Trash Haulers",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23039604,
+   "category": "Street Lamp",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23057638,
+   "category": "Parks Request \u2013 Illegal Dumping",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23083913,
+   "category": "Missed Trash/Recycling",
+   "complaint_type": "Litter Basket Request",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085394,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23088079,
+   "category": "Drainage Request",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085543,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23085381,
+   "category": "Accessibility for Persons with Disabilities",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23010910,
+   "category": "Illegal Dumping",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 6192867,
+   "category": "bulk trash pick up",
+   "complaint_type": "Wood Pile Remaining",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 12775726,
+   "category": "tree down in median  Debris needs removal",
+   "complaint_type": "Damaged Tree",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 6669213,
+   "category": "construction debris + standing water",
+   "complaint_type": "Standing Water",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 11155989,
+   "category": "Street light cover hit a car/Tree overgrown",
+   "complaint_type": "Overgrown Tree/Branches",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 6468559,
+   "category": "Large Boat and Trailer Parked on Street",
+   "complaint_type": "Illegal Parking",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 5539455,
+   "category": "These streets are worse than some third world countries I've been to.",
+   "complaint_type": "Street Condition",
+   "route": "operating"
+  }
+ ],
+ "emergencies": [
+  {
+   "city": "albuquerque",
+   "id": 23058471,
+   "category": "Encampments",
+   "emergency": "Fire",
+   "emergency_by": [
+    "Life-Safety Screener"
+   ]
+  },
+  {
+   "city": "albuquerque",
+   "id": 23069827,
+   "category": "Housing Code Violation",
+   "emergency": "Fire",
+   "emergency_by": [
+    "Life-Safety Screener",
+    "danger words"
+   ]
+  },
+  {
+   "city": "chicago",
+   "id": 12767482,
+   "category": "Street Light Pole Door Missing Complaint",
+   "emergency": "Utility Emergency: Electric",
+   "emergency_by": [
+    "Triage agent"
+   ]
+  }
+ ],
+ "invented_borough": [
+  {
+   "city": "chicago",
+   "id": 6623216,
+   "category": "Post to Neighbors",
+   "borough": "Manhattan",
+   "street": null,
+   "district": null
+  },
+  {
+   "city": "new-haven",
+   "id": 23016011,
+   "category": "Traffic Signal / Pedestrian Signal",
+   "borough": "Manhattan",
+   "street": "YORK STREET",
+   "district": null
+  }
+ ],
+ "pattern_false_alarms": [],
+ "crashes": []
+}

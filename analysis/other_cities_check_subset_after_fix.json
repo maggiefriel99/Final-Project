@@ -1,0 +1,267 @@
+{
+ "summary": {
+  "requests": 116,
+  "crashes": 0,
+  "routes": {
+   "human_review": 15,
+   "not_city": 3,
+   "operating": 72,
+   "capital": 20,
+   "emergency": 5,
+   "advice": 1
+  },
+  "held": 15,
+  "held_reasons": {
+   "The agent had low confidence in its reading of the request.": 10,
+   "The request uses words that can signal danger to life (\"\u2026\"), but neither AI check found an emergency. A person": 6
+  },
+  "pattern_false_alarms": 0,
+  "agent_or_screener_manipulation_flags": 0,
+  "provider_blocked": 0,
+  "invented_nyc_borough": 0,
+  "district_assigned": 1,
+  "emergencies": 5,
+  "urgent_hazards": 71,
+  "possible_emergency_holds": 6,
+  "type_scored": 81,
+  "type_ok": 56,
+  "type_accuracy_by_city": {
+   "albuquerque": "2 of 6",
+   "chicago": "15 of 23",
+   "detroit": "13 of 15",
+   "houston": "14 of 16",
+   "new-haven": "8 of 13",
+   "richmond": "4 of 8"
+  },
+  "personal_info_removed": 0,
+  "median_seconds": 2.4
+ },
+ "misses": [
+  {
+   "city": "albuquerque",
+   "id": 23061084,
+   "category": "Obstructions and Debris",
+   "complaint_type": "Overgrown Tree/Branches",
+   "route": "operating"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23089143,
+   "category": "Obstructions and Debris",
+   "complaint_type": "Damaged Tree",
+   "route": "capital"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23090873,
+   "category": "Encampments",
+   "complaint_type": null,
+   "route": "emergency"
+  },
+  {
+   "city": "albuquerque",
+   "id": 23073809,
+   "category": "Graffiti",
+   "complaint_type": "Maintenance or Facility",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 14700745,
+   "category": "Pothole in Street Complaint",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 15049903,
+   "category": "Tree Trim Request (NO LONGER BEING ACCEPTED)",
+   "complaint_type": "Street Sign - Damaged",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 8670099,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": "Lot Condition",
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 8649352,
+   "category": "Abandoned Vehicle Complaint",
+   "complaint_type": "Illegal Parking",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 13418606,
+   "category": "E-Scooter Parking Complaint",
+   "complaint_type": "E-Scooter",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 14568207,
+   "category": "Restaurant Complaint",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "chicago",
+   "id": 7749437,
+   "category": "Restaurant Complaint",
+   "complaint_type": "Noise",
+   "route": "operating"
+  },
+  {
+   "city": "chicago",
+   "id": 14331800,
+   "category": "Water On Street Complaint",
+   "complaint_type": "Water System",
+   "route": "capital"
+  },
+  {
+   "city": "detroit",
+   "id": 23081361,
+   "category": "Illegal Dump Sites",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "detroit",
+   "id": 23086775,
+   "category": "Tall Grass and Weeds",
+   "complaint_type": "Sidewalk Condition",
+   "route": "operating"
+  },
+  {
+   "city": "houston",
+   "id": 23090440,
+   "category": "Drainage",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "houston",
+   "id": 23083979,
+   "category": "Building Code Violation",
+   "complaint_type": null,
+   "route": "human_review"
+  },
+  {
+   "city": "new-haven",
+   "id": 23043661,
+   "category": "Traffic Signal / Pedestrian Signal",
+   "complaint_type": "Street Light Condition",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23088445,
+   "category": "Parking Violation",
+   "complaint_type": null,
+   "route": "not_city"
+  },
+  {
+   "city": "new-haven",
+   "id": 23027613,
+   "category": "Street Sweeping",
+   "complaint_type": "Noise",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23029031,
+   "category": "Traffic Signal / Pedestrian Signal",
+   "complaint_type": "Street Light Condition",
+   "route": "operating"
+  },
+  {
+   "city": "new-haven",
+   "id": 23026841,
+   "category": "Illegal Dumping",
+   "complaint_type": "Obstruction",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 9541390,
+   "category": "new tree will completely block stop sign ",
+   "complaint_type": "Overgrown Tree/Branches",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 8472506,
+   "category": "Danger - need sidewalk or speed bump",
+   "complaint_type": "Overgrown Tree/Branches",
+   "route": "operating"
+  },
+  {
+   "city": "richmond",
+   "id": 18874262,
+   "category": "storm debris   ",
+   "complaint_type": "Damaged Tree",
+   "route": "capital"
+  },
+  {
+   "city": "richmond",
+   "id": 8774556,
+   "category": "Overgrowth at 1121 North 20th Street ",
+   "complaint_type": null,
+   "route": "advice"
+  }
+ ],
+ "emergencies": [
+  {
+   "city": "albuquerque",
+   "id": 23090873,
+   "category": "Encampments",
+   "emergency": "Fire",
+   "emergency_by": [
+    "Life-Safety Screener"
+   ]
+  },
+  {
+   "city": "chicago",
+   "id": 12077681,
+   "category": "Porch Inspection Request",
+   "emergency": "Structure Collapse",
+   "emergency_by": [
+    "Triage agent",
+    "danger words"
+   ]
+  },
+  {
+   "city": "houston",
+   "id": 23085538,
+   "category": "Other",
+   "emergency": "Structure Collapse",
+   "emergency_by": [
+    "Life-Safety Screener"
+   ]
+  },
+  {
+   "city": "new-haven",
+   "id": 23029893,
+   "category": "Private Property Issue",
+   "emergency": "Utility Emergency: Water/Wastewater",
+   "emergency_by": [
+    "Life-Safety Screener"
+   ]
+  },
+  {
+   "city": "richmond",
+   "id": 15239715,
+   "category": "Tree branches on line",
+   "emergency": "Utility Emergency: Electric",
+   "emergency_by": [
+    "Life-Safety Screener"
+   ]
+  }
+ ],
+ "invented_borough": [],
+ "pattern_false_alarms": [],
+ "crashes": []
+}
